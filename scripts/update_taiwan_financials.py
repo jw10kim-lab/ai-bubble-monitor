@@ -1,7 +1,7 @@
 """Taiwan TWSE/MOPS: official JSON snapshot plus historical consolidated iXBRL.
 No API token; keep all amounts in TWD million. No synthetic observations.
 """
-import argparse, calendar, datetime as dt, decimal, io, json, pathlib, re, time, zipfile
+import argparse, calendar, datetime as dt, decimal, io, json, math, pathlib, re, time, zipfile
 import requests
 from bs4 import BeautifulSoup
 D=decimal.Decimal
@@ -133,7 +133,7 @@ def self_test():
     row=parse(x,"2317",2025,4);row["sourceUrl"]="https://mopsov.twse.com.tw/test"
     result=complete(row,{"ytdRevenue":700,"ytdCogs":550,"sourceUrl":"https://mopsov.twse.com.tw/test-q3"},2025,4)
     assert result["revenue"]==300 and result["cogs"]==250 and result["days"]==92
-    assert result["dio"]==36.8
+    assert math.isclose(result["dio"],36.8,rel_tol=1e-12)
     print("Synthetic iXBRL and YTD subtraction checks passed")
 def main():
     ap=argparse.ArgumentParser();ap.add_argument("--self-test",action="store_true");args=ap.parse_args()
@@ -162,6 +162,7 @@ def main():
             if consecutive_transport>=5: errors.append("Stopped: repeated network errors; existing data preserved");break
             try:
                 raw_by[(y,q)]=fetch_report(session,ticker,y,q);consecutive_transport=0;verified_this_run+=1
+                print(f"{ticker} {y}Q{q}: verified filing",flush=True)
             except requests.RequestException as e:
                 consecutive_transport+=1;errors.append(f"{y}Q{q}: network/HTTP error {str(e)[:100]}")
             except Exception as e:
@@ -197,10 +198,14 @@ def main():
                 if not any(s["url"]==url for s in src): src.append({"label":label,"url":url})
         reports.append({"id":c["id"],"ticker":ticker,"completeMopsQuarters":api_count,"newOrRevised":count,"revisedDates":revised,"fetchedReports":verified_this_run,"issues":errors})
         new_count+=count
-    print(json.dumps({"companies":reports,"twseSnapshot":snap},ensure_ascii=False,indent=2))
+    report={"companies":reports,"twseSnapshot":snap}
+    print(json.dumps(report,ensure_ascii=False,indent=2),flush=True)
+    pathlib.Path("taiwan-collection-report.json").write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding="utf-8")
     if not success: raise RuntimeError("No newly fetched complete MOPS report; existing data retained")
     data["memoryCycle"]["taiwanApiReport"]={"as_of":str(today),"companies":reports,"twseSnapshot":snap,"source":"MOPS consolidated iXBRL; TWSE JSON latest reference","note":"TWSE latest snapshot is diagnostic only; quarterly numbers originate in MOPS tagged facts. No credentials."}
     data["memoryCycle"]["as_of"]=str(today)
+    data["memoryCycle"]["taiwanApiCollection"]["status"]="first_run_succeeded" if success==len(TICKERS) else "partial_run_succeeded"
+    data["memoryCycle"]["taiwanApiCollection"]["lastRunDate"]=str(today)
     data["release"]={"version":"BETA 1.4","date":str(today),"note":"Taiwan MOPS quarterly collection: "+str(success)+" issuers with successful fetch; inspect coverage."}
     temp=file.with_suffix(".tmp")
     temp.write_text(json.dumps(data,ensure_ascii=False,indent=2,allow_nan=False)+"\n",encoding="utf-8")
