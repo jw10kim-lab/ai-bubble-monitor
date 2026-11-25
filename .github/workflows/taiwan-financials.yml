@@ -1,6 +1,11 @@
 name: Taiwan quarterly financials
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/update_taiwan_financials.py'
+      - '.github/workflows/taiwan-financials.yml'
   schedule:
     - cron: '0 23 * * 4'
 permissions:
@@ -26,6 +31,13 @@ jobs:
         run: python scripts/update_taiwan_financials.py --self-test
       - name: Collect TWSE and MOPS financial reports
         run: python scripts/update_taiwan_financials.py
+      - name: Retain collection diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: taiwan-collection-report
+          path: taiwan-collection-report.json
+          if-no-files-found: ignore
       - name: Commit verified data only
         run: |
           if git diff --quiet -- data.json; then
