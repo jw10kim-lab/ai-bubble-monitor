@@ -1,0 +1,39 @@
+name: SEC quarterly financials
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 5 * * 5'
+permissions:
+  contents: write
+concurrency:
+  group: sec-financials
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          token: ${{ secrets.PAGES_UPDATE_TOKEN || github.token }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Collect and validate SEC quarterly data
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT || vars.SEC_USER_AGENT }}
+        run: |
+          node --check scripts/update_sec_financials.cjs
+          node scripts/update_sec_financials.cjs
+      - name: Commit validated data only
+        run: |
+          if git diff --quiet -- data.json; then
+            echo "No financial data changes"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data.json
+          git commit -m "Update quarterly financials from SEC Company Facts"
+          git push origin HEAD:main
