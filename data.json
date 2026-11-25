@@ -1268,9 +1268,9 @@
     }
   ],
   "release": {
-    "version": "BETA 1.3",
-    "date": "2026-11-25",
-    "note": "SEC Company Facts JSON 갱신 · 확인된 분기만 반영"
+    "version": "BETA 1.3.1",
+    "date": "2026-11-26",
+    "note": "SEC 최초 실행 확인: 216개 분기. HPE 부분 성공, 기타 국가 미연동."
   },
   "creditComparison": {
     "as_of": "2026-11-23",
@@ -10393,11 +10393,12 @@
     "historyStart": "2020-01-01",
     "mapQuarters": 8,
     "apiCollection": {
-      "status": "program_registered_pending_first_run",
+      "status": "first_run_succeeded_partial_coverage",
       "source": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces",
       "script": "scripts/update_sec_financials.cjs",
       "workflow": ".github/workflows/sec-financials.yml",
-      "note": "현재 실행 환경에서 data.sec.gov JSON 직접 요청 실패. GitHub Actions에 SEC_USER_AGENT 연락처 설정 후 실행 필요."
+      "note": "최초 SEC JSON 수집 및 data.json 커밋 확인. 미국 8개 기업 총 216개 분기 수집; HPE는 2개 분기만 추출되어 태그·기간 조건 추가 검증 필요. 한국·일본·대만 API 미연동.",
+      "lastRunDate": "2026-11-25"
     },
     "secApiReport": {
       "as_of": "2026-11-25",
