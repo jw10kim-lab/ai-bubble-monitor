@@ -1,0 +1,189 @@
+{
+  "as_of": "2026-11-25",
+  "metrics": [
+    {
+      "id": "spread",
+      "group": "유동성",
+      "name": "SOFR − IORB",
+      "unit": "bp",
+      "frequency": "일간",
+      "source": "FRED · SOFR / IORB",
+      "url": "https://fred.stlouisfed.org/series/SOFR",
+      "note": "동일 관측일 두 금리의 차이 × 100.",
+      "history": [
+        [
+          "2026-11-19",
+          1
+        ],
+        [
+          "2026-11-23",
+          2
+        ]
+      ],
+      "decimals": 0
+    },
+    {
+      "id": "vix",
+      "group": "유동성",
+      "name": "CBOE VIX",
+      "unit": "pt",
+      "frequency": "일간",
+      "source": "FRED · CBOE",
+      "url": "https://fred.stlouisfed.org/series/VIXCLS",
+      "note": "주식시장 기대 변동성.",
+      "history": [
+        [
+          "2026-11-17",
+          25.46
+        ],
+        [
+          "2026-11-18",
+          24.56
+        ],
+        [
+          "2026-11-23",
+          26.62
+        ]
+      ],
+      "decimals": 2
+    },
+    {
+      "id": "tga",
+      "group": "유동성",
+      "name": "미 재무부 일반계정 (TGA)",
+      "unit": "$bn",
+      "frequency": "주간",
+      "source": "FRED · WTREGEN",
+      "url": "https://fred.stlouisfed.org/series/WTREGEN",
+      "note": "주간 평균, 백만 달러를 십억 달러로 환산.",
+      "history": [
+        [
+          "2026-11-11",
+          914.37
+        ]
+      ],
+      "decimals": 2
+    },
+    {
+      "id": "tokens",
+      "group": "AI 실수요",
+      "name": "OpenRouter 주간 토큰 사용량",
+      "unit": "T tokens",
+      "frequency": "주간",
+      "source": "OpenRouter",
+      "url": "https://openrouter.ai/rankings",
+      "note": "플랫폼 사용량만 반영, 전체 시장과 구분.",
+      "history": [],
+      "decimals": 2
+    },
+    {
+      "id": "api",
+      "group": "AI 실수요",
+      "name": "API 사용량",
+      "unit": "T tokens",
+      "frequency": "기업 공시",
+      "source": "기업 공시",
+      "url": "https://www.sec.gov/edgar/search/",
+      "note": "동일 제공자의 일관된 정의로 추적.",
+      "history": [],
+      "decimals": 2
+    },
+    {
+      "id": "h100",
+      "group": "GPU 시장",
+      "name": "H100 임대료",
+      "unit": "$/GPU·h",
+      "frequency": "일간/주간",
+      "source": "Vast.ai",
+      "url": "https://cloud.vast.ai/create/",
+      "note": "동일 조건의 오퍼 중앙값을 추적.",
+      "history": [],
+      "decimals": 2
+    },
+    {
+      "id": "h200",
+      "group": "GPU 시장",
+      "name": "H200 임대료",
+      "unit": "$/GPU·h",
+      "frequency": "일간/주간",
+      "source": "Vast.ai",
+      "url": "https://cloud.vast.ai/create/",
+      "note": "H100과 별도 표본 관리.",
+      "history": [],
+      "decimals": 2
+    },
+    {
+      "id": "orcl",
+      "group": "금융 리스크",
+      "name": "Oracle 5년 CDS",
+      "unit": "bp",
+      "frequency": "일간",
+      "source": "출처 확보 필요",
+      "url": null,
+      "note": "검증 가능한 개별 CDS 제공처 필요.",
+      "history": [],
+      "decimals": 1
+    },
+    {
+      "id": "crwv",
+      "group": "금융 리스크",
+      "name": "CoreWeave 5년 CDS",
+      "unit": "bp",
+      "frequency": "일간",
+      "source": "출처 확보 필요",
+      "url": null,
+      "note": "거래 호가 및 시계열 접근 확인 필요.",
+      "history": [],
+      "decimals": 1
+    },
+    {
+      "id": "hy",
+      "group": "금융 리스크",
+      "name": "미국 하이일드 OAS",
+      "unit": "%p",
+      "frequency": "일간",
+      "source": "FRED · ICE BofA",
+      "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+      "note": "시장 전체 신용 위험; 개별 CDS와 다름.",
+      "history": [],
+      "decimals": 2
+    },
+    {
+      "id": "construction",
+      "group": "인프라",
+      "name": "미국 데이터센터 건설 지출",
+      "unit": "$bn",
+      "frequency": "월간",
+      "source": "US Census",
+      "url": "https://www.census.gov/construction/c30/data/index.html",
+      "note": "민간 데이터센터 건설 지출의 계절조정 기준 통일.",
+      "history": [],
+      "decimals": 2
+    },
+    {
+      "id": "power",
+      "group": "인프라",
+      "name": "데이터센터 전력 수요",
+      "unit": "TWh",
+      "frequency": "공시/보고서",
+      "source": "EIA",
+      "url": "https://www.eia.gov/electricity/",
+      "note": "데이터센터 직접 수요 또는 명시적 추정치만 사용.",
+      "history": [],
+      "decimals": 2
+    },
+    {
+      "id": "water",
+      "group": "인프라",
+      "name": "데이터센터 용수 사용량",
+      "unit": "m³",
+      "frequency": "공시/보고서",
+      "source": "기업 환경보고서",
+      "url": null,
+      "note": "직접 사용량과 간접 사용량 구분.",
+      "history": [],
+      "decimals": 0
+    }
+  ],
+  "news": []
+}
