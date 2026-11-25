@@ -1268,9 +1268,9 @@
     }
   ],
   "release": {
-    "version": "BETA 1.0",
+    "version": "BETA 1.1",
     "date": "2026-11-26",
-    "note": "AI 실수요에 메모리 재고 사이클 12분기 추가. 기존 지표 관측일 및 데이터 보존."
+    "note": "22개 공급망 기업 등록, 기존 2개 및 6개 추가 기업의 확인된 분기 자료 반영. 미확보 기업 및 2020년 초기 구간은 공란."
   },
   "creditComparison": {
     "as_of": "2026-11-23",
@@ -1584,8 +1584,8 @@
   },
   "memoryCycle": {
     "as_of": "2026-11-26",
-    "windowQuarters": 12,
-    "method": "연결 재무제표 기준. 재고·매출 증가율 = 전년 동일 회계분기 대비. DIO = 분기 말 재고 ÷ 해당 분기 매출원가 × 실제 분기 일수. Micron FY26 Q4는 14주(98일), 일반 분기 13주(91일). SK하이닉스 달력 분기. 분기말 재고 기준 DIO이며 평균재고 방식 및 회사 발표 비GAAP 수치와 차이가 날 수 있음. 전사 재고로 HBM 전용 실수요는 아님.",
+    "windowQuarters": 28,
+    "method": "연결 재무제표. 재고·매출 증가율은 전년 동일 회계분기 대비, DIO=분기말 재고÷단일 분기 매출원가×실제 분기 일수. 분기 일수는 이전 종료일과 차이로 계산(기존 Micron·SK 자료는 원래 값 유지). 지도는 각 회계분기 종료일을 가장 가까운 달력 분기 말일에 대응시키며 발표일 기준 백테스트가 아님. 재고 갭=재고 YoY−매출 YoY, 갭 변화=이번 갭−직전 분기 갭(%p). 미확보 관측은 표시하지 않고 이전 값 이월 금지. 기업 전체 재고/매출이며 AI 전용 물량 지표가 아님.",
     "companies": [
       {
         "id": "mu",
@@ -1804,7 +1804,9 @@
             "url": "https://stockanalysis.com/stocks/mu/financials/income-statement/?p=quarterly"
           }
         ],
-        "note": "최신·일부 과거 공시 대조; 과거 시계열은 공시 기반 Stock Analysis 집계 활용. 2023년 원가는 표시 기간 밖으로 미기입."
+        "note": "최신·일부 과거 공시 대조; 과거 시계열은 공시 기반 Stock Analysis 집계 활용. 2023년 원가는 표시 기간 밖으로 미기입. 기존 등록 데이터. 2020~2022 추가 수집 및 원문 전수 검증 필요.",
+        "group": "메모리",
+        "region": "US"
       },
       {
         "id": "sk",
@@ -2023,8 +2025,2398 @@
             "url": "https://stockanalysis.com/quote/krx/000660/financials/?p=quarterly"
           }
         ],
-        "note": "최신 공시와 일부 IR 수치 대조; 과거 분기 집계의 매출−매출총이익으로 원가 산출. 일부 수치는 반올림된 공시 집계 기준."
+        "note": "최신 공시와 일부 IR 수치 대조; 과거 분기 집계의 매출−매출총이익으로 원가 산출. 일부 수치는 반올림된 공시 집계 기준. 기존 등록 데이터. 2020~2022 추가 수집 및 원문 전수 검증 필요.",
+        "group": "메모리",
+        "region": "KR"
+      },
+      {
+        "id": "dell",
+        "name": "Dell",
+        "ticker": "DELL",
+        "group": "서버·ODM",
+        "region": "US",
+        "currency": "USD million",
+        "rows": [
+          {
+            "date": "2021-10-29",
+            "fiscalYear": 2022,
+            "quarter": 3,
+            "inventory": 5442,
+            "revenue": 26424,
+            "cogs": 20890,
+            "days": null,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": null,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/dell/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/dell/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2022-01-28",
+            "fiscalYear": 2022,
+            "quarter": 4,
+            "inventory": 5898,
+            "revenue": 27992,
+            "cogs": 22374,
+            "days": 91,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": 23.988468758380264,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/dell/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/dell/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2022-04-29",
+            "fiscalYear": 2023,
+            "quarter": 1,
+            "inventory": 6277,
+            "revenue": 26116,
+            "cogs": 20332,
+            "days": 91,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": 28.09398976982097,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/dell/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/dell/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2022-07-29",
+            "fiscalYear": 2023,
+            "quarter": 2,
+            "inventory": 5883,
+            "revenue": 26425,
+            "cogs": 20988,
+            "days": 91,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": 25.507575757575754,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/dell/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/dell/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2022-10-28",
+            "fiscalYear": 2023,
+            "quarter": 3,
+            "inventory": 6172,
+            "revenue": 24721,
+            "cogs": 18993,
+            "days": 91,
+            "inventoryYoy": 13.414185961043735,
+            "revenueYoy": -6.444898577051161,
+            "dio": 29.571526351813823,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/dell/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/dell/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2023-02-03",
+            "fiscalYear": 2023,
+            "quarter": 4,
+            "inventory": 4776,
+            "revenue": 25039,
+            "cogs": 19199,
+            "days": 98,
+            "inventoryYoy": -19.02339776195321,
+            "revenueYoy": -10.54944269791369,
+            "dio": 24.37876972758998,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/dell/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/dell/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2023-05-05",
+            "fiscalYear": 2024,
+            "quarter": 1,
+            "inventory": 4016,
+            "revenue": 20922,
+            "cogs": 15883,
+            "days": 91,
+            "inventoryYoy": -36.020391906961926,
+            "revenueYoy": -19.88819114718946,
+            "dio": 23.009255178492726,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/dell/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/dell/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2023-08-04",
+            "fiscalYear": 2024,
+            "quarter": 2,
+            "inventory": 3584,
+            "revenue": 22934,
+            "cogs": 17520,
+            "days": 91,
+            "inventoryYoy": -39.078701342852284,
+            "revenueYoy": -13.210974456007573,
+            "dio": 18.61552511415525,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/dell/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/dell/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2023-11-03",
+            "fiscalYear": 2024,
+            "quarter": 3,
+            "inventory": 3381,
+            "revenue": 22251,
+            "cogs": 17096,
+            "days": 91,
+            "inventoryYoy": -45.220349967595595,
+            "revenueYoy": -9.991505198009786,
+            "dio": 17.996665886757135,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/dell/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/dell/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2024-02-02",
+            "fiscalYear": 2024,
+            "quarter": 4,
+            "inventory": 3622,
+            "revenue": 22318,
+            "cogs": 16770,
+            "days": 91,
+            "inventoryYoy": -24.162479061976548,
+            "revenueYoy": -10.86704740604657,
+            "dio": 19.654263565891473,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/dell/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/dell/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2024-05-03",
+            "fiscalYear": 2025,
+            "quarter": 1,
+            "inventory": 4782,
+            "revenue": 22244,
+            "cogs": 17364,
+            "days": 91,
+            "inventoryYoy": 19.07370517928286,
+            "revenueYoy": 6.318707580537231,
+            "dio": 25.061161022805805,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/dell/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/dell/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2024-08-02",
+            "fiscalYear": 2025,
+            "quarter": 2,
+            "inventory": 5953,
+            "revenue": 25026,
+            "cogs": 19609,
+            "days": 91,
+            "inventoryYoy": 66.09933035714286,
+            "revenueYoy": 9.121827853841458,
+            "dio": 27.626243051659955,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/dell/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/dell/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2024-11-01",
+            "fiscalYear": 2025,
+            "quarter": 3,
+            "inventory": 6652,
+            "revenue": 24366,
+            "cogs": 18975,
+            "days": 91,
+            "inventoryYoy": 96.74652469683525,
+            "revenueYoy": 9.505190777942563,
+            "dio": 31.901554677206853,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/dell/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/dell/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2025-01-31",
+            "fiscalYear": 2025,
+            "quarter": 4,
+            "inventory": 6716,
+            "revenue": 23931,
+            "cogs": 18214,
+            "days": 91,
+            "inventoryYoy": 85.42241855328547,
+            "revenueYoy": 7.227350120978593,
+            "dio": 33.55418908531899,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/dell/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/dell/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2025-05-02",
+            "fiscalYear": 2026,
+            "quarter": 1,
+            "inventory": 7415,
+            "revenue": 23378,
+            "cogs": 18411,
+            "days": 91,
+            "inventoryYoy": 55.06064408197406,
+            "revenueYoy": 5.0980039561230095,
+            "dio": 36.65010048340666,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/dell/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/dell/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2025-08-01",
+            "fiscalYear": 2026,
+            "quarter": 2,
+            "inventory": 7211,
+            "revenue": 29776,
+            "cogs": 24281,
+            "days": 91,
+            "inventoryYoy": 21.132202250965904,
+            "revenueYoy": 18.980260529049797,
+            "dio": 27.02528726164491,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/dell/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/dell/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2025-10-31",
+            "fiscalYear": 2026,
+            "quarter": 3,
+            "inventory": 6949,
+            "revenue": 27005,
+            "cogs": 21379,
+            "days": 91,
+            "inventoryYoy": 4.464822609741437,
+            "revenueYoy": 10.830665681687602,
+            "dio": 29.578511623555826,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/dell/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/dell/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2026-01-30",
+            "fiscalYear": 2026,
+            "quarter": 4,
+            "inventory": 10437,
+            "revenue": 33379,
+            "cogs": 26618,
+            "days": 91,
+            "inventoryYoy": 55.40500297796307,
+            "revenueYoy": 39.48017216163136,
+            "dio": 35.68138102036216,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/dell/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/dell/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2026-05-01",
+            "fiscalYear": 2027,
+            "quarter": 1,
+            "inventory": 15052,
+            "revenue": 43842,
+            "cogs": 35979,
+            "days": 91,
+            "inventoryYoy": 102.99393122049901,
+            "revenueYoy": 87.53528958850201,
+            "dio": 38.07031879707607,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/dell/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/dell/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2026-07-31",
+            "fiscalYear": 2027,
+            "quarter": 2,
+            "inventory": 21290,
+            "revenue": 46971,
+            "cogs": 37116,
+            "days": 91,
+            "inventoryYoy": 195.24337817223687,
+            "revenueYoy": 57.747850617947336,
+            "dio": 52.19824334518806,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/dell/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/dell/financials/income-statement/?p=quarterly"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "label": "분기 재고 집계",
+            "url": "https://stockanalysis.com/stocks/dell/financials/balance-sheet/?p=quarterly"
+          },
+          {
+            "label": "분기 손익 집계",
+            "url": "https://stockanalysis.com/stocks/dell/financials/income-statement/?p=quarterly"
+          },
+          {
+            "label": "Dell FY27 Q2 공식 공시",
+            "url": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000046/dell-20260731.htm"
+          }
+        ],
+        "note": "공시 기반 표준화 분기 자료(백만 USD). 최신 공시 전수 대조 전; 2020년까지 미확보된 분기는 공란. 첫 관측분기 DIO는 이전 분기 종료일 미확보로 공란. FY27 Q3 발표는 확인했으나 동일 기준 재고 미확보로 최신 지도에서는 공란.",
+        "researchUrl": "https://stockanalysis.com/stocks/dell/financials/?p=quarterly"
+      },
+      {
+        "id": "hpe",
+        "name": "HPE",
+        "ticker": "HPE",
+        "group": "서버·ODM",
+        "region": "US",
+        "currency": "USD million",
+        "rows": [
+          {
+            "date": "2021-10-31",
+            "fiscalYear": 2021,
+            "quarter": 4,
+            "inventory": 4511,
+            "revenue": 7306,
+            "cogs": 4887,
+            "days": null,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": null,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/hpe/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/hpe/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2022-01-31",
+            "fiscalYear": 2022,
+            "quarter": 1,
+            "inventory": 5321,
+            "revenue": 6915,
+            "cogs": 4571,
+            "days": 92,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": 107.09516517173485,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/hpe/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/hpe/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2022-04-30",
+            "fiscalYear": 2022,
+            "quarter": 2,
+            "inventory": 5322,
+            "revenue": 6565,
+            "cogs": 4287,
+            "days": 89,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": 110.48705388383486,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/hpe/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/hpe/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2022-07-31",
+            "fiscalYear": 2022,
+            "quarter": 3,
+            "inventory": 5554,
+            "revenue": 6897,
+            "cogs": 4495,
+            "days": 92,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": 113.67474972191323,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/hpe/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/hpe/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2022-10-31",
+            "fiscalYear": 2022,
+            "quarter": 4,
+            "inventory": 5161,
+            "revenue": 7809,
+            "cogs": 5228,
+            "days": 92,
+            "inventoryYoy": 14.4092219020173,
+            "revenueYoy": 6.884752258417737,
+            "dio": 90.82096403978576,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/hpe/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/hpe/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2023-01-31",
+            "fiscalYear": 2023,
+            "quarter": 1,
+            "inventory": 4644,
+            "revenue": 7731,
+            "cogs": 5073,
+            "days": 92,
+            "inventoryYoy": -12.723172336027066,
+            "revenueYoy": 11.800433839479396,
+            "dio": 84.21998817267888,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/hpe/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/hpe/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2023-04-30",
+            "fiscalYear": 2023,
+            "quarter": 2,
+            "inventory": 4317,
+            "revenue": 6883,
+            "cogs": 4371,
+            "days": 89,
+            "inventoryYoy": -18.883878241262686,
+            "revenueYoy": 4.84386900228484,
+            "dio": 87.90048043925876,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/hpe/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/hpe/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2023-07-31",
+            "fiscalYear": 2023,
+            "quarter": 3,
+            "inventory": 4541,
+            "revenue": 6900,
+            "cogs": 4390,
+            "days": 92,
+            "inventoryYoy": -18.23910694994598,
+            "revenueYoy": 0.043497172683770735,
+            "dio": 95.16446469248292,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/hpe/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/hpe/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2023-10-31",
+            "fiscalYear": 2023,
+            "quarter": 4,
+            "inventory": 4607,
+            "revenue": 7238,
+            "cogs": 4679,
+            "days": 92,
+            "inventoryYoy": -10.734353807401664,
+            "revenueYoy": -7.3120758099628596,
+            "dio": 90.5843128873691,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/hpe/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/hpe/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2024-01-31",
+            "fiscalYear": 2024,
+            "quarter": 1,
+            "inventory": 6049,
+            "revenue": 6636,
+            "cogs": 4204,
+            "days": 92,
+            "inventoryYoy": 30.254091300602926,
+            "revenueYoy": -14.163756305781916,
+            "dio": 132.37583254043767,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/hpe/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/hpe/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2024-04-30",
+            "fiscalYear": 2024,
+            "quarter": 2,
+            "inventory": 7326,
+            "revenue": 7081,
+            "cogs": 4712,
+            "days": 90,
+            "inventoryYoy": 69.70118137595553,
+            "revenueYoy": 2.8766526224030198,
+            "dio": 139.92784380305602,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/hpe/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/hpe/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2024-07-31",
+            "fiscalYear": 2024,
+            "quarter": 3,
+            "inventory": 7679,
+            "revenue": 7585,
+            "cogs": 5144,
+            "days": 92,
+            "inventoryYoy": 69.10372164721427,
+            "revenueYoy": 9.927536231884048,
+            "dio": 137.33825816485225,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/hpe/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/hpe/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2024-10-31",
+            "fiscalYear": 2024,
+            "quarter": 4,
+            "inventory": 7810,
+            "revenue": 8330,
+            "cogs": 5694,
+            "days": 92,
+            "inventoryYoy": 69.52463642283482,
+            "revenueYoy": 15.087040618955516,
+            "dio": 126.18897084650509,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/hpe/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/hpe/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2025-01-31",
+            "fiscalYear": 2025,
+            "quarter": 1,
+            "inventory": 8577,
+            "revenue": 7726,
+            "cogs": 5433,
+            "days": 92,
+            "inventoryYoy": 41.79203174078361,
+            "revenueYoy": 16.425557564798066,
+            "dio": 145.23909442297074,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/hpe/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/hpe/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2025-04-30",
+            "fiscalYear": 2025,
+            "quarter": 2,
+            "inventory": 8096,
+            "revenue": 7503,
+            "cogs": 5272,
+            "days": 89,
+            "inventoryYoy": 10.510510510510507,
+            "revenueYoy": 5.959610224544565,
+            "dio": 136.67374810318665,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/hpe/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/hpe/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2025-07-31",
+            "fiscalYear": 2025,
+            "quarter": 3,
+            "inventory": 7163,
+            "revenue": 9011,
+            "cogs": 6289,
+            "days": 92,
+            "inventoryYoy": -6.719624951165515,
+            "revenueYoy": 18.80026367831247,
+            "dio": 104.78549848942598,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/hpe/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/hpe/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2025-10-31",
+            "fiscalYear": 2025,
+            "quarter": 4,
+            "inventory": 6352,
+            "revenue": 9556,
+            "cogs": 6425,
+            "days": 92,
+            "inventoryYoy": -18.668373879641486,
+            "revenueYoy": 14.717887154861952,
+            "dio": 90.95470817120622,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/hpe/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/hpe/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2026-01-31",
+            "fiscalYear": 2026,
+            "quarter": 1,
+            "inventory": 6913,
+            "revenue": 9179,
+            "cogs": 5800,
+            "days": 92,
+            "inventoryYoy": -19.400722863472076,
+            "revenueYoy": 18.806626973854513,
+            "dio": 109.6544827586207,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/hpe/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/hpe/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2026-04-30",
+            "fiscalYear": 2026,
+            "quarter": 2,
+            "inventory": 9034,
+            "revenue": 10560,
+            "cogs": 6652,
+            "days": 89,
+            "inventoryYoy": 11.585968379446632,
+            "revenueYoy": 40.7437025189924,
+            "dio": 120.86981358989779,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/hpe/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/hpe/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2026-07-31",
+            "fiscalYear": 2026,
+            "quarter": 3,
+            "inventory": 11823,
+            "revenue": 12097,
+            "cogs": 7187,
+            "days": 92,
+            "inventoryYoy": 65.05654055563312,
+            "revenueYoy": 34.24703140605927,
+            "dio": 151.34492834284123,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/hpe/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/hpe/financials/income-statement/?p=quarterly"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "label": "분기 재고 집계",
+            "url": "https://stockanalysis.com/stocks/hpe/financials/balance-sheet/?p=quarterly"
+          },
+          {
+            "label": "분기 손익 집계",
+            "url": "https://stockanalysis.com/stocks/hpe/financials/income-statement/?p=quarterly"
+          }
+        ],
+        "note": "공시 기반 표준화 분기 자료(백만 USD). 최신 공시 전수 대조 전; 2020년까지 미확보된 분기는 공란. 첫 관측분기 DIO는 이전 분기 종료일 미확보로 공란. 매출은 동일 표의 원가와 매출총이익 합계(백만 달러 반올림). Q4 신규 발표의 기존 표와의 비교 기준 재검증 필요.",
+        "researchUrl": "https://stockanalysis.com/stocks/hpe/financials/?p=quarterly"
+      },
+      {
+        "id": "quanta",
+        "name": "Quanta",
+        "ticker": "2382",
+        "group": "서버·ODM",
+        "region": "TW",
+        "currency": "TWD million",
+        "rows": [
+          {
+            "date": "2021-12-31",
+            "fiscalYear": 2021,
+            "quarter": 4,
+            "inventory": 196596,
+            "revenue": null,
+            "cogs": 318362,
+            "days": null,
+            "inventoryYoy": null,
+            "revenueYoy": 11.75,
+            "dio": null,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/quote/tpe/2382/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/quote/tpe/2382/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2022-03-31",
+            "fiscalYear": 2022,
+            "quarter": 1,
+            "inventory": 249844,
+            "revenue": null,
+            "cogs": 285749,
+            "days": 90,
+            "inventoryYoy": null,
+            "revenueYoy": 12.21,
+            "dio": 78.69129900717063,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/quote/tpe/2382/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/quote/tpe/2382/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2022-06-30",
+            "fiscalYear": 2022,
+            "quarter": 2,
+            "inventory": 254332,
+            "revenue": null,
+            "cogs": 258181,
+            "days": 91,
+            "inventoryYoy": null,
+            "revenueYoy": 3.91,
+            "dio": 89.64335872895371,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/quote/tpe/2382/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/quote/tpe/2382/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2022-09-30",
+            "fiscalYear": 2022,
+            "quarter": 3,
+            "inventory": 253047,
+            "revenue": null,
+            "cogs": 360638,
+            "days": 92,
+            "inventoryYoy": null,
+            "revenueYoy": 46.06,
+            "dio": 64.55316411470783,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/quote/tpe/2382/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/quote/tpe/2382/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2022-12-31",
+            "fiscalYear": 2022,
+            "quarter": 4,
+            "inventory": 225856,
+            "revenue": null,
+            "cogs": 304947,
+            "days": 92,
+            "inventoryYoy": 14.883314004354098,
+            "revenueYoy": -3.7,
+            "dio": 68.1388962672202,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/quote/tpe/2382/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/quote/tpe/2382/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2023-03-31",
+            "fiscalYear": 2023,
+            "quarter": 1,
+            "inventory": 169604,
+            "revenue": null,
+            "cogs": 248615,
+            "days": 90,
+            "inventoryYoy": -32.11604040921535,
+            "revenueYoy": -11.8,
+            "dio": 61.39758260764636,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/quote/tpe/2382/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/quote/tpe/2382/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2023-06-30",
+            "fiscalYear": 2023,
+            "quarter": 2,
+            "inventory": 148178,
+            "revenue": null,
+            "cogs": 224147,
+            "days": 91,
+            "inventoryYoy": -41.738357737131,
+            "revenueYoy": -9.4,
+            "dio": 60.157833921489015,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/quote/tpe/2382/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/quote/tpe/2382/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2023-09-30",
+            "fiscalYear": 2023,
+            "quarter": 3,
+            "inventory": 144446,
+            "revenue": null,
+            "cogs": 263276,
+            "days": 92,
+            "inventoryYoy": -42.91732365924117,
+            "revenueYoy": -25.01,
+            "dio": 50.47566812014768,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/quote/tpe/2382/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/quote/tpe/2382/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2023-12-31",
+            "fiscalYear": 2023,
+            "quarter": 4,
+            "inventory": 123764,
+            "revenue": null,
+            "cogs": 264689,
+            "days": 92,
+            "inventoryYoy": -45.202252762822326,
+            "revenueYoy": -11.72,
+            "dio": 43.017609345307136,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/quote/tpe/2382/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/quote/tpe/2382/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2024-03-31",
+            "fiscalYear": 2024,
+            "quarter": 1,
+            "inventory": 148086,
+            "revenue": null,
+            "cogs": 236990,
+            "days": 91,
+            "inventoryYoy": -12.687200773566666,
+            "revenueYoy": -2.72,
+            "dio": 56.86242457487657,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/quote/tpe/2382/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/quote/tpe/2382/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2024-06-30",
+            "fiscalYear": 2024,
+            "quarter": 2,
+            "inventory": 184570,
+            "revenue": null,
+            "cogs": 283345,
+            "days": 91,
+            "inventoryYoy": 24.5596512302771,
+            "revenueYoy": 26.5,
+            "dio": 59.27710035469128,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/quote/tpe/2382/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/quote/tpe/2382/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2024-09-30",
+            "fiscalYear": 2024,
+            "quarter": 3,
+            "inventory": 223774,
+            "revenue": null,
+            "cogs": 393424,
+            "days": 92,
+            "inventoryYoy": 54.918793182227276,
+            "revenueYoy": 48.18,
+            "dio": 52.32829720606775,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/quote/tpe/2382/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/quote/tpe/2382/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2024-12-31",
+            "fiscalYear": 2024,
+            "quarter": 4,
+            "inventory": 261886,
+            "revenue": null,
+            "cogs": 386236,
+            "days": 92,
+            "inventoryYoy": 111.60111179341325,
+            "revenueYoy": 44.95,
+            "dio": 62.38028562847586,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/quote/tpe/2382/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/quote/tpe/2382/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2025-03-31",
+            "fiscalYear": 2025,
+            "quarter": 1,
+            "inventory": 277148,
+            "revenue": null,
+            "cogs": 447189,
+            "days": 90,
+            "inventoryYoy": 87.15341085585405,
+            "revenueYoy": 87.56,
+            "dio": 55.77802674037152,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/quote/tpe/2382/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/quote/tpe/2382/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2025-06-30",
+            "fiscalYear": 2025,
+            "quarter": 2,
+            "inventory": 286282,
+            "revenue": null,
+            "cogs": 468588,
+            "days": 91,
+            "inventoryYoy": 55.107547272037706,
+            "revenueYoy": 62.64,
+            "dio": 55.59609294305445,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/quote/tpe/2382/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/quote/tpe/2382/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2025-09-30",
+            "fiscalYear": 2025,
+            "quarter": 3,
+            "inventory": 334618,
+            "revenue": null,
+            "cogs": 461340,
+            "days": 92,
+            "inventoryYoy": 49.53390474317838,
+            "revenueYoy": 16.66,
+            "dio": 66.72921489573851,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/quote/tpe/2382/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/quote/tpe/2382/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2025-12-31",
+            "fiscalYear": 2025,
+            "quarter": 4,
+            "inventory": 512946,
+            "revenue": null,
+            "cogs": 598239,
+            "days": 92,
+            "inventoryYoy": 95.86614022895459,
+            "revenueYoy": 53.04,
+            "dio": 78.88324231619805,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/quote/tpe/2382/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/quote/tpe/2382/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2026-03-31",
+            "fiscalYear": 2026,
+            "quarter": 1,
+            "inventory": 673886,
+            "revenue": null,
+            "cogs": 770524,
+            "days": 90,
+            "inventoryYoy": 143.15023020191379,
+            "revenueYoy": 66.62,
+            "dio": 78.7123308294096,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/quote/tpe/2382/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/quote/tpe/2382/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2026-06-30",
+            "fiscalYear": 2026,
+            "quarter": 2,
+            "inventory": 790184,
+            "revenue": null,
+            "cogs": 984514,
+            "days": 91,
+            "inventoryYoy": 176.01595629484214,
+            "revenueYoy": 105.62,
+            "dio": 73.03780748673965,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/quote/tpe/2382/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/quote/tpe/2382/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2026-09-30",
+            "fiscalYear": 2026,
+            "quarter": 3,
+            "inventory": 856064,
+            "revenue": null,
+            "cogs": 1062520,
+            "days": 92,
+            "inventoryYoy": 155.83321877484178,
+            "revenueYoy": 125.25,
+            "dio": 74.1236757896322,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/quote/tpe/2382/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/quote/tpe/2382/financials/income-statement/?p=quarterly"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "label": "분기 재고 집계",
+            "url": "https://stockanalysis.com/quote/tpe/2382/financials/balance-sheet/?p=quarterly"
+          },
+          {
+            "label": "분기 손익 집계",
+            "url": "https://stockanalysis.com/quote/tpe/2382/financials/income-statement/?p=quarterly"
+          }
+        ],
+        "note": "공시 기반 표준화 분기 자료(백만 TWD). 최신 공시 전수 대조 전; 2020년까지 미확보된 분기는 공란. 첫 관측분기 DIO는 이전 분기 종료일 미확보로 공란. 매출 증가율은 원본 표에 직접 공시된 YoY 집계값; 절대 매출액 미확보로 공란, 총이익률 미계산.",
+        "researchUrl": "https://stockanalysis.com/quote/tpe/2382/financials/?p=quarterly"
+      },
+      {
+        "id": "wistron",
+        "name": "Wistron",
+        "ticker": "3231",
+        "group": "서버·ODM",
+        "region": "TW",
+        "currency": "TWD million",
+        "rows": [],
+        "sources": [],
+        "note": "분기별 재고·매출·원가 원자료 미확보. 점도표에는 표시하지 않음.",
+        "researchUrl": "https://stockanalysis.com/quote/tpe/3231/financials/?p=quarterly"
+      },
+      {
+        "id": "inventec",
+        "name": "Inventec",
+        "ticker": "2356",
+        "group": "서버·ODM",
+        "region": "TW",
+        "currency": "TWD million",
+        "rows": [],
+        "sources": [],
+        "note": "분기별 재고·매출·원가 원자료 미확보. 점도표에는 표시하지 않음.",
+        "researchUrl": "https://stockanalysis.com/quote/tpe/2356/financials/?p=quarterly"
+      },
+      {
+        "id": "smci",
+        "name": "Supermicro",
+        "ticker": "SMCI",
+        "group": "서버·ODM",
+        "region": "US",
+        "currency": "USD million",
+        "rows": [
+          {
+            "date": "2021-09-30",
+            "fiscalYear": 2022,
+            "quarter": 1,
+            "inventory": 1185,
+            "revenue": 1032.73,
+            "cogs": 894.59,
+            "days": null,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": null,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/smci/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/smci/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2021-12-31",
+            "fiscalYear": 2022,
+            "quarter": 2,
+            "inventory": 1394,
+            "revenue": 1172.74,
+            "cogs": 1009,
+            "days": 92,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": 127.10406342913775,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/smci/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/smci/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2022-03-31",
+            "fiscalYear": 2022,
+            "quarter": 3,
+            "inventory": 1589,
+            "revenue": 1355.78,
+            "cogs": 1145,
+            "days": 90,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": 124.8995633187773,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/smci/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/smci/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2022-06-30",
+            "fiscalYear": 2022,
+            "quarter": 4,
+            "inventory": 1546,
+            "revenue": 1635.34,
+            "cogs": 1348,
+            "days": 91,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": 104.36646884272996,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/smci/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/smci/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2022-09-30",
+            "fiscalYear": 2023,
+            "quarter": 1,
+            "inventory": 1736,
+            "revenue": 1852.54,
+            "cogs": 1505,
+            "days": 92,
+            "inventoryYoy": 46.497890295358644,
+            "revenueYoy": 79.38280092570179,
+            "dio": 106.12093023255815,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/smci/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/smci/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2022-12-31",
+            "fiscalYear": 2023,
+            "quarter": 2,
+            "inventory": 1422,
+            "revenue": 1803.42,
+            "cogs": 1466,
+            "days": 92,
+            "inventoryYoy": 2.0086083213773254,
+            "revenueYoy": 53.778331087879664,
+            "dio": 89.2387448840382,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/smci/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/smci/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2023-03-31",
+            "fiscalYear": 2023,
+            "quarter": 3,
+            "inventory": 1540,
+            "revenue": 1283.3600000000001,
+            "cogs": 1057,
+            "days": 90,
+            "inventoryYoy": -3.083700440528636,
+            "revenueYoy": -5.341574591747911,
+            "dio": 131.12582781456953,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/smci/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/smci/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2023-06-30",
+            "fiscalYear": 2023,
+            "quarter": 4,
+            "inventory": 1446,
+            "revenue": 2184.7,
+            "cogs": 1813,
+            "days": 91,
+            "inventoryYoy": -6.468305304010347,
+            "revenueYoy": 33.593014296721165,
+            "dio": 72.57915057915058,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/smci/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/smci/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2023-09-30",
+            "fiscalYear": 2024,
+            "quarter": 1,
+            "inventory": 2053,
+            "revenue": 2119.69,
+            "cogs": 1766,
+            "days": 92,
+            "inventoryYoy": 18.260368663594463,
+            "revenueYoy": 14.42074125255055,
+            "dio": 106.95130237825595,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/smci/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/smci/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2023-12-31",
+            "fiscalYear": 2024,
+            "quarter": 2,
+            "inventory": 2467,
+            "revenue": 3665.32,
+            "cogs": 3101,
+            "days": 92,
+            "inventoryYoy": 73.48804500703234,
+            "revenueYoy": 103.24272770624701,
+            "dio": 73.19058368268301,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/smci/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/smci/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2024-03-31",
+            "fiscalYear": 2024,
+            "quarter": 3,
+            "inventory": 4125,
+            "revenue": 3850.37,
+            "cogs": 3253,
+            "days": 91,
+            "inventoryYoy": 167.85714285714283,
+            "revenueYoy": 200.0225969330507,
+            "dio": 115.3934829388257,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/smci/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/smci/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2024-06-30",
+            "fiscalYear": 2024,
+            "quarter": 4,
+            "inventory": 4333,
+            "revenue": 5355.03,
+            "cogs": 4809,
+            "days": 91,
+            "inventoryYoy": 199.6542185338866,
+            "revenueYoy": 145.1151187806106,
+            "dio": 81.99272197962155,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/smci/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/smci/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2024-09-30",
+            "fiscalYear": 2025,
+            "quarter": 1,
+            "inventory": 4931,
+            "revenue": 5937.58,
+            "cogs": 5162,
+            "days": 92,
+            "inventoryYoy": 140.18509498295177,
+            "revenueYoy": 180.11548858559507,
+            "dio": 87.8829910887253,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/smci/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/smci/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2024-12-31",
+            "fiscalYear": 2025,
+            "quarter": 2,
+            "inventory": 3596,
+            "revenue": 5678.02,
+            "cogs": 5008,
+            "days": 92,
+            "inventoryYoy": 45.76408593433319,
+            "revenueYoy": 54.911985856623716,
+            "dio": 66.06070287539936,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/smci/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/smci/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2025-03-31",
+            "fiscalYear": 2025,
+            "quarter": 3,
+            "inventory": 3870,
+            "revenue": 4600.22,
+            "cogs": 4160,
+            "days": 90,
+            "inventoryYoy": -6.181818181818177,
+            "revenueYoy": 19.47475177710196,
+            "dio": 83.72596153846155,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/smci/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/smci/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2025-06-30",
+            "fiscalYear": 2025,
+            "quarter": 4,
+            "inventory": 4680,
+            "revenue": 5757.1,
+            "cogs": 5213,
+            "days": 91,
+            "inventoryYoy": 8.008308331410108,
+            "revenueYoy": 7.508267927537293,
+            "dio": 81.69576059850374,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/smci/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/smci/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2025-09-30",
+            "fiscalYear": 2026,
+            "quarter": 1,
+            "inventory": 5730,
+            "revenue": 5017.37,
+            "cogs": 4550,
+            "days": 92,
+            "inventoryYoy": 16.203609815453255,
+            "revenueYoy": -15.498064868178618,
+            "dio": 115.85934065934066,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/smci/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/smci/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2025-12-31",
+            "fiscalYear": 2026,
+            "quarter": 2,
+            "inventory": 10595,
+            "revenue": 12682.57,
+            "cogs": 11884,
+            "days": 92,
+            "inventoryYoy": 194.6329254727475,
+            "revenueYoy": 123.36254539434518,
+            "dio": 82.02120498148771,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/smci/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/smci/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2026-03-31",
+            "fiscalYear": 2026,
+            "quarter": 3,
+            "inventory": 11103,
+            "revenue": 10243,
+            "cogs": 9224,
+            "days": 90,
+            "inventoryYoy": 186.89922480620154,
+            "revenueYoy": 122.66326393085545,
+            "dio": 108.3336947094536,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/smci/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/smci/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2026-06-30",
+            "fiscalYear": 2026,
+            "quarter": 4,
+            "inventory": 12896,
+            "revenue": 11120,
+            "cogs": 9177,
+            "days": 91,
+            "inventoryYoy": 175.55555555555554,
+            "revenueYoy": 93.15280262632226,
+            "dio": 127.87795575896263,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/smci/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/smci/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2026-09-30",
+            "fiscalYear": 2027,
+            "quarter": 1,
+            "inventory": 15054,
+            "revenue": 19945.832,
+            "cogs": 17404.789,
+            "days": 92,
+            "inventoryYoy": 162.72251308900522,
+            "revenueYoy": 297.5356013210108,
+            "dio": 79.57396093684329,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/smci/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/smci/financials/income-statement/?p=quarterly"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "label": "분기 재고 집계",
+            "url": "https://stockanalysis.com/stocks/smci/financials/balance-sheet/?p=quarterly"
+          },
+          {
+            "label": "분기 손익 집계",
+            "url": "https://stockanalysis.com/stocks/smci/financials/income-statement/?p=quarterly"
+          },
+          {
+            "label": "FY27 Q1 공식 실적",
+            "url": "https://ir.supermicro.com/news/news-details/2026/Supermicro-Announces-First-Quarter-of-Fiscal-Year-2027-Financial-Results/"
+          }
+        ],
+        "note": "공시 기반 표준화 분기 자료(백만 USD). 최신 공시 전수 대조 전; 2020년까지 미확보된 분기는 공란. 첫 관측분기 DIO는 이전 분기 종료일 미확보로 공란. FY27 Q1 매출·원가 SEC/공식 IR, 재고 집계 반올림. 과거 매출은 원가+총이익으로 산출.",
+        "researchUrl": "https://stockanalysis.com/stocks/smci/financials/?p=quarterly"
+      },
+      {
+        "id": "foxconn",
+        "name": "Foxconn (Hon Hai)",
+        "ticker": "2317",
+        "group": "서버·ODM",
+        "region": "TW",
+        "currency": "TWD million",
+        "rows": [],
+        "sources": [],
+        "note": "분기별 재고·매출·원가 원자료 미확보. 점도표에는 표시하지 않음.",
+        "researchUrl": "https://stockanalysis.com/quote/tpe/2317/financials/?p=quarterly"
+      },
+      {
+        "id": "ibiden",
+        "name": "Ibiden",
+        "ticker": "4062",
+        "group": "기판·소재·부품",
+        "region": "JP",
+        "currency": "JPY million",
+        "rows": [],
+        "sources": [],
+        "note": "분기별 재고·매출·원가 원자료 미확보. 점도표에는 표시하지 않음.",
+        "researchUrl": "https://stockanalysis.com/quote/tyo/4062/financials/?p=quarterly"
+      },
+      {
+        "id": "semco",
+        "name": "삼성전기",
+        "ticker": "009150",
+        "group": "기판·소재·부품",
+        "region": "KR",
+        "currency": "KRW million",
+        "rows": [],
+        "sources": [],
+        "note": "분기별 재고·매출·원가 원자료 미확보. 점도표에는 표시하지 않음.",
+        "researchUrl": "https://stockanalysis.com/quote/krx/009150/financials/?p=quarterly"
+      },
+      {
+        "id": "murata",
+        "name": "Murata",
+        "ticker": "6981",
+        "group": "기판·소재·부품",
+        "region": "JP",
+        "currency": "JPY million",
+        "rows": [],
+        "sources": [],
+        "note": "분기별 재고·매출·원가 원자료 미확보. 점도표에는 표시하지 않음.",
+        "researchUrl": "https://stockanalysis.com/quote/tyo/6981/financials/?p=quarterly"
+      },
+      {
+        "id": "nittobo",
+        "name": "Nittobo (닛토방적)",
+        "ticker": "3110",
+        "group": "기판·소재·부품",
+        "region": "JP",
+        "currency": "JPY million",
+        "rows": [],
+        "sources": [],
+        "note": "분기별 재고·매출·원가 원자료 미확보. 점도표에는 표시하지 않음.",
+        "researchUrl": "https://stockanalysis.com/quote/tyo/3110/financials/?p=quarterly"
+      },
+      {
+        "id": "unimicron",
+        "name": "Unimicron",
+        "ticker": "3037",
+        "group": "기판·소재·부품",
+        "region": "TW",
+        "currency": "TWD million",
+        "rows": [],
+        "sources": [],
+        "note": "분기별 재고·매출·원가 원자료 미확보. 점도표에는 표시하지 않음.",
+        "researchUrl": "https://stockanalysis.com/quote/tpe/3037/financials/?p=quarterly"
+      },
+      {
+        "id": "ajinomoto",
+        "name": "Ajinomoto",
+        "ticker": "2802",
+        "group": "기판·소재·부품",
+        "region": "JP",
+        "currency": "JPY million",
+        "rows": [],
+        "sources": [],
+        "note": "분기별 재고·매출·원가 원자료 미확보. 점도표에는 표시하지 않음.",
+        "researchUrl": "https://stockanalysis.com/quote/tyo/2802/financials/?p=quarterly"
+      },
+      {
+        "id": "asml",
+        "name": "ASML",
+        "ticker": "ASML",
+        "group": "장비·테스트",
+        "region": "NL",
+        "currency": "EUR million",
+        "rows": [],
+        "sources": [],
+        "note": "분기별 재고·매출·원가 원자료 미확보. 점도표에는 표시하지 않음.",
+        "researchUrl": "https://stockanalysis.com/stocks/asml/financials/?p=quarterly"
+      },
+      {
+        "id": "tel",
+        "name": "Tokyo Electron",
+        "ticker": "8035",
+        "group": "장비·테스트",
+        "region": "JP",
+        "currency": "JPY million",
+        "rows": [],
+        "sources": [],
+        "note": "분기별 재고·매출·원가 원자료 미확보. 점도표에는 표시하지 않음.",
+        "researchUrl": "https://stockanalysis.com/quote/tyo/8035/financials/?p=quarterly"
+      },
+      {
+        "id": "amat",
+        "name": "Applied Materials",
+        "ticker": "AMAT",
+        "group": "장비·테스트",
+        "region": "US",
+        "currency": "USD million",
+        "rows": [
+          {
+            "date": "2021-10-31",
+            "fiscalYear": 2021,
+            "quarter": 4,
+            "inventory": 4309,
+            "revenue": 6123,
+            "cogs": 3178,
+            "days": null,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": null,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/amat/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/amat/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2022-01-30",
+            "fiscalYear": 2022,
+            "quarter": 1,
+            "inventory": 4526,
+            "revenue": 6271,
+            "cogs": 3312,
+            "days": 91,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": 124.35567632850241,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/amat/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/amat/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2022-05-01",
+            "fiscalYear": 2022,
+            "quarter": 2,
+            "inventory": 5009,
+            "revenue": 6245,
+            "cogs": 3318,
+            "days": 91,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": 137.3776371308017,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/amat/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/amat/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2022-07-31",
+            "fiscalYear": 2022,
+            "quarter": 3,
+            "inventory": 5506,
+            "revenue": 6520,
+            "cogs": 3514,
+            "days": 91,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": 142.58565737051794,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/amat/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/amat/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2022-10-30",
+            "fiscalYear": 2022,
+            "quarter": 4,
+            "inventory": 5932,
+            "revenue": 6749,
+            "cogs": 3648,
+            "days": 91,
+            "inventoryYoy": 37.665351589695995,
+            "revenueYoy": 10.223746529479016,
+            "dio": 147.97478070175438,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/amat/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/amat/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2023-01-29",
+            "fiscalYear": 2023,
+            "quarter": 1,
+            "inventory": 6054,
+            "revenue": 6739,
+            "cogs": 3594,
+            "days": 91,
+            "inventoryYoy": 33.7604949182501,
+            "revenueYoy": 7.462924573433272,
+            "dio": 153.2871452420701,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/amat/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/amat/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2023-04-30",
+            "fiscalYear": 2023,
+            "quarter": 2,
+            "inventory": 5940,
+            "revenue": 6630,
+            "cogs": 3536,
+            "days": 91,
+            "inventoryYoy": 18.58654422040327,
+            "revenueYoy": 6.164931945556451,
+            "dio": 152.86764705882354,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/amat/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/amat/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2023-07-30",
+            "fiscalYear": 2023,
+            "quarter": 3,
+            "inventory": 5809,
+            "revenue": 6425,
+            "cogs": 3449,
+            "days": 91,
+            "inventoryYoy": 5.503087540864504,
+            "revenueYoy": -1.4570552147239235,
+            "dio": 153.26732386198898,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/amat/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/amat/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2023-10-29",
+            "fiscalYear": 2023,
+            "quarter": 4,
+            "inventory": 5725,
+            "revenue": 6723,
+            "cogs": 3554,
+            "days": 91,
+            "inventoryYoy": -3.4895482130815947,
+            "revenueYoy": -0.38524225811231716,
+            "dio": 146.5883511536297,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/amat/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/amat/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2024-01-28",
+            "fiscalYear": 2024,
+            "quarter": 1,
+            "inventory": 5646,
+            "revenue": 6707,
+            "cogs": 3503,
+            "days": 91,
+            "inventoryYoy": -6.739345887016846,
+            "revenueYoy": -0.47484790028193835,
+            "dio": 146.6702826149015,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/amat/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/amat/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2024-04-28",
+            "fiscalYear": 2024,
+            "quarter": 2,
+            "inventory": 5691,
+            "revenue": 6646,
+            "cogs": 3493,
+            "days": 91,
+            "inventoryYoy": -4.191919191919191,
+            "revenueYoy": 0.2413273001508287,
+            "dio": 148.2625250501002,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/amat/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/amat/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2024-07-28",
+            "fiscalYear": 2024,
+            "quarter": 3,
+            "inventory": 5568,
+            "revenue": 6778,
+            "cogs": 3573,
+            "days": 91,
+            "inventoryYoy": -4.148734721983127,
+            "revenueYoy": 5.494163424124521,
+            "dio": 141.81024349286315,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/amat/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/amat/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2024-10-27",
+            "fiscalYear": 2024,
+            "quarter": 4,
+            "inventory": 5421,
+            "revenue": 7045,
+            "cogs": 3710,
+            "days": 91,
+            "inventoryYoy": -5.310043668122266,
+            "revenueYoy": 4.789528484307604,
+            "dio": 132.9679245283019,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/amat/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/amat/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2025-01-26",
+            "fiscalYear": 2025,
+            "quarter": 1,
+            "inventory": 5501,
+            "revenue": 7166,
+            "cogs": 3670,
+            "days": 91,
+            "inventoryYoy": -2.568189868933757,
+            "revenueYoy": 6.843596242731476,
+            "dio": 136.4008174386921,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/amat/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/amat/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2025-04-27",
+            "fiscalYear": 2025,
+            "quarter": 2,
+            "inventory": 5656,
+            "revenue": 7100,
+            "cogs": 3615,
+            "days": 91,
+            "inventoryYoy": -0.6150061500615034,
+            "revenueYoy": 6.831176647607573,
+            "dio": 142.37786998616875,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/amat/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/amat/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2025-07-27",
+            "fiscalYear": 2025,
+            "quarter": 3,
+            "inventory": 5807,
+            "revenue": 7302,
+            "cogs": 3740,
+            "days": 91,
+            "inventoryYoy": 4.292385057471271,
+            "revenueYoy": 7.730894069046923,
+            "dio": 141.2933155080214,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/amat/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/amat/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2025-10-26",
+            "fiscalYear": 2025,
+            "quarter": 4,
+            "inventory": 5915,
+            "revenue": 6800,
+            "cogs": 3535,
+            "days": 91,
+            "inventoryYoy": 9.112709832134303,
+            "revenueYoy": -3.477643718949608,
+            "dio": 152.26732673267327,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/amat/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/amat/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2026-01-25",
+            "fiscalYear": 2026,
+            "quarter": 1,
+            "inventory": 5997,
+            "revenue": 7012,
+            "cogs": 3577,
+            "days": 91,
+            "inventoryYoy": 9.016542446827858,
+            "revenueYoy": -2.149037119732067,
+            "dio": 152.5655577299413,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/amat/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/amat/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2026-04-26",
+            "fiscalYear": 2026,
+            "quarter": 2,
+            "inventory": 6343,
+            "revenue": 7910,
+            "cogs": 3963,
+            "days": 91,
+            "inventoryYoy": 12.14639321074964,
+            "revenueYoy": 11.40845070422536,
+            "dio": 145.65051728488518,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/amat/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/amat/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2026-07-26",
+            "fiscalYear": 2026,
+            "quarter": 3,
+            "inventory": 6564,
+            "revenue": 9115,
+            "cogs": 4529,
+            "days": 91,
+            "inventoryYoy": 13.035991045290164,
+            "revenueYoy": 24.82881402355519,
+            "dio": 131.8887171561051,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/amat/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/amat/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2026-10-25",
+            "fiscalYear": 2026,
+            "quarter": 4,
+            "inventory": 6889,
+            "revenue": 10409,
+            "cogs": 5158,
+            "days": 91,
+            "inventoryYoy": 16.466610312764153,
+            "revenueYoy": 53.07352941176471,
+            "dio": 121.53916246607213,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/amat/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/amat/financials/income-statement/?p=quarterly"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "label": "분기 재고 집계",
+            "url": "https://stockanalysis.com/stocks/amat/financials/balance-sheet/?p=quarterly"
+          },
+          {
+            "label": "분기 손익 집계",
+            "url": "https://stockanalysis.com/stocks/amat/financials/income-statement/?p=quarterly"
+          },
+          {
+            "label": "FY26 Q4 공식 실적",
+            "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-fourth-quarter-and-fiscal-year-2026"
+          }
+        ],
+        "note": "공시 기반 표준화 분기 자료(백만 USD). 최신 공시 전수 대조 전; 2020년까지 미확보된 분기는 공란. 첫 관측분기 DIO는 이전 분기 종료일 미확보로 공란.",
+        "researchUrl": "https://stockanalysis.com/stocks/amat/financials/?p=quarterly"
+      },
+      {
+        "id": "lrcx",
+        "name": "Lam Research",
+        "ticker": "LRCX",
+        "group": "장비·테스트",
+        "region": "US",
+        "currency": "USD million",
+        "rows": [],
+        "sources": [],
+        "note": "분기별 재고·매출·원가 원자료 미확보. 점도표에는 표시하지 않음.",
+        "researchUrl": "https://stockanalysis.com/stocks/lrcx/financials/?p=quarterly"
+      },
+      {
+        "id": "klac",
+        "name": "KLA",
+        "ticker": "KLAC",
+        "group": "장비·테스트",
+        "region": "US",
+        "currency": "USD million",
+        "rows": [
+          {
+            "date": "2021-09-30",
+            "fiscalYear": 2022,
+            "quarter": 1,
+            "inventory": 1715,
+            "revenue": null,
+            "cogs": 813.62,
+            "days": null,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": null,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/klac/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/klac/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2021-12-31",
+            "fiscalYear": 2022,
+            "quarter": 2,
+            "inventory": 1829,
+            "revenue": 2353,
+            "cogs": 908.16,
+            "days": 92,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": 185.28453136011277,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/klac/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/klac/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2022-03-31",
+            "fiscalYear": 2022,
+            "quarter": 3,
+            "inventory": 1982,
+            "revenue": 2289,
+            "cogs": 892.09,
+            "days": 90,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": 199.95740340100213,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/klac/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/klac/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2022-06-30",
+            "fiscalYear": 2022,
+            "quarter": 4,
+            "inventory": 2147,
+            "revenue": 2487,
+            "cogs": 978.56,
+            "days": 91,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": 199.65766023544802,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/klac/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/klac/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2022-09-30",
+            "fiscalYear": 2023,
+            "quarter": 1,
+            "inventory": 2408,
+            "revenue": 2724,
+            "cogs": 1041,
+            "days": 92,
+            "inventoryYoy": 40.408163265306115,
+            "revenueYoy": null,
+            "dio": 212.81075888568685,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/klac/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/klac/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2022-12-31",
+            "fiscalYear": 2023,
+            "quarter": 2,
+            "inventory": 2535,
+            "revenue": 2984,
+            "cogs": 1209,
+            "days": 92,
+            "inventoryYoy": 38.60032804811373,
+            "revenueYoy": 26.816829579260528,
+            "dio": 192.90322580645162,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/klac/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/klac/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2023-03-31",
+            "fiscalYear": 2023,
+            "quarter": 3,
+            "inventory": 2750,
+            "revenue": 2433,
+            "cogs": 1005,
+            "days": 90,
+            "inventoryYoy": 38.748738647830486,
+            "revenueYoy": 6.2909567496723495,
+            "dio": 246.26865671641792,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/klac/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/klac/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2023-06-30",
+            "fiscalYear": 2023,
+            "quarter": 4,
+            "inventory": 2877,
+            "revenue": 2355,
+            "cogs": 962.95,
+            "days": 91,
+            "inventoryYoy": 34.00093153237076,
+            "revenueYoy": -5.307599517490957,
+            "dio": 271.88015992522975,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/klac/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/klac/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2023-09-30",
+            "fiscalYear": 2024,
+            "quarter": 1,
+            "inventory": 3008,
+            "revenue": 2397,
+            "cogs": 946.89,
+            "days": 92,
+            "inventoryYoy": 24.916943521594682,
+            "revenueYoy": -12.004405286343612,
+            "dio": 292.2578124174931,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/klac/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/klac/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2023-12-31",
+            "fiscalYear": 2024,
+            "quarter": 2,
+            "inventory": 3039,
+            "revenue": 2487,
+            "cogs": 976.75,
+            "days": 92,
+            "inventoryYoy": 19.881656804733726,
+            "revenueYoy": -16.65549597855228,
+            "dio": 286.24315331456364,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/klac/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/klac/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2024-03-31",
+            "fiscalYear": 2024,
+            "quarter": 3,
+            "inventory": 3007,
+            "revenue": 2360,
+            "cogs": 993.89,
+            "days": 91,
+            "inventoryYoy": 9.345454545454546,
+            "revenueYoy": -3.0004110152075603,
+            "dio": 275.31920031391803,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/klac/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/klac/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2024-06-30",
+            "fiscalYear": 2024,
+            "quarter": 4,
+            "inventory": 3035,
+            "revenue": 2569,
+            "cogs": 1011,
+            "days": 91,
+            "inventoryYoy": 5.491831769204025,
+            "revenueYoy": 9.08704883227176,
+            "dio": 273.1800197823937,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/klac/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/klac/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2024-09-30",
+            "fiscalYear": 2025,
+            "quarter": 1,
+            "inventory": 3110,
+            "revenue": 2842,
+            "cogs": 1147,
+            "days": 92,
+            "inventoryYoy": 3.390957446808507,
+            "revenueYoy": 18.564872757613692,
+            "dio": 249.45074106364427,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/klac/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/klac/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2024-12-31",
+            "fiscalYear": 2025,
+            "quarter": 2,
+            "inventory": 3046,
+            "revenue": 3077,
+            "cogs": 1221,
+            "days": 92,
+            "inventoryYoy": 0.23033892727870597,
+            "revenueYoy": 23.723361479694404,
+            "dio": 229.5102375102375,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/klac/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/klac/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2025-03-31",
+            "fiscalYear": 2025,
+            "quarter": 3,
+            "inventory": 3156,
+            "revenue": 3063,
+            "cogs": 1176,
+            "days": 90,
+            "inventoryYoy": 4.955104755570328,
+            "revenueYoy": 29.788135593220332,
+            "dio": 241.53061224489795,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/klac/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/klac/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2025-06-30",
+            "fiscalYear": 2025,
+            "quarter": 4,
+            "inventory": 3212,
+            "revenue": 3175,
+            "cogs": 1207,
+            "days": 91,
+            "inventoryYoy": 5.831960461285002,
+            "revenueYoy": 23.588945114830672,
+            "dio": 242.16404308202152,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/klac/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/klac/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2025-09-30",
+            "fiscalYear": 2026,
+            "quarter": 1,
+            "inventory": 3297,
+            "revenue": 3210,
+            "cogs": 1243,
+            "days": 92,
+            "inventoryYoy": 6.012861736334396,
+            "revenueYoy": 12.948627726952843,
+            "dio": 244.02574416733708,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/klac/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/klac/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2025-12-31",
+            "fiscalYear": 2026,
+            "quarter": 2,
+            "inventory": 3283,
+            "revenue": 3297,
+            "cogs": 1271,
+            "days": 92,
+            "inventoryYoy": 7.7806959947472,
+            "revenueYoy": 7.149821254468636,
+            "dio": 237.6365066876475,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/klac/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/klac/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2026-03-31",
+            "fiscalYear": 2026,
+            "quarter": 3,
+            "inventory": 3437,
+            "revenue": 3415,
+            "cogs": 1328,
+            "days": 90,
+            "inventoryYoy": 8.903675538656518,
+            "revenueYoy": 11.492001305909238,
+            "dio": 232.92921686746988,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/klac/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/klac/financials/income-statement/?p=quarterly"
+            ]
+          },
+          {
+            "date": "2026-06-30",
+            "fiscalYear": 2026,
+            "quarter": 4,
+            "inventory": 3649,
+            "revenue": 3658,
+            "cogs": 1413,
+            "days": 91,
+            "inventoryYoy": 13.605230386052302,
+            "revenueYoy": 15.212598425196845,
+            "dio": 235.00283085633404,
+            "sourceType": "공시 기반 2차 집계",
+            "sourceUrls": [
+              "https://stockanalysis.com/stocks/klac/financials/balance-sheet/?p=quarterly",
+              "https://stockanalysis.com/stocks/klac/financials/income-statement/?p=quarterly"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "label": "분기 재고 집계",
+            "url": "https://stockanalysis.com/stocks/klac/financials/balance-sheet/?p=quarterly"
+          },
+          {
+            "label": "분기 손익 집계",
+            "url": "https://stockanalysis.com/stocks/klac/financials/income-statement/?p=quarterly"
+          }
+        ],
+        "note": "공시 기반 표준화 분기 자료(백만 USD). 최신 공시 전수 대조 전; 2020년까지 미확보된 분기는 공란. 첫 관측분기 DIO는 이전 분기 종료일 미확보로 공란. FY27 Q1 발표 확인; 동일 기준 재고·원가 미확보.",
+        "researchUrl": "https://stockanalysis.com/stocks/klac/financials/?p=quarterly"
+      },
+      {
+        "id": "advantest",
+        "name": "Advantest",
+        "ticker": "6857",
+        "group": "장비·테스트",
+        "region": "JP",
+        "currency": "JPY million",
+        "rows": [],
+        "sources": [],
+        "note": "분기별 재고·매출·원가 원자료 미확보. 점도표에는 표시하지 않음.",
+        "researchUrl": "https://stockanalysis.com/quote/tyo/6857/financials/?p=quarterly"
+      },
+      {
+        "id": "ter",
+        "name": "Teradyne",
+        "ticker": "TER",
+        "group": "장비·테스트",
+        "region": "US",
+        "currency": "USD million",
+        "rows": [],
+        "sources": [],
+        "note": "분기별 재고·매출·원가 원자료 미확보. 점도표에는 표시하지 않음.",
+        "researchUrl": "https://stockanalysis.com/stocks/ter/financials/?p=quarterly"
       }
-    ]
+    ],
+    "historyStart": "2020-01-01",
+    "mapQuarters": 8
   }
 }
