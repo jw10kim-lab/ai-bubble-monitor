@@ -1268,9 +1268,9 @@
     }
   ],
   "release": {
-    "version": "BETA 1.3.1",
+    "version": "BETA 1.4",
     "date": "2026-11-26",
-    "note": "SEC 최초 실행 확인: 216개 분기. HPE 부분 성공, 기타 국가 미연동."
+    "note": "대만 5개 기업 TWSE/MOPS 자동 수집 프로그램 등록. 최초 실행 전; 기존 데이터 보존."
   },
   "creditComparison": {
     "as_of": "2026-11-23",
@@ -10586,6 +10586,22 @@
           "issues": []
         }
       ]
+    },
+    "taiwanApiCollection": {
+      "status": "registered_pending_first_run",
+      "source": "https://openapi.twse.com.tw/",
+      "historicalSource": "https://mopsov.twse.com.tw/mops/web/t203sb01",
+      "script": "scripts/update_taiwan_financials.py",
+      "workflow": ".github/workflows/taiwan-financials.yml",
+      "tickers": [
+        "2382",
+        "3231",
+        "2356",
+        "2317",
+        "3037"
+      ],
+      "historyStart": "2019-01-01",
+      "note": "TWSE 최신 JSON은 참고용이며 역사 재고는 MOPS 공식 연결 iXBRL 다운로드로 수집. 인증키 없음. 직접 실행환경에서 MOPS 원본 다운로드 미확인. 첫 Actions 실행 후 결과 확인 필요."
     }
   }
 }
