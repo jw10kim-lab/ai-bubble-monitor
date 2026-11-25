@@ -185,5 +185,145 @@
       "decimals": 0
     }
   ],
-  "news": []
+  "news": [
+    {
+      "date": "2026-11-25",
+      "source": "Reuters · 오전 07시 이후 보충",
+      "title": "AI 기업 CDS, 주가 반등에도 경계 지속",
+      "summary": "오라클·알파벳·코어위브 등의 5년 CDS가 기록적인 수준에 도달했다는 보도. 주식시장 반등이 차입 여건 개선을 뜻하지는 않는다. 개별 스프레드 수치는 별도 검증 전 미기입.",
+      "url": "https://www.reuters.com/business/media-telecom/global-markets-ai-cds-urgent-2026-11-25/"
+    },
+    {
+      "date": "2026-11-24",
+      "source": "Reuters · 미국 거래일 기준",
+      "title": "엔비디아 주도 반등 하루 만에 약화",
+      "summary": "젠슨 황 복귀 소식으로 급등한 엔비디아가 다음 거래일 6% 넘게 하락했다는 보도. 경영진 복귀에 따른 심리 개선과 투자수익률 개선은 구분해야 한다.",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-24/"
+    },
+    {
+      "date": "2026-11-23",
+      "source": "AP · 미국 거래일 기준",
+      "title": "오라클, OpenAI 계약 자금 확보 발표",
+      "summary": "오라클은 OpenAI 컴퓨팅 공급 계약 이행에 필요한 자금을 확보했다고 밝혔다. 약정된 자금과 실제 잉여현금흐름은 별개의 검증 대상이다.",
+      "url": "https://apnews.com/article/49ba1beba78fa4ed2bd5898029f79c91"
+    },
+    {
+      "date": "2026-11-24",
+      "source": "Axios",
+      "title": "네오클라우드의 엔비디아 자금 의존",
+      "summary": "엔비디아의 투자와 GPU 고객사 자금조달 사이의 연결고리를 조명했다. 외부 채권시장이 경색되면 고객사의 장비 구매 여력도 줄어들 수 있다.",
+      "url": "https://www.axios.com/2026/11/24/nvidia-orbit-stocks-ai-bank"
+    },
+    {
+      "date": "2026-11-23",
+      "source": "Applied Digital · 기업 공시",
+      "title": "150MW·18년 신규 데이터센터 임대 계약",
+      "summary": "투자적격 등급 하이퍼스케일러와 장기 임대계약을 발표했다. 이는 계약 수요의 근거지만 설비 가동 및 현금 회수까지는 추가 확인이 필요하다.",
+      "url": "https://ir.applieddigital.com/news-events/press-releases/detail/165/applied-digital-secures-new-150-mw-18-year-lease-with"
+    },
+    {
+      "date": "2026-11-24",
+      "source": "Applied Digital · 기업 공시",
+      "title": "25MW 서비스 준비 완료 발표",
+      "summary": "노스다코타에서 초기 25MW가 서비스 준비 상태에 도달하고 첫 75MW 건물 기반 설비 시운전이 완료됐다고 밝혔다. 계약 용량과 실제 서비스 가능 용량을 따로 추적할 필요가 있다.",
+      "url": "https://ir.applieddigital.com/news-events/press-releases/detail/166/applied-digital-achieves-initial-25-mw-ready-for-service-in"
+    },
+    {
+      "date": "2026-11-23",
+      "source": "ABB · 기업 발표",
+      "title": "ABB, 냉각 전문기업 Ziehl-Abegg 인수 추진",
+      "summary": "팬과 모터 제품군을 확보해 냉각·열관리 사업을 강화할 계획이다. 데이터센터 냉각 수요는 성장 동력 중 하나이며, 인수가격 대비 실현 수익성도 검증해야 한다.",
+      "url": "https://www.abb.com/global/en/news/140614/abb-to-acquire-ziehl-abegg-expanding-offering-for-hvac-and-industrial-cooling-applications"
+    },
+    {
+      "date": "2026-11-25",
+      "source": "AP · 오전 07시 이후 보충",
+      "title": "아시아 AI 반도체주까지 약세 확산",
+      "summary": "AP는 대만 증시와 TSMC의 큰 폭 하락을 보도했다. 미국 AI 투자 심리 변화가 글로벌 반도체 공급망 밸류에이션에 전이될 가능성을 살펴야 한다.",
+      "url": "https://apnews.com/article/10044b4fb55d3ff20fde9ba9e9acaab1"
+    }
+  ],
+  "weeklyBriefings": [
+    {
+      "id": "2026-W48",
+      "period": "2026.11.23–11.25 (수요일 중간판)",
+      "as_of": "2026-11-25",
+      "scope": "이번 주 공개 기사·기업 발표 기준. 기존 오버나잇 19:00~07:00 시간대와 정확히 대조하지 못한 기사 및 07시 이후 보충 기사 포함. 금요일 마감판에서 엄격한 시간 범위와 출처를 재검증.",
+      "news": [
+        {
+          "date": "2026-11-25",
+          "source": "Reuters · 오전 07시 이후 보충",
+          "title": "AI 기업 CDS, 주가 반등에도 경계 지속",
+          "summary": "오라클·알파벳·코어위브 등의 5년 CDS가 기록적인 수준에 도달했다는 보도. 주식시장 반등이 차입 여건 개선을 뜻하지는 않는다. 개별 스프레드 수치는 별도 검증 전 미기입.",
+          "url": "https://www.reuters.com/business/media-telecom/global-markets-ai-cds-urgent-2026-11-25/"
+        },
+        {
+          "date": "2026-11-24",
+          "source": "Reuters · 미국 거래일 기준",
+          "title": "엔비디아 주도 반등 하루 만에 약화",
+          "summary": "젠슨 황 복귀 소식으로 급등한 엔비디아가 다음 거래일 6% 넘게 하락했다는 보도. 경영진 복귀에 따른 심리 개선과 투자수익률 개선은 구분해야 한다.",
+          "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-24/"
+        },
+        {
+          "date": "2026-11-23",
+          "source": "AP · 미국 거래일 기준",
+          "title": "오라클, OpenAI 계약 자금 확보 발표",
+          "summary": "오라클은 OpenAI 컴퓨팅 공급 계약 이행에 필요한 자금을 확보했다고 밝혔다. 약정된 자금과 실제 잉여현금흐름은 별개의 검증 대상이다.",
+          "url": "https://apnews.com/article/49ba1beba78fa4ed2bd5898029f79c91"
+        },
+        {
+          "date": "2026-11-24",
+          "source": "Axios",
+          "title": "네오클라우드의 엔비디아 자금 의존",
+          "summary": "엔비디아의 투자와 GPU 고객사 자금조달 사이의 연결고리를 조명했다. 외부 채권시장이 경색되면 고객사의 장비 구매 여력도 줄어들 수 있다.",
+          "url": "https://www.axios.com/2026/11/24/nvidia-orbit-stocks-ai-bank"
+        },
+        {
+          "date": "2026-11-23",
+          "source": "Applied Digital · 기업 공시",
+          "title": "150MW·18년 신규 데이터센터 임대 계약",
+          "summary": "투자적격 등급 하이퍼스케일러와 장기 임대계약을 발표했다. 이는 계약 수요의 근거지만 설비 가동 및 현금 회수까지는 추가 확인이 필요하다.",
+          "url": "https://ir.applieddigital.com/news-events/press-releases/detail/165/applied-digital-secures-new-150-mw-18-year-lease-with"
+        },
+        {
+          "date": "2026-11-24",
+          "source": "Applied Digital · 기업 공시",
+          "title": "25MW 서비스 준비 완료 발표",
+          "summary": "노스다코타에서 초기 25MW가 서비스 준비 상태에 도달하고 첫 75MW 건물 기반 설비 시운전이 완료됐다고 밝혔다. 계약 용량과 실제 서비스 가능 용량을 따로 추적할 필요가 있다.",
+          "url": "https://ir.applieddigital.com/news-events/press-releases/detail/166/applied-digital-achieves-initial-25-mw-ready-for-service-in"
+        },
+        {
+          "date": "2026-11-23",
+          "source": "ABB · 기업 발표",
+          "title": "ABB, 냉각 전문기업 Ziehl-Abegg 인수 추진",
+          "summary": "팬과 모터 제품군을 확보해 냉각·열관리 사업을 강화할 계획이다. 데이터센터 냉각 수요는 성장 동력 중 하나이며, 인수가격 대비 실현 수익성도 검증해야 한다.",
+          "url": "https://www.abb.com/global/en/news/140614/abb-to-acquire-ziehl-abegg-expanding-offering-for-hvac-and-industrial-cooling-applications"
+        },
+        {
+          "date": "2026-11-25",
+          "source": "AP · 오전 07시 이후 보충",
+          "title": "아시아 AI 반도체주까지 약세 확산",
+          "summary": "AP는 대만 증시와 TSMC의 큰 폭 하락을 보도했다. 미국 AI 투자 심리 변화가 글로벌 반도체 공급망 밸류에이션에 전이될 가능성을 살펴야 한다.",
+          "url": "https://apnews.com/article/10044b4fb55d3ff20fde9ba9e9acaab1"
+        }
+      ],
+      "commentary": {
+        "headline": "주가의 반등보다 자금조달의 반전을 확인하라",
+        "intro": "드러켄밀러가 공개 인터뷰에서 설명한 18개월~3년의 투자 시계와 변화에 대한 유연한 대응을 적용한 AI 작성 분석이다. 실제 발언·보유 종목·투자 권고가 아니다.",
+        "body": [
+          "AI가 산업을 바꾼다는 장기 명제와 지금의 AI 관련 자산이 적정 가격이라는 명제는 다르다. 18~24개월 뒤 누가 외부 자금에 덜 의존하면서 실제 현금을 창출할지에 집중할 필요가 있다.",
+          "이번 주 관찰할 핵심은 주식과 신용시장의 괴리다. 엔비디아의 급반등 이후 다시 약세가 나타났고, CDS 확대 보도는 차입비용 부담이 해소되지 않았을 가능성을 제기한다. 장기 임대계약과 냉각 투자는 실물 수요의 반대 근거다. 따라서 AI 전체를 일괄적으로 부정하기보다 계약을 현금흐름으로 바꾸는 기업과 자금조달에 의존하는 기업을 구분한다.",
+          "하락 시나리오에서는 차환비용 상승→설비 투자 축소→GPU 주문과 메모리 수요 둔화 순으로 위험이 전이될 수 있다. 반대로 신용 스프레드 안정, GPU 가동률과 유료 토큰 사용 증가, 설비 인도 및 현금 회수가 동시에 확인되면 방어적 가설을 수정한다."
+        ],
+        "watch": [
+          "오라클·코어위브 5년 CDS 및 실제 차환 금리",
+          "GPU 임대료와 가동률의 동반 변화",
+          "토큰 사용량 증가 대비 AI 서비스 매출 및 마진",
+          "하이퍼스케일러 CAPEX와 잉여현금흐름, 데이터센터 전력 연결"
+        ],
+        "source": "Morgan Stanley · Hard Lessons (드러켄밀러 공개 인터뷰)",
+        "url": "https://www.morganstanley.com/insights/videos/hard-lessons/duquesne-stan-druckenmiller-iliana-bouzali"
+      }
+    }
+  ]
 }
