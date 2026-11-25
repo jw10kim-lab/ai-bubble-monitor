@@ -7,20 +7,258 @@
       "name": "SOFR − IORB",
       "unit": "bp",
       "frequency": "일간",
-      "source": "FRED · SOFR / IORB",
+      "source": "FRED · SOFR/IORB (일부 YCharts 재인용)",
       "url": "https://fred.stlouisfed.org/series/SOFR",
-      "note": "동일 관측일 두 금리의 차이 × 100.",
+      "note": "국채 담보 익일물 조달금리(SOFR)에서 연준의 은행 지급준비금 이자율(IORB)을 뺀 값. 상승·양(+)의 지속은 단기 달러 조달 압력의 신호이며, 월말·분기말 수급 효과도 고려해야 한다. 1bp=0.01%p. 같은 날짜의 실제 관측값으로 계산; 9/8·9/9 미확보.",
       "history": [
+        [
+          "2026-08-25",
+          1
+        ],
+        [
+          "2026-08-26",
+          -1
+        ],
+        [
+          "2026-08-27",
+          -1
+        ],
+        [
+          "2026-08-28",
+          0
+        ],
+        [
+          "2026-08-31",
+          3
+        ],
+        [
+          "2026-09-01",
+          1
+        ],
+        [
+          "2026-09-02",
+          0
+        ],
+        [
+          "2026-09-03",
+          1
+        ],
+        [
+          "2026-09-04",
+          0
+        ],
+        [
+          "2026-09-10",
+          -3
+        ],
+        [
+          "2026-09-11",
+          -3
+        ],
+        [
+          "2026-09-14",
+          -3
+        ],
+        [
+          "2026-09-15",
+          -1
+        ],
+        [
+          "2026-09-16",
+          -3
+        ],
+        [
+          "2026-09-17",
+          -5
+        ],
+        [
+          "2026-09-18",
+          -5
+        ],
+        [
+          "2026-09-21",
+          -5
+        ],
+        [
+          "2026-09-22",
+          -3
+        ],
+        [
+          "2026-09-23",
+          -3
+        ],
+        [
+          "2026-09-24",
+          -2
+        ],
+        [
+          "2026-09-25",
+          0
+        ],
+        [
+          "2026-09-28",
+          0
+        ],
+        [
+          "2026-09-29",
+          -2
+        ],
+        [
+          "2026-09-30",
+          0
+        ],
+        [
+          "2026-10-01",
+          -3
+        ],
+        [
+          "2026-10-02",
+          -2
+        ],
+        [
+          "2026-10-05",
+          -1
+        ],
+        [
+          "2026-10-06",
+          0
+        ],
+        [
+          "2026-10-07",
+          -2
+        ],
+        [
+          "2026-10-08",
+          -3
+        ],
+        [
+          "2026-10-09",
+          -3
+        ],
+        [
+          "2026-10-13",
+          -1
+        ],
+        [
+          "2026-10-14",
+          -2
+        ],
+        [
+          "2026-10-15",
+          -1
+        ],
+        [
+          "2026-10-16",
+          -2
+        ],
+        [
+          "2026-10-19",
+          -3
+        ],
+        [
+          "2026-10-20",
+          -2
+        ],
+        [
+          "2026-10-21",
+          -2
+        ],
+        [
+          "2026-10-22",
+          0
+        ],
+        [
+          "2026-10-23",
+          2
+        ],
+        [
+          "2026-10-26",
+          3
+        ],
+        [
+          "2026-10-27",
+          5
+        ],
+        [
+          "2026-10-28",
+          4
+        ],
+        [
+          "2026-10-29",
+          4
+        ],
+        [
+          "2026-10-30",
+          5
+        ],
+        [
+          "2026-11-02",
+          5
+        ],
+        [
+          "2026-11-03",
+          7
+        ],
+        [
+          "2026-11-04",
+          4
+        ],
+        [
+          "2026-11-05",
+          2
+        ],
+        [
+          "2026-11-06",
+          -1
+        ],
+        [
+          "2026-11-09",
+          -2
+        ],
+        [
+          "2026-11-10",
+          -1
+        ],
+        [
+          "2026-11-12",
+          0
+        ],
+        [
+          "2026-11-13",
+          0
+        ],
+        [
+          "2026-11-16",
+          3
+        ],
+        [
+          "2026-11-17",
+          2
+        ],
+        [
+          "2026-11-18",
+          0
+        ],
         [
           "2026-11-19",
           1
+        ],
+        [
+          "2026-11-20",
+          2
         ],
         [
           "2026-11-23",
           2
         ]
       ],
-      "decimals": 0
+      "decimals": 0,
+      "historySources": [
+        "https://fred.stlouisfed.org/series/IORB",
+        "https://ycharts.com/indicators/sofr",
+        "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a1.htm"
+      ],
+      "referenceZero": true
     },
     {
       "id": "vix",
@@ -363,14 +601,23 @@
     {
       "id": "tokens",
       "group": "AI 실수요",
-      "name": "OpenRouter 주간 토큰 사용량",
+      "name": "OpenRouter 주간 공개 토큰 사용량",
       "unit": "T tokens",
       "frequency": "주간",
-      "source": "OpenRouter",
+      "source": "OpenRouter · The Latent 집계",
       "url": "https://openrouter.ai/rankings",
-      "note": "플랫폼 사용량만 반영, 전체 시장과 구분.",
-      "history": [],
-      "decimals": 2
+      "note": "11/16~22 UTC 완결 주간, 일별 상위 50개+other 합산의 2차 집계. OpenRouter 공개 랭킹 트래픽(입력+출력)만 측정하며 비공개·일부 BYOK 제한 존재. 전체 시장 사용량이 아님. 정식 API는 키 필요; 과거 주차는 검증 후 추가. 출처 OpenRouter (CC BY 4.0).",
+      "history": [
+        [
+          "2026-11-22",
+          314.9
+        ]
+      ],
+      "decimals": 1,
+      "historySources": [
+        "https://thelatent.co/data/demand/openrouter-weekly-token-volume?range=12m",
+        "https://openrouter.ai/docs/api/api-reference/datasets/get-rankings-daily"
+      ]
     },
     {
       "id": "api",
@@ -380,9 +627,52 @@
       "frequency": "기업 공시",
       "source": "기업 공시",
       "url": "https://www.sec.gov/edgar/search/",
-      "note": "동일 제공자의 일관된 정의로 추적.",
+      "note": "제공업체별 공시 정의가 달라 합산 지표로 사용하기 어려움. OpenRouter 사용량·Ramp 유료 도입률·Silicon Data 토큰 단가를 우선 관찰.",
       "history": [],
       "decimals": 2
+    },
+    {
+      "id": "ramp_ai",
+      "group": "AI 실수요",
+      "name": "Ramp AI Index · 유료 도입률",
+      "unit": "%",
+      "frequency": "월간",
+      "source": "Ramp · FRED RAMPAIALL",
+      "url": "https://ramp.com/data/ai-index",
+      "historySources": [
+        "https://fred.stlouisfed.org/series/RAMPAIALL"
+      ],
+      "history": [
+        [
+          "2026-08-31",
+          55.17
+        ],
+        [
+          "2026-09-30",
+          55.86
+        ],
+        [
+          "2026-10-31",
+          56.8
+        ]
+      ],
+      "decimals": 2,
+      "note": "Ramp 거래 표본에서 AI 제품·서비스에 지불한 미국 기업 비율. 월간 관측은 월말 위치에 표시. 10월은 Ramp 발표 반올림값(56.8%), 11월 미발표. 전체 미국 기업을 대표하지 않음."
+    },
+    {
+      "id": "silicon_token",
+      "group": "AI 실수요",
+      "name": "Silicon Data · LLM Token Expenditure Index",
+      "unit": "$/1M tokens",
+      "frequency": "일간",
+      "source": "Silicon Data SDLLMTK · 공개 원문",
+      "url": "https://portal.silicondata.com/token-index-chart",
+      "historySources": [
+        "https://www.silicondata.com/products/silicon-index/llm-token-expenditure-index"
+      ],
+      "history": [],
+      "decimals": 2,
+      "note": "실제 사용량 가중 100만 토큰당 가격 지표. 총 토큰 지출이나 사용량 아님. 공식 장기 데이터는 별도 접근/라이선스가 필요해 수치 복제하지 않고 원본 링크 제공. 가격 하락만으로 수요 둔화 판단 불가."
     },
     {
       "id": "b200",
@@ -741,9 +1031,9 @@
     }
   ],
   "release": {
-    "version": "BETA 0.4",
+    "version": "BETA 0.5",
     "date": "2026-11-25",
-    "note": "Oracle·CoreWeave CDS 공동 차트 및 신용등급별 OAS 비교"
+    "note": "SOFR−IORB 과거 관측치 보강, OpenRouter·Ramp·Silicon Data 도입 및 차트 좌측 축 정렬"
   },
   "creditComparison": {
     "as_of": "2026-11-25",
