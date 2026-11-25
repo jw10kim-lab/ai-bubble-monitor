@@ -478,14 +478,21 @@
       "frequency": "일간",
       "source": "Outlier · 11/24 시장 보도 인용 (2차 출처)",
       "url": "https://www.outliertechnology.co.uk/ai-market-watch/2026-11-24",
-      "note": "5년 CDS 보도값. 원시 호가/종가 미검증. 동일 기준의 시계열 확보 전 참고용.",
+      "note": "11/23 공개 거래 317bp, 11/24 2차 보도 355.68bp. 거래값과 보도 호가의 기준이 다를 수 있어 연결선 없이 관측점으로 표시. 매주 공개 자료 확인.",
       "history": [
+        [
+          "2026-11-23",
+          317
+        ],
         [
           "2026-11-24",
           355.68
         ]
       ],
-      "decimals": 2
+      "decimals": 2,
+      "historySources": [
+        "https://irates.today/name/oracle.html"
+      ]
     },
     {
       "id": "crwv",
@@ -495,7 +502,7 @@
       "frequency": "일간",
       "source": "Open-Sourced Rates Observatory · 공개 거래",
       "url": "https://irates.today/name/coreweave.html",
-      "note": "11/23 마지막 5년 거래값(당일 3건); 11/24 1,200bp 초과 보도는 정확한 종가가 아니므로 차트에 넣지 않음.",
+      "note": "5년 공개 거래 기준. 매주 공개 자료 확인; 자료 미확보 주는 공란 유지. 호가·종가·거래값은 구분.",
       "history": [
         [
           "2026-11-23",
@@ -734,8 +741,38 @@
     }
   ],
   "release": {
-    "version": "BETA 0.3",
+    "version": "BETA 0.4",
     "date": "2026-11-25",
-    "note": "B200 실제 거래 가격 지수, 전 지표 최근 3개월 공통 시간축. 과거 관측치 미확보 구간은 비워 둠."
+    "note": "Oracle·CoreWeave CDS 공동 차트 및 신용등급별 OAS 비교"
+  },
+  "creditComparison": {
+    "as_of": "2026-11-25",
+    "series": [
+      {
+        "id": "orcl",
+        "color": "#60a5fa",
+        "rating": "BBB 계열",
+        "source": "https://irates.today/name/oracle.html"
+      },
+      {
+        "id": "crwv",
+        "color": "#f59e0b",
+        "rating": "B+ / B1",
+        "source": "https://irates.today/name/coreweave.html"
+      }
+    ],
+    "benchmarks": [
+      {
+        "id": "BAMLC0A4CBBB",
+        "label": "BBB OAS (Oracle 비교)",
+        "color": "#4572a7"
+      },
+      {
+        "id": "BAMLH0A2HYB",
+        "label": "Single-B OAS (CoreWeave 비교)",
+        "color": "#aa4643"
+      }
+    ],
+    "note": "OAS는 전체 만기 회사채 신용스프레드로 5년 CDS가 아님. FRED 원본 그래프를 참조하며 ICE 데이터의 별도 공개 재배포는 허가 필요."
   }
 }
