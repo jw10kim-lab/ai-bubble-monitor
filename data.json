@@ -1268,9 +1268,9 @@
     }
   ],
   "release": {
-    "version": "BETA 0.8",
+    "version": "BETA 0.9",
     "date": "2026-11-25",
-    "note": "Ramp 공급자별 토큰 사용량 26주 원본 표 반영, 모델별 차트 제거. 기존 토큰 가격 및 기타 지표 유지."
+    "note": "Oracle·CoreWeave 5년 CDS 차트 단일화 및 OAS 비교 이미지 제거."
   },
   "creditComparison": {
     "as_of": "2026-11-23",
@@ -1288,19 +1288,7 @@
         "source": "https://irates.today/name/coreweave.html"
       }
     ],
-    "benchmarks": [
-      {
-        "id": "BAMLC0A4CBBB",
-        "label": "BBB OAS (Oracle 비교)",
-        "color": "#4572a7"
-      },
-      {
-        "id": "BAMLH0A2HYB",
-        "label": "Single-B OAS (CoreWeave 비교)",
-        "color": "#aa4643"
-      }
-    ],
-    "note": "최근 40일 공개 테이프의 실제 5년 CDS 관측값. 거래 없는 날은 공란. 등급별 OAS는 별도 비교군이며 CDS가 아님."
+    "note": "최근 40일 공개 테이프의 실제 5년 CDS 관측값을 동일 bp 축으로 비교. 거래 없는 날은 공란."
   },
   "rampTokenomics": {
     "as_of": "2026-11-25",
