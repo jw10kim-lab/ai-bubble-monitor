@@ -599,27 +599,6 @@
       "decimals": 2
     },
     {
-      "id": "tokens",
-      "group": "AI 실수요",
-      "name": "OpenRouter 주간 공개 토큰 사용량",
-      "unit": "T tokens",
-      "frequency": "주간",
-      "source": "OpenRouter · The Latent 집계",
-      "url": "https://openrouter.ai/rankings",
-      "note": "11/16~22 UTC 완결 주간, 일별 상위 50개+other 합산의 2차 집계. OpenRouter 공개 랭킹 트래픽(입력+출력)만 측정하며 비공개·일부 BYOK 제한 존재. 전체 시장 사용량이 아님. 정식 API는 키 필요; 과거 주차는 검증 후 추가. 출처 OpenRouter (CC BY 4.0).",
-      "history": [
-        [
-          "2026-11-22",
-          314.9
-        ]
-      ],
-      "decimals": 1,
-      "historySources": [
-        "https://thelatent.co/data/demand/openrouter-weekly-token-volume?range=12m",
-        "https://openrouter.ai/docs/api/api-reference/datasets/get-rankings-daily"
-      ]
-    },
-    {
       "id": "api",
       "group": "AI 실수요",
       "name": "API 사용량",
@@ -627,7 +606,7 @@
       "frequency": "기업 공시",
       "source": "기업 공시",
       "url": "https://www.sec.gov/edgar/search/",
-      "note": "제공업체별 공시 정의가 달라 합산 지표로 사용하기 어려움. OpenRouter 사용량·Ramp 유료 도입률·Silicon Data 토큰 단가를 우선 관찰.",
+      "note": "업체별 공시 정의가 달라 단일 합산 지표는 미확보. 아래 Ramp Tokenomics에서 동일 표본의 사용량과 토큰 가격을 추적.",
       "history": [],
       "decimals": 2
     },
@@ -638,41 +617,39 @@
       "unit": "%",
       "frequency": "월간",
       "source": "Ramp · FRED RAMPAIALL",
-      "url": "https://ramp.com/data/ai-index",
+      "url": "https://fred.stlouisfed.org/data/RAMPAIALL",
       "historySources": [
-        "https://fred.stlouisfed.org/series/RAMPAIALL"
+        "https://ramp.com/data/ai-index"
       ],
       "history": [
         [
+          "2026-05-31",
+          53.1817854052
+        ],
+        [
+          "2026-06-30",
+          53.9154587275
+        ],
+        [
+          "2026-07-31",
+          54.7715210788
+        ],
+        [
           "2026-08-31",
-          55.17
+          55.1672195247
         ],
         [
           "2026-09-30",
-          55.86
+          55.8252277764
         ],
         [
           "2026-10-31",
-          56.8
+          56.7962743938
         ]
       ],
       "decimals": 2,
-      "note": "Ramp 거래 표본에서 AI 제품·서비스에 지불한 미국 기업 비율. 월간 관측은 월말 위치에 표시. 10월은 Ramp 발표 반올림값(56.8%), 11월 미발표. 전체 미국 기업을 대표하지 않음."
-    },
-    {
-      "id": "silicon_token",
-      "group": "AI 실수요",
-      "name": "Silicon Data · LLM Token Expenditure Index",
-      "unit": "$/1M tokens",
-      "frequency": "일간",
-      "source": "Silicon Data SDLLMTK · 공개 원문",
-      "url": "https://portal.silicondata.com/token-index-chart",
-      "historySources": [
-        "https://www.silicondata.com/products/silicon-index/llm-token-expenditure-index"
-      ],
-      "history": [],
-      "decimals": 2,
-      "note": "실제 사용량 가중 100만 토큰당 가격 지표. 총 토큰 지출이나 사용량 아님. 공식 장기 데이터는 별도 접근/라이선스가 필요해 수치 복제하지 않고 원본 링크 제공. 가격 하락만으로 수요 둔화 판단 불가."
+      "note": "Ramp 이용 미국 기업 중 해당 월 AI 제품·서비스에 비용을 지불한 비율. FRED RAMPAIALL 2026-11-11 개정본; 관측월 말일에 표시. 11월 데이터 미발표. 전체 미국 기업을 대표하지 않음.",
+      "chartMonths": 6
     },
     {
       "id": "b200",
@@ -1031,9 +1008,9 @@
     }
   ],
   "release": {
-    "version": "BETA 0.5",
+    "version": "BETA 0.6",
     "date": "2026-11-25",
-    "note": "SOFR−IORB 과거 관측치 보강, OpenRouter·Ramp·Silicon Data 도입 및 차트 좌측 축 정렬"
+    "note": "Ramp 중심 AI 실수요 개편. 유료 도입률 6개월, Tokenomics 주간 6개월 차트(확인된 관측치만), 기존 OpenRouter·Silicon Data 삭제."
   },
   "creditComparison": {
     "as_of": "2026-11-25",
@@ -1064,5 +1041,151 @@
       }
     ],
     "note": "OAS는 전체 만기 회사채 신용스프레드로 5년 CDS가 아님. FRED 원본 그래프를 참조하며 ICE 데이터의 별도 공개 재배포는 허가 필요."
+  },
+  "rampTokenomics": {
+    "as_of": "2026-11-25",
+    "latestWeek": "2026-11-15",
+    "windowMonths": 6,
+    "volume": {
+      "source": "https://ramp.com/data/ai-index?detail=model&metric=token-volume&mode=share",
+      "makerSource": "https://ramp.com/data/ai-index?detail=maker&metric=token-volume&mode=volume",
+      "note": "Ramp가 공개한 상대 사용량 지수이며 절대 토큰 수가 아니다. 모델별과 공급자별은 정규화 기준이 달라 직접 합산하거나 비교하지 않는다. 원본 Historical data 전체 표는 접근 제한으로 미확보. 모델별은 최신 리더보드 상위 8개만, 공급자별은 확인 가능한 주요 4개만 수록. 나머지 주차와 모델은 누락(0이 아님).",
+      "modelSeries": [
+        "Claude Opus 5.5",
+        "GPT 6 Luna",
+        "GPT 6.1 Sol",
+        "Claude Sonnet 5.5",
+        "Claude Fable 5.2",
+        "GPT-5.6 Luna",
+        "GPT-6 Astra",
+        "Claude Haiku 5.5"
+      ],
+      "modelWeeks": [
+        {
+          "date": "2026-11-15",
+          "values": [
+            100,
+            32.8,
+            31.9,
+            24.4,
+            12.9,
+            9.8,
+            7.6,
+            7.5
+          ]
+        }
+      ],
+      "makerSeries": [
+        "Anthropic",
+        "OpenAI",
+        "xAI",
+        "Google"
+      ],
+      "makerWeeks": [
+        {
+          "date": "2026-10-25",
+          "values": [
+            83.4,
+            52.1,
+            2,
+            1.6
+          ]
+        },
+        {
+          "date": "2026-11-01",
+          "values": [
+            89,
+            60.4,
+            2,
+            1.5
+          ]
+        },
+        {
+          "date": "2026-11-08",
+          "values": [
+            94.7,
+            67,
+            2.3,
+            1.5
+          ]
+        },
+        {
+          "date": "2026-11-15",
+          "values": [
+            100.5,
+            63.6,
+            2.3,
+            1.4
+          ]
+        }
+      ],
+      "momVolumePct": 27.2,
+      "momSpendPct": 12
+    },
+    "price": {
+      "source": "https://ramp.com/data/ai-index",
+      "note": "OpenAI·Anthropic의 실제 사용량 가중 100만 토큰당 지출액. Ramp의 공개 Tokenomics 요약표 여러 시점에서 확보한 주차. 집계 개정 가능. Historical data 전체 표는 아직 미확보. 점선은 누락된 주를 건너뛴 관측점 연결이며 중간값 추정 아님.",
+      "series": [
+        "OpenAI + Anthropic (blended)",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "weeks": [
+        {
+          "date": "2026-09-13",
+          "values": [
+            0.86,
+            0.73,
+            1
+          ],
+          "source": "https://ramp.com/data/ai-index?device=c"
+        },
+        {
+          "date": "2026-10-04",
+          "values": [
+            0.62,
+            0.61,
+            0.63
+          ],
+          "source": "https://ramp.com/data/ai-index?stream=top"
+        },
+        {
+          "date": "2026-10-11",
+          "values": [
+            0.64,
+            0.48,
+            0.8
+          ],
+          "source": "https://ramp.com/data/ai-index?device=c"
+        },
+        {
+          "date": "2026-10-18",
+          "values": [
+            0.51,
+            0.45,
+            0.55
+          ],
+          "source": "https://ramp.com/data/ai-index?detail=maker&metric=token-volume&mode=volume"
+        },
+        {
+          "date": "2026-11-01",
+          "values": [
+            0.53,
+            0.5,
+            0.55
+          ],
+          "source": "https://ramp.com/data/ai-index?stream=top"
+        },
+        {
+          "date": "2026-11-15",
+          "values": [
+            0.45,
+            0.38,
+            0.5
+          ],
+          "source": "https://ramp.com/data/ai-index?detail=maker&metric=token-volume&mode=volume"
+        }
+      ]
+    }
   }
 }
