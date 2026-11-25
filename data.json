@@ -1268,9 +1268,9 @@
     }
   ],
   "release": {
-    "version": "BETA 0.9",
-    "date": "2026-11-25",
-    "note": "Oracle·CoreWeave 5년 CDS 차트 단일화 및 OAS 비교 이미지 제거."
+    "version": "BETA 1.0",
+    "date": "2026-11-26",
+    "note": "AI 실수요에 메모리 재고 사이클 12분기 추가. 기존 지표 관측일 및 데이터 보존."
   },
   "creditComparison": {
     "as_of": "2026-11-23",
@@ -1581,5 +1581,450 @@
         }
       ]
     }
+  },
+  "memoryCycle": {
+    "as_of": "2026-11-26",
+    "windowQuarters": 12,
+    "method": "연결 재무제표 기준. 재고·매출 증가율 = 전년 동일 회계분기 대비. DIO = 분기 말 재고 ÷ 해당 분기 매출원가 × 실제 분기 일수. Micron FY26 Q4는 14주(98일), 일반 분기 13주(91일). SK하이닉스 달력 분기. 분기말 재고 기준 DIO이며 평균재고 방식 및 회사 발표 비GAAP 수치와 차이가 날 수 있음. 전사 재고로 HBM 전용 실수요는 아님.",
+    "companies": [
+      {
+        "id": "mu",
+        "name": "Micron",
+        "ticker": "MU",
+        "currency": "USD million",
+        "rows": [
+          {
+            "date": "2022-12-01",
+            "fiscalYear": 2023,
+            "quarter": 1,
+            "inventory": 8359,
+            "revenue": 4085,
+            "cogs": null,
+            "days": 91,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": null
+          },
+          {
+            "date": "2023-03-02",
+            "fiscalYear": 2023,
+            "quarter": 2,
+            "inventory": 8129,
+            "revenue": 3693,
+            "cogs": null,
+            "days": 91,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": null
+          },
+          {
+            "date": "2023-06-01",
+            "fiscalYear": 2023,
+            "quarter": 3,
+            "inventory": 8238,
+            "revenue": 3752,
+            "cogs": null,
+            "days": 91,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": null
+          },
+          {
+            "date": "2023-08-31",
+            "fiscalYear": 2023,
+            "quarter": 4,
+            "inventory": 8387,
+            "revenue": 4010,
+            "cogs": null,
+            "days": 91,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": null
+          },
+          {
+            "date": "2023-11-30",
+            "fiscalYear": 2024,
+            "quarter": 1,
+            "inventory": 8276,
+            "revenue": 4726,
+            "cogs": 4761,
+            "days": 91,
+            "inventoryYoy": -0.9929417394425211,
+            "revenueYoy": 15.69155446756425,
+            "dio": 158.18441503885737
+          },
+          {
+            "date": "2024-02-29",
+            "fiscalYear": 2024,
+            "quarter": 2,
+            "inventory": 8443,
+            "revenue": 5824,
+            "cogs": 4745,
+            "days": 91,
+            "inventoryYoy": 3.862713740927548,
+            "revenueYoy": 57.70376387760627,
+            "dio": 161.92054794520547
+          },
+          {
+            "date": "2024-05-30",
+            "fiscalYear": 2024,
+            "quarter": 3,
+            "inventory": 8512,
+            "revenue": 6811,
+            "cogs": 4979,
+            "days": 91,
+            "inventoryYoy": 3.326050012138859,
+            "revenueYoy": 81.52985074626866,
+            "dio": 155.57180156657964
+          },
+          {
+            "date": "2024-08-29",
+            "fiscalYear": 2024,
+            "quarter": 4,
+            "inventory": 8875,
+            "revenue": 7750,
+            "cogs": 5013,
+            "days": 91,
+            "inventoryYoy": 5.8185286753308585,
+            "revenueYoy": 93.26683291770574,
+            "dio": 161.10612407739876
+          },
+          {
+            "date": "2024-11-28",
+            "fiscalYear": 2025,
+            "quarter": 1,
+            "inventory": 8705,
+            "revenue": 8709,
+            "cogs": 5361,
+            "days": 91,
+            "inventoryYoy": 5.183663605606581,
+            "revenueYoy": 84.27845958527296,
+            "dio": 147.7625443014363
+          },
+          {
+            "date": "2025-02-27",
+            "fiscalYear": 2025,
+            "quarter": 2,
+            "inventory": 9007,
+            "revenue": 8053,
+            "cogs": 5090,
+            "days": 91,
+            "inventoryYoy": 6.6800900153973775,
+            "revenueYoy": 38.272664835164825,
+            "dio": 161.02888015717093
+          },
+          {
+            "date": "2025-05-29",
+            "fiscalYear": 2025,
+            "quarter": 3,
+            "inventory": 8727,
+            "revenue": 9301,
+            "cogs": 5793,
+            "days": 91,
+            "inventoryYoy": 2.5258458646616466,
+            "revenueYoy": 36.5585082954045,
+            "dio": 137.08907301916105
+          },
+          {
+            "date": "2025-08-28",
+            "fiscalYear": 2025,
+            "quarter": 4,
+            "inventory": 8355,
+            "revenue": 11315,
+            "cogs": 6261,
+            "days": 91,
+            "inventoryYoy": -5.85915492957747,
+            "revenueYoy": 46,
+            "dio": 121.43507426928605
+          },
+          {
+            "date": "2025-11-27",
+            "fiscalYear": 2026,
+            "quarter": 1,
+            "inventory": 8205,
+            "revenue": 13643,
+            "cogs": 5997,
+            "days": 91,
+            "inventoryYoy": -5.743825387708212,
+            "revenueYoy": 56.65403605465611,
+            "dio": 124.50475237618811
+          },
+          {
+            "date": "2026-02-26",
+            "fiscalYear": 2026,
+            "quarter": 2,
+            "inventory": 8267,
+            "revenue": 23860,
+            "cogs": 6105,
+            "days": 91,
+            "inventoryYoy": -8.215832130565115,
+            "revenueYoy": 196.28709797590963,
+            "dio": 123.22637182637182
+          },
+          {
+            "date": "2026-05-28",
+            "fiscalYear": 2026,
+            "quarter": 3,
+            "inventory": 8567,
+            "revenue": 41456,
+            "cogs": 6400,
+            "days": 91,
+            "inventoryYoy": -1.833390626790421,
+            "revenueYoy": 345.7155144608107,
+            "dio": 121.81203125
+          },
+          {
+            "date": "2026-09-03",
+            "fiscalYear": 2026,
+            "quarter": 4,
+            "inventory": 10372,
+            "revenue": 54229,
+            "cogs": 7182,
+            "days": 98,
+            "inventoryYoy": 24.141232794733703,
+            "revenueYoy": 379.26646045072914,
+            "dio": 141.5282651072125
+          }
+        ],
+        "sources": [
+          {
+            "label": "Micron 공식 분기 실적",
+            "url": "https://investors.micron.com/financials/quarterly-results/"
+          },
+          {
+            "label": "SEC FY26 10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
+          },
+          {
+            "label": "과거 분기 재고 집계",
+            "url": "https://stockanalysis.com/stocks/mu/financials/balance-sheet/?p=quarterly"
+          },
+          {
+            "label": "과거 분기 손익 집계",
+            "url": "https://stockanalysis.com/stocks/mu/financials/income-statement/?p=quarterly"
+          }
+        ],
+        "note": "최신·일부 과거 공시 대조; 과거 시계열은 공시 기반 Stock Analysis 집계 활용. 2023년 원가는 표시 기간 밖으로 미기입."
+      },
+      {
+        "id": "sk",
+        "name": "SK하이닉스",
+        "ticker": "000660",
+        "currency": "KRW million",
+        "rows": [
+          {
+            "date": "2022-12-31",
+            "fiscalYear": 2022,
+            "quarter": 4,
+            "inventory": 15664707,
+            "revenue": 7672031,
+            "cogs": 7648613,
+            "days": 92,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": 188.42018075695555
+          },
+          {
+            "date": "2023-03-31",
+            "fiscalYear": 2023,
+            "quarter": 1,
+            "inventory": 17182269,
+            "revenue": 5088111,
+            "cogs": 6733410,
+            "days": 90,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": 229.66137662788987
+          },
+          {
+            "date": "2023-06-30",
+            "fiscalYear": 2023,
+            "quarter": 2,
+            "inventory": 16420200,
+            "revenue": 7305932,
+            "cogs": 8483760,
+            "days": 91,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": 176.12923986534273
+          },
+          {
+            "date": "2023-09-30",
+            "fiscalYear": 2023,
+            "quarter": 3,
+            "inventory": 14947895,
+            "revenue": 9066171,
+            "cogs": 9002045,
+            "days": 92,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": 152.76599261612225
+          },
+          {
+            "date": "2023-12-31",
+            "fiscalYear": 2023,
+            "quarter": 4,
+            "inventory": 13480659,
+            "revenue": 11305505,
+            "cogs": 9079952,
+            "days": 92,
+            "inventoryYoy": -13.942475910976182,
+            "revenueYoy": 47.360001543268005,
+            "dio": 136.58889694571073
+          },
+          {
+            "date": "2024-03-31",
+            "fiscalYear": 2024,
+            "quarter": 1,
+            "inventory": 13844639,
+            "revenue": 12429598,
+            "cogs": 7634953,
+            "days": 91,
+            "inventoryYoy": -19.424850117292426,
+            "revenueYoy": 144.28708414576644,
+            "dio": 165.01243020094557
+          },
+          {
+            "date": "2024-06-30",
+            "fiscalYear": 2024,
+            "quarter": 2,
+            "inventory": 13354938,
+            "revenue": 16423258,
+            "cogs": 8926794,
+            "days": 91,
+            "inventoryYoy": -18.66762889611576,
+            "revenueYoy": 124.79346919735907,
+            "dio": 136.14062988347217
+          },
+          {
+            "date": "2024-09-30",
+            "fiscalYear": 2024,
+            "quarter": 3,
+            "inventory": 13353865,
+            "revenue": 17573069,
+            "cogs": 8401685,
+            "days": 92,
+            "inventoryYoy": -10.663909533750404,
+            "revenueYoy": 93.83121055184156,
+            "dio": 146.2272841697826
+          },
+          {
+            "date": "2024-12-31",
+            "fiscalYear": 2024,
+            "quarter": 4,
+            "inventory": 13313937,
+            "revenue": 19767035,
+            "cogs": 9401382,
+            "days": 92,
+            "inventoryYoy": -1.23674962774446,
+            "revenueYoy": 74.84433468473988,
+            "dio": 130.28746241775943
+          },
+          {
+            "date": "2025-03-31",
+            "fiscalYear": 2025,
+            "quarter": 1,
+            "inventory": 14551350,
+            "revenue": 17639141,
+            "cogs": 7537150,
+            "days": 90,
+            "inventoryYoy": 5.104582358557708,
+            "revenueYoy": 41.91240135038961,
+            "dio": 173.75553093675992
+          },
+          {
+            "date": "2025-06-30",
+            "fiscalYear": 2025,
+            "quarter": 2,
+            "inventory": 13408333,
+            "revenue": 22231952,
+            "cogs": 10248628,
+            "days": 91,
+            "inventoryYoy": 0.39981466031515644,
+            "revenueYoy": 35.36870698858898,
+            "dio": 119.05577048947431
+          },
+          {
+            "date": "2025-09-30",
+            "fiscalYear": 2025,
+            "quarter": 3,
+            "inventory": 13156000,
+            "revenue": 24448929,
+            "cogs": 10419829,
+            "days": 92,
+            "inventoryYoy": -1.4817058581916176,
+            "revenueYoy": 39.12725773739352,
+            "dio": 116.15852812939636
+          },
+          {
+            "date": "2025-12-31",
+            "fiscalYear": 2025,
+            "quarter": 4,
+            "inventory": 14289390,
+            "revenue": 32826653,
+            "cogs": 10250278,
+            "days": 92,
+            "inventoryYoy": 7.326555623629583,
+            "revenueYoy": 66.06766265148009,
+            "dio": 128.25250983436743
+          },
+          {
+            "date": "2026-03-31",
+            "fiscalYear": 2026,
+            "quarter": 1,
+            "inventory": 15974133,
+            "revenue": 52576287,
+            "cogs": 10896873,
+            "days": 90,
+            "inventoryYoy": 9.777670113082282,
+            "revenueYoy": 198.06602827201166,
+            "dio": 131.93436043532856
+          },
+          {
+            "date": "2026-06-30",
+            "fiscalYear": 2026,
+            "quarter": 2,
+            "inventory": 17985706,
+            "revenue": 79319000,
+            "cogs": 13327000,
+            "days": 91,
+            "inventoryYoy": 34.13827058143619,
+            "revenueYoy": 256.77928775664867,
+            "dio": 122.81077856982066
+          },
+          {
+            "date": "2026-09-30",
+            "fiscalYear": 2026,
+            "quarter": 3,
+            "inventory": 19355772,
+            "revenue": 104615500,
+            "cogs": 14962547,
+            "days": 92,
+            "inventoryYoy": 47.12505320766189,
+            "revenueYoy": 327.89399895594613,
+            "dio": 119.01256009421391
+          }
+        ],
+        "sources": [
+          {
+            "label": "SK하이닉스 3Q26 공식 실적",
+            "url": "https://news.skhynix.com/en/q3-2026-business-results/"
+          },
+          {
+            "label": "SEC 3Q26 분기보고서",
+            "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526461909/d166755d6k.htm"
+          },
+          {
+            "label": "과거 분기 재고 집계",
+            "url": "https://stockanalysis.com/quote/krx/000660/financials/balance-sheet/?p=quarterly"
+          },
+          {
+            "label": "과거 분기 매출·매출총이익 집계",
+            "url": "https://stockanalysis.com/quote/krx/000660/financials/?p=quarterly"
+          }
+        ],
+        "note": "최신 공시와 일부 IR 수치 대조; 과거 분기 집계의 매출−매출총이익으로 원가 산출. 일부 수치는 반올림된 공시 집계 기준."
+      }
+    ]
   }
 }
