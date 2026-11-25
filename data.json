@@ -1268,9 +1268,9 @@
     }
   ],
   "release": {
-    "version": "BETA 1.2",
+    "version": "BETA 1.3",
     "date": "2026-11-26",
-    "note": "미확보 14개사 공시 경로 등록. Lam Research, Advantest, ASML의 추가 확인된 분기 자료 반영. 전체 2020년 이후 원문 전수 검증 미완료."
+    "note": "SEC JSON 수집 프로그램 및 워크플로 등록(실행 미확인), Teradyne 8분기 SEC 원문 보강."
   },
   "creditComparison": {
     "as_of": "2026-11-23",
@@ -5630,8 +5630,147 @@
         "group": "장비·테스트",
         "region": "US",
         "currency": "USD million",
-        "rows": [],
+        "rows": [
+          {
+            "date": "2024-12-31",
+            "fiscalYear": 2024,
+            "quarter": 4,
+            "inventory": 298.492,
+            "revenue": 752.884,
+            "cogs": 305.597,
+            "days": 93,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": 90.83778963798729,
+            "sourceType": "SEC 연결 GAAP 공시 원문 (HTML/XBRL 표시표, JSON API 아님)",
+            "sourceUrls": [
+              "https://www.sec.gov/Archives/edgar/data/97210/000095017025059568/ter-ex99_1.htm"
+            ]
+          },
+          {
+            "date": "2025-03-30",
+            "fiscalYear": 2025,
+            "quarter": 1,
+            "inventory": 345.063,
+            "revenue": 685.68,
+            "cogs": 270.344,
+            "days": 89,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": 113.59825629568253,
+            "sourceType": "SEC 연결 GAAP 공시 원문 (HTML/XBRL 표시표, JSON API 아님)",
+            "sourceUrls": [
+              "https://www.sec.gov/Archives/edgar/data/97210/000095017025059568/ter-ex99_1.htm",
+              "https://www.sec.gov/Archives/edgar/data/97210/000119312526188706/ter-ex99_1.htm"
+            ]
+          },
+          {
+            "date": "2025-06-29",
+            "fiscalYear": 2025,
+            "quarter": 2,
+            "inventory": 350.505,
+            "revenue": 651.797,
+            "cogs": 278.785,
+            "days": 91,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": 114.41058521799953,
+            "sourceType": "SEC 연결 GAAP 공시 원문 (HTML/XBRL 표시표, JSON API 아님)",
+            "sourceUrls": [
+              "https://www.sec.gov/Archives/edgar/data/97210/000095017025099876/ter-ex99_1.htm",
+              "https://www.sec.gov/Archives/edgar/data/97210/000119312526327715/R4.htm"
+            ]
+          },
+          {
+            "date": "2025-09-28",
+            "fiscalYear": 2025,
+            "quarter": 3,
+            "inventory": 366.752,
+            "revenue": 769.21,
+            "cogs": 319.904,
+            "days": 91,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "dio": 104.32639791937582,
+            "sourceType": "SEC 연결 GAAP 공시 원문 (HTML/XBRL 표시표, JSON API 아님)",
+            "sourceUrls": [
+              "https://www.sec.gov/Archives/edgar/data/97210/000119312525258477/R2.htm",
+              "https://www.sec.gov/Archives/edgar/data/97210/000119312525258477/R4.htm"
+            ]
+          },
+          {
+            "date": "2025-12-31",
+            "fiscalYear": 2025,
+            "quarter": 4,
+            "inventory": 379.552,
+            "revenue": 1083.337,
+            "cogs": 463.647,
+            "days": 94,
+            "inventoryYoy": 27.156506707047434,
+            "revenueYoy": 43.89162208255188,
+            "dio": 76.95054211501423,
+            "sourceType": "SEC 연결 GAAP 공시 원문 (HTML/XBRL 표시표, JSON API 아님)",
+            "sourceUrls": [
+              "https://www.sec.gov/Archives/edgar/data/97210/000119312526188706/ter-ex99_1.htm"
+            ]
+          },
+          {
+            "date": "2026-03-29",
+            "fiscalYear": 2026,
+            "quarter": 1,
+            "inventory": 362.757,
+            "revenue": 1282.494,
+            "cogs": 501.545,
+            "days": 88,
+            "inventoryYoy": 5.127759278740407,
+            "revenueYoy": 87.03972698634932,
+            "dio": 63.64855795591622,
+            "sourceType": "SEC 연결 GAAP 공시 원문 (HTML/XBRL 표시표, JSON API 아님)",
+            "sourceUrls": [
+              "https://www.sec.gov/Archives/edgar/data/97210/000119312526188706/ter-ex99_1.htm"
+            ]
+          },
+          {
+            "date": "2026-06-28",
+            "fiscalYear": 2026,
+            "quarter": 2,
+            "inventory": 403.297,
+            "revenue": 1328.99,
+            "cogs": 534.372,
+            "days": 91,
+            "inventoryYoy": 15.061696694768978,
+            "revenueYoy": 103.89630513794938,
+            "dio": 68.67879866460069,
+            "sourceType": "SEC 연결 GAAP 공시 원문 (HTML/XBRL 표시표, JSON API 아님)",
+            "sourceUrls": [
+              "https://www.sec.gov/Archives/edgar/data/97210/000119312526327715/R2.htm",
+              "https://www.sec.gov/Archives/edgar/data/97210/000119312526327715/R4.htm"
+            ]
+          },
+          {
+            "date": "2026-09-27",
+            "fiscalYear": 2026,
+            "quarter": 3,
+            "inventory": 574.992,
+            "revenue": 1305.95,
+            "cogs": 534.674,
+            "days": 91,
+            "inventoryYoy": 56.77951313148939,
+            "revenueYoy": 69.77808400826821,
+            "dio": 97.86200937393626,
+            "sourceType": "SEC 연결 GAAP 공시 원문 (HTML/XBRL 표시표, JSON API 아님)",
+            "sourceUrls": [
+              "https://www.sec.gov/Archives/edgar/data/97210/000119312526441091/ter-20260927.htm",
+              "https://www.sec.gov/Archives/edgar/data/97210/000119312526327715/R4.htm",
+              "https://investors.teradyne.com/news-events/press-releases/detail/455/teradyne-reports-third-quarter-2026-results"
+            ]
+          }
+        ],
         "sources": [
+          {
+            "label": "SEC Company Facts JSON (실행 미확인)",
+            "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000097210.json"
+          },
           {
             "label": "공식 10-Q 아카이브",
             "url": "https://investors.teradyne.com/sec-filings/quarterly-reports"
@@ -5643,13 +5782,48 @@
           {
             "label": "2026 Q3 SEC 10-Q",
             "url": "https://www.sec.gov/Archives/edgar/data/97210/000119312526441091/ter-20260927.htm"
+          },
+          {
+            "label": "SEC 분기 원문",
+            "url": "https://www.sec.gov/Archives/edgar/data/97210/000095017025059568/ter-ex99_1.htm"
+          },
+          {
+            "label": "SEC 분기 원문",
+            "url": "https://www.sec.gov/Archives/edgar/data/97210/000095017025099876/ter-ex99_1.htm"
+          },
+          {
+            "label": "SEC 분기 원문",
+            "url": "https://www.sec.gov/Archives/edgar/data/97210/000119312525258477/R2.htm"
+          },
+          {
+            "label": "SEC 분기 원문",
+            "url": "https://www.sec.gov/Archives/edgar/data/97210/000119312525258477/R4.htm"
+          },
+          {
+            "label": "SEC 분기 원문",
+            "url": "https://www.sec.gov/Archives/edgar/data/97210/000119312526188706/ter-ex99_1.htm"
+          },
+          {
+            "label": "SEC 분기 원문",
+            "url": "https://www.sec.gov/Archives/edgar/data/97210/000119312526327715/R4.htm"
+          },
+          {
+            "label": "SEC 분기 원문",
+            "url": "https://www.sec.gov/Archives/edgar/data/97210/000119312526441091/ter-20260927.htm"
           }
         ],
-        "note": "공시 자료의 위치 확인 완료. 재고·매출·원가의 분기 수치 추출 및 검증 미완료. 공시가 없는 것이 아님.",
+        "note": "2024 Q4~2026 Q3 8개 분기 SEC 원문 확보. 단위 USD million. 2026 Q3 매출은 9개월 누적−6개월 누적. 2024 Q4~2025 Q3 YoY는 전년 재고 미확보로 공란. 2019~2024 Q3은 API 수집 필요. 매출원가는 공시상 별도 표시된 인수 무형자산 상각 제외.",
         "researchUrl": "https://stockanalysis.com/stocks/ter/financials/?p=quarterly"
       }
     ],
     "historyStart": "2020-01-01",
-    "mapQuarters": 8
+    "mapQuarters": 8,
+    "apiCollection": {
+      "status": "program_registered_pending_first_run",
+      "source": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces",
+      "script": "scripts/update_sec_financials.cjs",
+      "workflow": ".github/workflows/sec-financials.yml",
+      "note": "현재 실행 환경에서 data.sec.gov JSON 직접 요청 실패. GitHub Actions에 SEC_USER_AGENT 연락처 설정 후 실행 필요."
+    }
   }
 }
