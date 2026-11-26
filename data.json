@@ -1268,9 +1268,9 @@
     }
   ],
   "release": {
-    "version": "BETA 1.5.7",
+    "version": "BETA 1.5.8",
     "date": "2026-11-26",
-    "note": "ASML 31개 분기, 일본 5사 과거 공식 연결 분기 24개 추가. 미확인 기간 공란 유지."
+    "note": "ASML 31분기, 일본 6사 29개 과거 분기 추가. Advantest 일부 공시 발표자료 반올림 명시. 미확인 분기 공란 유지. EDINET Japan GAAP 재고 구성항목 파서 보강."
   },
   "creditComparison": {
     "as_of": "2026-11-23",
@@ -15605,6 +15605,91 @@
         "currency": "JPY million",
         "rows": [
           {
+            "date": "2019-12-31",
+            "fiscalYear": 2020,
+            "quarter": 3,
+            "inventory": 55200,
+            "revenue": 69917,
+            "cogs": 30509,
+            "days": 92,
+            "dio": 166.45579992789013,
+            "sourceType": "Advantest 공식 연결 IFRS 재무제표·실적발표 자료 (일부 0.1십억 엔 반올림)",
+            "sourceUrls": [
+              "https://www.advantest.com/document/en/investors/ir-library/result/E_FR_FY2020_3Q.pdf",
+              "https://www.advantest.com/document/en/investors/ir-library/result/E_BIZ_210128_slide_amended.pdf"
+            ],
+            "derivation": "reported quarter; rounded inputs explicitly noted",
+            "precision": "Some inputs rounded to JPY 0.1 billion"
+          },
+          {
+            "date": "2020-03-31",
+            "fiscalYear": 2020,
+            "quarter": 4,
+            "inventory": 58943,
+            "revenue": 68226,
+            "cogs": 31508,
+            "days": 91,
+            "dio": 170.23654310016502,
+            "sourceType": "Advantest 공식 연결 IFRS 재무제표",
+            "sourceUrls": [
+              "https://www.advantest.com/en/news/2021/huof1q0000000ct4-att/E_FR_FY2020_FN.pdf",
+              "https://www.advantest.com/document/en/investors/ir-library/result/E_FR_FY2020_3Q.pdf"
+            ],
+            "derivation": "annual less nine months"
+          },
+          {
+            "date": "2020-09-30",
+            "fiscalYear": 2021,
+            "quarter": 2,
+            "inventory": 65100,
+            "revenue": 77400,
+            "cogs": 35800,
+            "days": 92,
+            "dio": 167.29608938547486,
+            "sourceType": "Advantest 공식 연결 IFRS 재무제표·실적발표 자료 (일부 0.1십억 엔 반올림)",
+            "sourceUrls": [
+              "https://www.advantest.com/document/en/investors/ir-library/result/E_BIZ_210128_slide_amended.pdf",
+              "https://www.advantest.com/en/news/2021/huof1q0000000ct4-att/E_FR_FY2020_FN.pdf"
+            ],
+            "derivation": "reported quarter; rounded inputs explicitly noted",
+            "precision": "Some inputs rounded to JPY 0.1 billion"
+          },
+          {
+            "date": "2020-12-31",
+            "fiscalYear": 2021,
+            "quarter": 3,
+            "inventory": 64727,
+            "revenue": 78072,
+            "cogs": 37888,
+            "days": 92,
+            "dio": 157.17071368243242,
+            "sourceType": "Advantest 공식 연결 IFRS 재무제표",
+            "sourceUrls": [
+              "https://www.advantest.com/document/en/investors/ir-library/result/E_FR_FY2020_3Q.pdf"
+            ],
+            "derivation": "reported quarter",
+            "inventoryYoy": 17.259057971014503,
+            "revenueYoy": 11.66382996982136
+          },
+          {
+            "date": "2021-03-31",
+            "fiscalYear": 2021,
+            "quarter": 4,
+            "inventory": 64340,
+            "revenue": 90615,
+            "cogs": 42134,
+            "days": 90,
+            "dio": 137.432952010253,
+            "sourceType": "Advantest 공식 연결 IFRS 재무제표",
+            "sourceUrls": [
+              "https://www.advantest.com/en/news/2021/huof1q0000000ct4-att/E_FR_FY2020_FN.pdf",
+              "https://www.advantest.com/document/en/investors/ir-library/result/E_FR_FY2020_3Q.pdf"
+            ],
+            "derivation": "annual less nine months",
+            "inventoryYoy": 9.156303547495037,
+            "revenueYoy": 32.815935273942486
+          },
+          {
             "date": "2021-12-31",
             "fiscalYear": 2022,
             "quarter": 3,
@@ -15612,8 +15697,8 @@
             "revenue": 112077,
             "cogs": 47226,
             "days": null,
-            "inventoryYoy": null,
-            "revenueYoy": null,
+            "inventoryYoy": 32.59845195976949,
+            "revenueYoy": 43.55594835536427,
             "dio": null,
             "sourceType": "공시 기반 2차 집계",
             "sourceUrls": [
@@ -15629,8 +15714,8 @@
             "revenue": 116834,
             "cogs": 50531,
             "days": 90,
-            "inventoryYoy": null,
-            "revenueYoy": null,
+            "inventoryYoy": 47.673298103823434,
+            "revenueYoy": 28.934503117585386,
             "dio": 169.22621756941282,
             "sourceType": "공시 기반 2차 집계",
             "sourceUrls": [
