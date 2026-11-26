@@ -1268,9 +1268,9 @@
     }
   ],
   "release": {
-    "version": "BETA 1.5",
+    "version": "BETA 1.5.3",
     "date": "2026-11-26",
-    "note": "OpenDART quarterly API update; see coverage report."
+    "note": "일본 미확보 4개사 최신·전년 4분기씩 공시 원문 보강. EDINET 및 기존 데이터 보존."
   },
   "creditComparison": {
     "as_of": "2026-11-23",
@@ -2475,9 +2475,9 @@
             "date": "2019-03-31",
             "fiscalYear": 2019,
             "quarter": 1,
-            "inventory": 5117491.0,
-            "revenue": 6772655.0,
-            "cogs": 4092455.0,
+            "inventory": 5117491,
+            "revenue": 6772655,
+            "cogs": 4092455,
             "days": 90,
             "dio": 112.5422735253045,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -2486,11 +2486,11 @@
             ],
             "derivation": "reported single quarter",
             "dartRaw": {
-              "inventory": 5117491.0,
-              "quarterRevenue": 6772655.0,
-              "quarterCogs": 4092455.0,
-              "ytdRevenue": 6772655.0,
-              "ytdCogs": 4092455.0,
+              "inventory": 5117491,
+              "quarterRevenue": 6772655,
+              "quarterCogs": 4092455,
+              "ytdRevenue": 6772655,
+              "ytdCogs": 4092455,
               "receipt": "20190515002604"
             },
             "inventoryYoy": null,
@@ -2500,9 +2500,9 @@
             "date": "2019-06-30",
             "fiscalYear": 2019,
             "quarter": 2,
-            "inventory": 5588705.0,
-            "revenue": 6452201.0,
-            "cogs": 4435389.0,
+            "inventory": 5588705,
+            "revenue": 6452201,
+            "cogs": 4435389,
             "days": 91,
             "dio": 114.66235655993195,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -2511,11 +2511,11 @@
             ],
             "derivation": "reported single quarter",
             "dartRaw": {
-              "inventory": 5588705.0,
-              "quarterRevenue": 6452201.0,
-              "quarterCogs": 4435389.0,
-              "ytdRevenue": 13224856.0,
-              "ytdCogs": 8527844.0,
+              "inventory": 5588705,
+              "quarterRevenue": 6452201,
+              "quarterCogs": 4435389,
+              "ytdRevenue": 13224856,
+              "ytdCogs": 8527844,
               "receipt": "20190814002432"
             },
             "inventoryYoy": null,
@@ -2525,9 +2525,9 @@
             "date": "2019-09-30",
             "fiscalYear": 2019,
             "quarter": 3,
-            "inventory": 5473612.0,
-            "revenue": 6838766.0,
-            "cogs": 5023127.0,
+            "inventory": 5473612,
+            "revenue": 6838766,
+            "cogs": 5023127,
             "days": 92,
             "dio": 100.25076093039256,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -2536,11 +2536,11 @@
             ],
             "derivation": "reported single quarter",
             "dartRaw": {
-              "inventory": 5473612.0,
-              "quarterRevenue": 6838766.0,
-              "quarterCogs": 5023127.0,
-              "ytdRevenue": 20063622.0,
-              "ytdCogs": 13550971.0,
+              "inventory": 5473612,
+              "quarterRevenue": 6838766,
+              "quarterCogs": 5023127,
+              "ytdRevenue": 20063622,
+              "ytdCogs": 13550971,
               "receipt": "20191114002661"
             },
             "inventoryYoy": null,
@@ -2550,9 +2550,9 @@
             "date": "2019-12-31",
             "fiscalYear": 2019,
             "quarter": 4,
-            "inventory": 5295835.0,
-            "revenue": 6927111.0,
-            "cogs": 5274304.0,
+            "inventory": 5295835,
+            "revenue": 6927111,
+            "cogs": 5274304,
             "days": 92,
             "dio": 92.37556652024608,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -2562,11 +2562,11 @@
             ],
             "derivation": "YTD subtraction",
             "dartRaw": {
-              "inventory": 5295835.0,
+              "inventory": 5295835,
               "quarterRevenue": null,
               "quarterCogs": null,
-              "ytdRevenue": 26990733.0,
-              "ytdCogs": 18825275.0,
+              "ytdRevenue": 26990733,
+              "ytdCogs": 18825275,
               "receipt": "20200330004441"
             },
             "inventoryYoy": null,
@@ -2576,9 +2576,9 @@
             "date": "2020-03-31",
             "fiscalYear": 2020,
             "quarter": 1,
-            "inventory": 5425680.0,
-            "revenue": 7198892.0,
-            "cogs": 5006819.0,
+            "inventory": 5425680,
+            "revenue": 7198892,
+            "cogs": 5006819,
             "days": 91,
             "dio": 98.61288774369515,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -2587,11 +2587,11 @@
             ],
             "derivation": "reported single quarter",
             "dartRaw": {
-              "inventory": 5425680.0,
-              "quarterRevenue": 7198892.0,
-              "quarterCogs": 5006819.0,
-              "ytdRevenue": 7198892.0,
-              "ytdCogs": 5006819.0,
+              "inventory": 5425680,
+              "quarterRevenue": 7198892,
+              "quarterCogs": 5006819,
+              "ytdRevenue": 7198892,
+              "ytdCogs": 5006819,
               "receipt": "20200515002346"
             },
             "inventoryYoy": 6.022267552595606,
@@ -2601,9 +2601,9 @@
             "date": "2020-06-30",
             "fiscalYear": 2020,
             "quarter": 2,
-            "inventory": 5814139.0,
-            "revenue": 8606534.0,
-            "cogs": 5262329.0,
+            "inventory": 5814139,
+            "revenue": 8606534,
+            "cogs": 5262329,
             "days": 91,
             "dio": 100.54229771646736,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -2612,11 +2612,11 @@
             ],
             "derivation": "reported single quarter",
             "dartRaw": {
-              "inventory": 5814139.0,
-              "quarterRevenue": 8606534.0,
-              "quarterCogs": 5262329.0,
-              "ytdRevenue": 15805426.0,
-              "ytdCogs": 10269148.0,
+              "inventory": 5814139,
+              "quarterRevenue": 8606534,
+              "quarterCogs": 5262329,
+              "ytdRevenue": 15805426,
+              "ytdCogs": 10269148,
               "receipt": "20200814002431"
             },
             "inventoryYoy": 4.0337430585439815,
@@ -2626,9 +2626,9 @@
             "date": "2020-09-30",
             "fiscalYear": 2020,
             "quarter": 3,
-            "inventory": 6150544.0,
-            "revenue": 8128767.0,
-            "cogs": 5285510.0,
+            "inventory": 6150544,
+            "revenue": 8128767,
+            "cogs": 5285510,
             "days": 92,
             "dio": 107.05684938634114,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -2637,11 +2637,11 @@
             ],
             "derivation": "reported single quarter",
             "dartRaw": {
-              "inventory": 6150544.0,
-              "quarterRevenue": 8128767.0,
-              "quarterCogs": 5285510.0,
-              "ytdRevenue": 23934193.0,
-              "ytdCogs": 15554658.0,
+              "inventory": 6150544,
+              "quarterRevenue": 8128767,
+              "quarterCogs": 5285510,
+              "ytdRevenue": 23934193,
+              "ytdCogs": 15554658,
               "receipt": "20201116001609"
             },
             "inventoryYoy": 12.367190074853674,
@@ -2651,9 +2651,9 @@
             "date": "2020-12-31",
             "fiscalYear": 2020,
             "quarter": 4,
-            "inventory": 6136318.0,
-            "revenue": 7966225.0,
-            "cogs": 5535131.0,
+            "inventory": 6136318,
+            "revenue": 7966225,
+            "cogs": 5535131,
             "days": 92,
             "dio": 101.99239295330138,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -2663,11 +2663,11 @@
             ],
             "derivation": "YTD subtraction",
             "dartRaw": {
-              "inventory": 6136318.0,
+              "inventory": 6136318,
               "quarterRevenue": null,
               "quarterCogs": null,
-              "ytdRevenue": 31900418.0,
-              "ytdCogs": 21089789.0,
+              "ytdRevenue": 31900418,
+              "ytdCogs": 21089789,
               "receipt": "20210330000776"
             },
             "inventoryYoy": 15.870641740159952,
@@ -2677,9 +2677,9 @@
             "date": "2021-03-31",
             "fiscalYear": 2021,
             "quarter": 1,
-            "inventory": 6182597.0,
-            "revenue": 8494188.0,
-            "cogs": 5765640.0,
+            "inventory": 6182597,
+            "revenue": 8494188,
+            "cogs": 5765640,
             "days": 90,
             "dio": 96.5085801402793,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -2688,11 +2688,11 @@
             ],
             "derivation": "reported single quarter",
             "dartRaw": {
-              "inventory": 6182597.0,
-              "quarterRevenue": 8494188.0,
-              "quarterCogs": 5765640.0,
-              "ytdRevenue": 8494188.0,
-              "ytdCogs": 5765640.0,
+              "inventory": 6182597,
+              "quarterRevenue": 8494188,
+              "quarterCogs": 5765640,
+              "ytdRevenue": 8494188,
+              "ytdCogs": 5765640,
               "receipt": "20210517000667"
             },
             "inventoryYoy": 13.950638445319296,
@@ -2702,9 +2702,9 @@
             "date": "2021-06-30",
             "fiscalYear": 2021,
             "quarter": 2,
-            "inventory": 6226651.0,
-            "revenue": 10321671.0,
-            "cogs": 5982227.0,
+            "inventory": 6226651,
+            "revenue": 10321671,
+            "cogs": 5982227,
             "days": 91,
             "dio": 94.71811099779396,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -2713,11 +2713,11 @@
             ],
             "derivation": "reported single quarter",
             "dartRaw": {
-              "inventory": 6226651.0,
-              "quarterRevenue": 10321671.0,
-              "quarterCogs": 5982227.0,
-              "ytdRevenue": 18815859.0,
-              "ytdCogs": 11747867.0,
+              "inventory": 6226651,
+              "quarterRevenue": 10321671,
+              "quarterCogs": 5982227,
+              "ytdRevenue": 18815859,
+              "ytdCogs": 11747867,
               "receipt": "20210817001301"
             },
             "inventoryYoy": 7.0949800133777385,
@@ -2727,9 +2727,9 @@
             "date": "2021-09-30",
             "fiscalYear": 2021,
             "quarter": 3,
-            "inventory": 6600336.0,
-            "revenue": 11805324.0,
-            "cogs": 5974270.0,
+            "inventory": 6600336,
+            "revenue": 11805324,
+            "cogs": 5974270,
             "days": 92,
             "dio": 101.64102258518615,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -2738,11 +2738,11 @@
             ],
             "derivation": "reported single quarter",
             "dartRaw": {
-              "inventory": 6600336.0,
-              "quarterRevenue": 11805324.0,
-              "quarterCogs": 5974270.0,
-              "ytdRevenue": 30621183.0,
-              "ytdCogs": 17722137.0,
+              "inventory": 6600336,
+              "quarterRevenue": 11805324,
+              "quarterCogs": 5974270,
+              "ytdRevenue": 30621183,
+              "ytdCogs": 17722137,
               "receipt": "20211115001474"
             },
             "inventoryYoy": 7.313044179506734,
@@ -2752,9 +2752,9 @@
             "date": "2021-12-31",
             "fiscalYear": 2021,
             "quarter": 4,
-            "inventory": 8916605.0,
-            "revenue": 12376609.0,
-            "cogs": 6323463.0,
+            "inventory": 8916605,
+            "revenue": 12376609,
+            "cogs": 6323463,
             "days": 92,
             "dio": 129.72759704611224,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -2764,11 +2764,11 @@
             ],
             "derivation": "YTD subtraction",
             "dartRaw": {
-              "inventory": 8916605.0,
+              "inventory": 8916605,
               "quarterRevenue": null,
               "quarterCogs": null,
-              "ytdRevenue": 42997792.0,
-              "ytdCogs": 24045600.0,
+              "ytdRevenue": 42997792,
+              "ytdCogs": 24045600,
               "receipt": "20220322000590"
             },
             "inventoryYoy": 45.30871770335241,
@@ -2778,9 +2778,9 @@
             "date": "2022-03-31",
             "fiscalYear": 2022,
             "quarter": 1,
-            "inventory": 10392670.0,
-            "revenue": 12155653.0,
-            "cogs": 6747914.0,
+            "inventory": 10392670,
+            "revenue": 12155653,
+            "cogs": 6747914,
             "days": 90,
             "dio": 138.61176950387926,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -2789,11 +2789,11 @@
             ],
             "derivation": "reported single quarter",
             "dartRaw": {
-              "inventory": 10392670.0,
-              "quarterRevenue": 12155653.0,
-              "quarterCogs": 6747914.0,
-              "ytdRevenue": 12155653.0,
-              "ytdCogs": 6747914.0,
+              "inventory": 10392670,
+              "quarterRevenue": 12155653,
+              "quarterCogs": 6747914,
+              "ytdRevenue": 12155653,
+              "ytdCogs": 6747914,
               "receipt": "20220516001502"
             },
             "inventoryYoy": 68.09554302180783,
@@ -2803,9 +2803,9 @@
             "date": "2022-06-30",
             "fiscalYear": 2022,
             "quarter": 2,
-            "inventory": 11878738.0,
-            "revenue": 13811001.0,
-            "cogs": 7466622.0,
+            "inventory": 11878738,
+            "revenue": 13811001,
+            "cogs": 7466622,
             "days": 91,
             "dio": 144.77298542768068,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -2814,11 +2814,11 @@
             ],
             "derivation": "reported single quarter",
             "dartRaw": {
-              "inventory": 11878738.0,
-              "quarterRevenue": 13811001.0,
-              "quarterCogs": 7466622.0,
-              "ytdRevenue": 25966654.0,
-              "ytdCogs": 14214536.0,
+              "inventory": 11878738,
+              "quarterRevenue": 13811001,
+              "quarterCogs": 7466622,
+              "ytdRevenue": 25966654,
+              "ytdCogs": 14214536,
               "receipt": "20220816001536"
             },
             "inventoryYoy": 90.77250354966095,
@@ -2828,9 +2828,9 @@
             "date": "2022-09-30",
             "fiscalYear": 2022,
             "quarter": 3,
-            "inventory": 14664974.0,
-            "revenue": 10982883.0,
-            "cogs": 7110221.0,
+            "inventory": 14664974,
+            "revenue": 10982883,
+            "cogs": 7110221,
             "days": 92,
             "dio": 189.7518527201897,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -2839,11 +2839,11 @@
             ],
             "derivation": "reported single quarter",
             "dartRaw": {
-              "inventory": 14664974.0,
-              "quarterRevenue": 10982883.0,
-              "quarterCogs": 7110221.0,
-              "ytdRevenue": 36949537.0,
-              "ytdCogs": 21324758.0,
+              "inventory": 14664974,
+              "quarterRevenue": 10982883,
+              "quarterCogs": 7110221,
+              "ytdRevenue": 36949537,
+              "ytdCogs": 21324758,
               "receipt": "20221114001566"
             },
             "inventoryYoy": 122.18526450774627,
@@ -2853,9 +2853,9 @@
             "date": "2022-12-31",
             "fiscalYear": 2022,
             "quarter": 4,
-            "inventory": 15664707.0,
-            "revenue": 7672031.0,
-            "cogs": 7668955.0,
+            "inventory": 15664707,
+            "revenue": 7672031,
+            "cogs": 7668955,
             "days": 92,
             "dio": 187.9203938476624,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -2865,11 +2865,11 @@
             ],
             "derivation": "YTD subtraction",
             "dartRaw": {
-              "inventory": 15664707.0,
+              "inventory": 15664707,
               "quarterRevenue": null,
               "quarterCogs": null,
-              "ytdRevenue": 44621568.0,
-              "ytdCogs": 28993713.0,
+              "ytdRevenue": 44621568,
+              "ytdCogs": 28993713,
               "receipt": "20230321001209"
             },
             "previousValues": {
@@ -2886,9 +2886,9 @@
             "date": "2023-03-31",
             "fiscalYear": 2023,
             "quarter": 1,
-            "inventory": 17182269.0,
-            "revenue": 5088111.0,
-            "cogs": 6733410.0,
+            "inventory": 17182269,
+            "revenue": 5088111,
+            "cogs": 6733410,
             "days": 90,
             "dio": 229.66137662788987,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -2897,11 +2897,11 @@
             ],
             "derivation": "reported single quarter",
             "dartRaw": {
-              "inventory": 17182269.0,
-              "quarterRevenue": 5088111.0,
-              "quarterCogs": 6733410.0,
-              "ytdRevenue": 5088111.0,
-              "ytdCogs": 6733410.0,
+              "inventory": 17182269,
+              "quarterRevenue": 5088111,
+              "quarterCogs": 6733410,
+              "ytdRevenue": 5088111,
+              "ytdCogs": 6733410,
               "receipt": "20230515001677"
             },
             "inventoryYoy": 65.33065131482093,
@@ -2911,9 +2911,9 @@
             "date": "2023-06-30",
             "fiscalYear": 2023,
             "quarter": 2,
-            "inventory": 16420200.0,
-            "revenue": 7305933.0,
-            "cogs": 8483761.0,
+            "inventory": 16420200,
+            "revenue": 7305933,
+            "cogs": 8483761,
             "days": 91,
             "dio": 176.1292191045929,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -2922,11 +2922,11 @@
             ],
             "derivation": "reported single quarter",
             "dartRaw": {
-              "inventory": 16420200.0,
-              "quarterRevenue": 7305933.0,
-              "quarterCogs": 8483761.0,
-              "ytdRevenue": 12394044.0,
-              "ytdCogs": 15217171.0,
+              "inventory": 16420200,
+              "quarterRevenue": 7305933,
+              "quarterCogs": 8483761,
+              "ytdRevenue": 12394044,
+              "ytdCogs": 15217171,
               "receipt": "20230814002376"
             },
             "previousValues": {
@@ -2943,9 +2943,9 @@
             "date": "2023-09-30",
             "fiscalYear": 2023,
             "quarter": 3,
-            "inventory": 14947895.0,
-            "revenue": 9066171.0,
-            "cogs": 9002045.0,
+            "inventory": 14947895,
+            "revenue": 9066171,
+            "cogs": 9002045,
             "days": 92,
             "dio": 152.76599261612225,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -2954,11 +2954,11 @@
             ],
             "derivation": "reported single quarter",
             "dartRaw": {
-              "inventory": 14947895.0,
-              "quarterRevenue": 9066171.0,
-              "quarterCogs": 9002045.0,
-              "ytdRevenue": 21460214.0,
-              "ytdCogs": 24219215.0,
+              "inventory": 14947895,
+              "quarterRevenue": 9066171,
+              "quarterCogs": 9002045,
+              "ytdRevenue": 21460214,
+              "ytdCogs": 24219215,
               "receipt": "20231114002574"
             },
             "inventoryYoy": 1.9292294688009637,
@@ -2968,9 +2968,9 @@
             "date": "2023-12-31",
             "fiscalYear": 2023,
             "quarter": 4,
-            "inventory": 13480659.0,
-            "revenue": 11305505.0,
-            "cogs": 9079952.0,
+            "inventory": 13480659,
+            "revenue": 11305505,
+            "cogs": 9079952,
             "days": 92,
             "dio": 136.58889694571073,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -2980,11 +2980,11 @@
             ],
             "derivation": "YTD subtraction",
             "dartRaw": {
-              "inventory": 13480659.0,
+              "inventory": 13480659,
               "quarterRevenue": null,
               "quarterCogs": null,
-              "ytdRevenue": 32765719.0,
-              "ytdCogs": 33299167.0,
+              "ytdRevenue": 32765719,
+              "ytdCogs": 33299167,
               "receipt": "20240319000684"
             },
             "inventoryYoy": -13.942475910976182,
@@ -2994,9 +2994,9 @@
             "date": "2024-03-31",
             "fiscalYear": 2024,
             "quarter": 1,
-            "inventory": 13844639.0,
-            "revenue": 12429598.0,
-            "cogs": 7634953.0,
+            "inventory": 13844639,
+            "revenue": 12429598,
+            "cogs": 7634953,
             "days": 91,
             "dio": 165.01243020094557,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -3005,11 +3005,11 @@
             ],
             "derivation": "reported single quarter",
             "dartRaw": {
-              "inventory": 13844639.0,
-              "quarterRevenue": 12429598.0,
-              "quarterCogs": 7634953.0,
-              "ytdRevenue": 12429598.0,
-              "ytdCogs": 7634953.0,
+              "inventory": 13844639,
+              "quarterRevenue": 12429598,
+              "quarterCogs": 7634953,
+              "ytdRevenue": 12429598,
+              "ytdCogs": 7634953,
               "receipt": "20240516001638"
             },
             "inventoryYoy": -19.424850117292426,
@@ -3019,9 +3019,9 @@
             "date": "2024-06-30",
             "fiscalYear": 2024,
             "quarter": 2,
-            "inventory": 13354938.0,
-            "revenue": 16423258.0,
-            "cogs": 8926794.0,
+            "inventory": 13354938,
+            "revenue": 16423258,
+            "cogs": 8926794,
             "days": 91,
             "dio": 136.14062988347217,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -3030,11 +3030,11 @@
             ],
             "derivation": "reported single quarter",
             "dartRaw": {
-              "inventory": 13354938.0,
-              "quarterRevenue": 16423258.0,
-              "quarterCogs": 8926794.0,
-              "ytdRevenue": 28852856.0,
-              "ytdCogs": 16561747.0,
+              "inventory": 13354938,
+              "quarterRevenue": 16423258,
+              "quarterCogs": 8926794,
+              "ytdRevenue": 28852856,
+              "ytdCogs": 16561747,
               "receipt": "20240814001887"
             },
             "inventoryYoy": -18.66762889611576,
@@ -3044,9 +3044,9 @@
             "date": "2024-09-30",
             "fiscalYear": 2024,
             "quarter": 3,
-            "inventory": 13353865.0,
-            "revenue": 17573069.0,
-            "cogs": 8401685.0,
+            "inventory": 13353865,
+            "revenue": 17573069,
+            "cogs": 8401685,
             "days": 92,
             "dio": 146.2272841697826,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -3055,11 +3055,11 @@
             ],
             "derivation": "reported single quarter",
             "dartRaw": {
-              "inventory": 13353865.0,
-              "quarterRevenue": 17573069.0,
-              "quarterCogs": 8401685.0,
-              "ytdRevenue": 46425925.0,
-              "ytdCogs": 24963432.0,
+              "inventory": 13353865,
+              "quarterRevenue": 17573069,
+              "quarterCogs": 8401685,
+              "ytdRevenue": 46425925,
+              "ytdCogs": 24963432,
               "receipt": "20241114001712"
             },
             "inventoryYoy": -10.663909533750404,
@@ -3069,9 +3069,9 @@
             "date": "2024-12-31",
             "fiscalYear": 2024,
             "quarter": 4,
-            "inventory": 13313937.0,
-            "revenue": 19767035.0,
-            "cogs": 9401382.0,
+            "inventory": 13313937,
+            "revenue": 19767035,
+            "cogs": 9401382,
             "days": 92,
             "dio": 130.28746241775943,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -3081,11 +3081,11 @@
             ],
             "derivation": "YTD subtraction",
             "dartRaw": {
-              "inventory": 13313937.0,
+              "inventory": 13313937,
               "quarterRevenue": null,
               "quarterCogs": null,
-              "ytdRevenue": 66192960.0,
-              "ytdCogs": 34364814.0,
+              "ytdRevenue": 66192960,
+              "ytdCogs": 34364814,
               "receipt": "20250319000665"
             },
             "inventoryYoy": -1.23674962774446,
@@ -3095,9 +3095,9 @@
             "date": "2025-03-31",
             "fiscalYear": 2025,
             "quarter": 1,
-            "inventory": 14551350.0,
-            "revenue": 17639141.0,
-            "cogs": 7537150.0,
+            "inventory": 14551350,
+            "revenue": 17639141,
+            "cogs": 7537150,
             "days": 90,
             "dio": 173.75553093675992,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -3106,11 +3106,11 @@
             ],
             "derivation": "reported single quarter",
             "dartRaw": {
-              "inventory": 14551350.0,
-              "quarterRevenue": 17639141.0,
-              "quarterCogs": 7537150.0,
-              "ytdRevenue": 17639141.0,
-              "ytdCogs": 7537150.0,
+              "inventory": 14551350,
+              "quarterRevenue": 17639141,
+              "quarterCogs": 7537150,
+              "ytdRevenue": 17639141,
+              "ytdCogs": 7537150,
               "receipt": "20250515002103"
             },
             "inventoryYoy": 5.104582358557708,
@@ -3120,9 +3120,9 @@
             "date": "2025-06-30",
             "fiscalYear": 2025,
             "quarter": 2,
-            "inventory": 13408333.0,
-            "revenue": 22231952.0,
-            "cogs": 10248628.0,
+            "inventory": 13408333,
+            "revenue": 22231952,
+            "cogs": 10248628,
             "days": 91,
             "dio": 119.05577048947431,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -3131,11 +3131,11 @@
             ],
             "derivation": "reported single quarter",
             "dartRaw": {
-              "inventory": 13408333.0,
-              "quarterRevenue": 22231952.0,
-              "quarterCogs": 10248628.0,
-              "ytdRevenue": 39871093.0,
-              "ytdCogs": 17785778.0,
+              "inventory": 13408333,
+              "quarterRevenue": 22231952,
+              "quarterCogs": 10248628,
+              "ytdRevenue": 39871093,
+              "ytdCogs": 17785778,
               "receipt": "20250814003049"
             },
             "inventoryYoy": 0.39981466031515644,
@@ -3145,9 +3145,9 @@
             "date": "2025-09-30",
             "fiscalYear": 2025,
             "quarter": 3,
-            "inventory": 13156389.0,
-            "revenue": 24448929.0,
-            "cogs": 10419829.0,
+            "inventory": 13156389,
+            "revenue": 24448929,
+            "cogs": 10419829,
             "days": 92,
             "dio": 116.16196273470514,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -3156,11 +3156,11 @@
             ],
             "derivation": "reported single quarter",
             "dartRaw": {
-              "inventory": 13156389.0,
-              "quarterRevenue": 24448929.0,
-              "quarterCogs": 10419829.0,
-              "ytdRevenue": 64320022.0,
-              "ytdCogs": 28205607.0,
+              "inventory": 13156389,
+              "quarterRevenue": 24448929,
+              "quarterCogs": 10419829,
+              "ytdRevenue": 64320022,
+              "ytdCogs": 28205607,
               "receipt": "20251114001805"
             },
             "previousValues": {
@@ -3177,9 +3177,9 @@
             "date": "2025-12-31",
             "fiscalYear": 2025,
             "quarter": 4,
-            "inventory": 14289390.0,
-            "revenue": 32826653.0,
-            "cogs": 10250278.0,
+            "inventory": 14289390,
+            "revenue": 32826653,
+            "cogs": 10250278,
             "days": 92,
             "dio": 128.25250983436743,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -3189,11 +3189,11 @@
             ],
             "derivation": "YTD subtraction",
             "dartRaw": {
-              "inventory": 14289390.0,
+              "inventory": 14289390,
               "quarterRevenue": null,
               "quarterCogs": null,
-              "ytdRevenue": 97146675.0,
-              "ytdCogs": 38455885.0,
+              "ytdRevenue": 97146675,
+              "ytdCogs": 38455885,
               "receipt": "20260317000635"
             },
             "inventoryYoy": 7.326555623629583,
@@ -3203,9 +3203,9 @@
             "date": "2026-03-31",
             "fiscalYear": 2026,
             "quarter": 1,
-            "inventory": 15974133.0,
-            "revenue": 52576287.0,
-            "cogs": 10896873.0,
+            "inventory": 15974133,
+            "revenue": 52576287,
+            "cogs": 10896873,
             "days": 90,
             "dio": 131.93436043532856,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -3214,11 +3214,11 @@
             ],
             "derivation": "reported single quarter",
             "dartRaw": {
-              "inventory": 15974133.0,
-              "quarterRevenue": 52576287.0,
-              "quarterCogs": 10896873.0,
-              "ytdRevenue": 52576287.0,
-              "ytdCogs": 10896873.0,
+              "inventory": 15974133,
+              "quarterRevenue": 52576287,
+              "quarterCogs": 10896873,
+              "ytdRevenue": 52576287,
+              "ytdCogs": 10896873,
               "receipt": "20260515002287"
             },
             "inventoryYoy": 9.777670113082282,
@@ -3228,9 +3228,9 @@
             "date": "2026-06-30",
             "fiscalYear": 2026,
             "quarter": 2,
-            "inventory": 17985706.0,
-            "revenue": 79318746.0,
-            "cogs": 13327390.0,
+            "inventory": 17985706,
+            "revenue": 79318746,
+            "cogs": 13327390,
             "days": 91,
             "dio": 122.80718475260346,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -3239,11 +3239,11 @@
             ],
             "derivation": "reported single quarter",
             "dartRaw": {
-              "inventory": 17985706.0,
-              "quarterRevenue": 79318746.0,
-              "quarterCogs": 13327390.0,
-              "ytdRevenue": 131895033.0,
-              "ytdCogs": 24224263.0,
+              "inventory": 17985706,
+              "quarterRevenue": 79318746,
+              "quarterCogs": 13327390,
+              "ytdRevenue": 131895033,
+              "ytdCogs": 24224263,
               "receipt": "20260814003509"
             },
             "previousValues": {
@@ -3260,9 +3260,9 @@
             "date": "2026-09-30",
             "fiscalYear": 2026,
             "quarter": 3,
-            "inventory": 19355772.0,
-            "revenue": 104615483.0,
-            "cogs": 14962547.0,
+            "inventory": 19355772,
+            "revenue": 104615483,
+            "cogs": 14962547,
             "days": 92,
             "dio": 119.01256009421391,
             "sourceType": "OpenDART consolidated JSON (official)",
@@ -3271,11 +3271,11 @@
             ],
             "derivation": "reported single quarter",
             "dartRaw": {
-              "inventory": 19355772.0,
-              "quarterRevenue": 104615483.0,
-              "quarterCogs": 14962547.0,
-              "ytdRevenue": 236510516.0,
-              "ytdCogs": 39186810.0,
+              "inventory": 19355772,
+              "quarterRevenue": 104615483,
+              "quarterCogs": 14962547,
+              "ytdRevenue": 236510516,
+              "ytdCogs": 39186810,
               "receipt": "20261116001715"
             },
             "previousValues": {
@@ -9180,7 +9180,79 @@
         "group": "기판·소재·부품",
         "region": "JP",
         "currency": "JPY million",
-        "rows": [],
+        "rows": [
+          {
+            "date": "2025-06-30",
+            "fiscalYear": 2026,
+            "quarter": 1,
+            "inventory": 67552,
+            "revenue": 97464,
+            "cogs": 62392,
+            "days": 91,
+            "dio": 98.52596486729067,
+            "sourceType": "기업 연결 실적공시 원문 또는 공시 재게시 (Japan GAAP)",
+            "sourceUrls": [
+              "https://www.ibiden.com/ir/items/ConsolidatedFinancialResultsForthe1QEndedJnue302025.pdf"
+            ],
+            "derivation": "reported single quarter",
+            "inventoryYoy": null,
+            "revenueYoy": null
+          },
+          {
+            "date": "2025-09-30",
+            "fiscalYear": 2026,
+            "quarter": 2,
+            "inventory": 68446,
+            "revenue": 98021,
+            "cogs": 65180,
+            "days": 92,
+            "dio": 96.60988033139,
+            "sourceType": "기업 연결 실적공시 원문 또는 공시 재게시 (Japan GAAP)",
+            "sourceUrls": [
+              "https://www.ibiden.com/ir/library/statement/items/tannshinn2025Q2.pdf",
+              "https://www.ibiden.com/ir/items/ConsolidatedFinancialResultsForthe1QEndedJnue302025.pdf"
+            ],
+            "derivation": "half-year less first quarter",
+            "inventoryYoy": null,
+            "revenueYoy": null
+          },
+          {
+            "date": "2026-06-30",
+            "fiscalYear": 2027,
+            "quarter": 1,
+            "inventory": 76867,
+            "revenue": 123219,
+            "cogs": 78345,
+            "days": 91,
+            "dio": 89.28325994000893,
+            "sourceType": "기업 연결 실적공시 원문 또는 공시 재게시 (Japan GAAP)",
+            "sourceUrls": [
+              "https://www.ibiden.com/ir/items/tannshinn2026Q1.pdf"
+            ],
+            "derivation": "reported single quarter",
+            "inventoryYoy": 13.789377072477492,
+            "revenueYoy": 26.425141590741184
+          },
+          {
+            "date": "2026-09-30",
+            "fiscalYear": 2027,
+            "quarter": 2,
+            "inventory": 82722,
+            "revenue": 139327,
+            "cogs": 86495,
+            "days": 92,
+            "dio": 87.9868662928493,
+            "sourceType": "기업 연결 실적공시 원문 또는 공시 재게시 (Japan GAAP)",
+            "sourceUrls": [
+              "https://www.marketscreener.com/news/ibiden-fy2026-q2-october-29-2026-ce785cd3dd8efe2d",
+              "https://www.ibiden.com/ir/items/tannshinn2026Q1.pdf",
+              "https://financialfilings.com/filings/ibiden-coltd/interim-quarterly-report/2026/74887418/"
+            ],
+            "derivation": "half-year less first quarter",
+            "inventoryYoy": 20.857318177833626,
+            "revenueYoy": 42.139949602636165
+          }
+        ],
         "sources": [
           {
             "label": "공식 분기 실적 공시",
@@ -9189,9 +9261,29 @@
           {
             "label": "공식 2020년 공시",
             "url": "https://www.ibiden.com/ir/news/2020/"
+          },
+          {
+            "label": "기업 공식 IR 아카이브",
+            "url": "https://www.ibiden.com/ir/library/statement/"
+          },
+          {
+            "label": "2025년 6월 실적",
+            "url": "https://www.ibiden.com/ir/items/ConsolidatedFinancialResultsForthe1QEndedJnue302025.pdf"
+          },
+          {
+            "label": "2025년 9월 반기 실적",
+            "url": "https://www.ibiden.com/ir/library/statement/items/tannshinn2025Q2.pdf"
+          },
+          {
+            "label": "2026년 6월 실적",
+            "url": "https://www.ibiden.com/ir/items/tannshinn2026Q1.pdf"
+          },
+          {
+            "label": "2026년 9월 반기 실적",
+            "url": "https://www.marketscreener.com/news/ibiden-fy2026-q2-october-29-2026-ce785cd3dd8efe2d"
           }
         ],
-        "note": "공시 자료의 위치 확인 완료. 재고·매출·원가의 분기 수치 추출 및 검증 미완료. 공시가 없는 것이 아님.",
+        "note": "공식 연결 실적 공시 또는 공시 재게시 자료로 2025·2026년 6월과 9월의 4개 분기 보강. 9월 단일 분기 손익은 반기−6월 분기. 상품·제품+재공품+원재료·저장품 합계(백만 엔 단위 반올림). 과거 미확보 기간은 공란. 기존 EDINET 관측값은 우선 보존.",
         "researchUrl": "https://stockanalysis.com/quote/tyo/4062/financials/?p=quarterly"
       },
       {
@@ -10119,7 +10211,79 @@
         "group": "기판·소재·부품",
         "region": "JP",
         "currency": "JPY million",
-        "rows": [],
+        "rows": [
+          {
+            "date": "2025-06-30",
+            "fiscalYear": 2026,
+            "quarter": 1,
+            "inventory": 52427,
+            "revenue": 28231,
+            "cogs": 17492,
+            "days": 91,
+            "dio": 272.74508346672764,
+            "sourceType": "기업 연결 실적공시 원문 또는 공시 재게시 (Japan GAAP)",
+            "sourceUrls": [
+              "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20250801/20250729522307.pdf"
+            ],
+            "derivation": "reported single quarter",
+            "inventoryYoy": null,
+            "revenueYoy": null
+          },
+          {
+            "date": "2025-09-30",
+            "fiscalYear": 2026,
+            "quarter": 2,
+            "inventory": 53992,
+            "revenue": 29181,
+            "cogs": 17715,
+            "days": 92,
+            "dio": 280.39875811459217,
+            "sourceType": "기업 연결 실적공시 원문 또는 공시 재게시 (Japan GAAP)",
+            "sourceUrls": [
+              "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20251106/20251105587707.pdf",
+              "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20250801/20250729522307.pdf"
+            ],
+            "derivation": "half-year less first quarter",
+            "inventoryYoy": null,
+            "revenueYoy": null
+          },
+          {
+            "date": "2026-06-30",
+            "fiscalYear": 2027,
+            "quarter": 1,
+            "inventory": 64184,
+            "revenue": 34033,
+            "cogs": 19118,
+            "days": 91,
+            "dio": 305.51019981169577,
+            "sourceType": "기업 연결 실적공시 원문 또는 공시 재게시 (Japan GAAP)",
+            "sourceUrls": [
+              "https://financialfilings.com/filings/nitto-boseki-coltd/interim-quarterly-report/2026/49955792/",
+              "https://japanir.jp/en/company/company-3110/ir/3110-20260805-01_wp_financial_summary/"
+            ],
+            "derivation": "reported single quarter",
+            "inventoryYoy": 22.425467793312603,
+            "revenueYoy": 20.55187559774716
+          },
+          {
+            "date": "2026-09-30",
+            "fiscalYear": 2027,
+            "quarter": 2,
+            "inventory": 68186,
+            "revenue": 34489,
+            "cogs": 19321,
+            "days": 92,
+            "dio": 324.6784327933337,
+            "sourceType": "기업 연결 실적공시 원문 또는 공시 재게시 (Japan GAAP)",
+            "sourceUrls": [
+              "https://tdnet-pdf.kabutan.jp/20261105/140120261104564773.pdf",
+              "https://financialfilings.com/filings/nitto-boseki-coltd/interim-quarterly-report/2026/49955792/"
+            ],
+            "derivation": "half-year less first quarter",
+            "inventoryYoy": 26.28907986368352,
+            "revenueYoy": 18.189918097392145
+          }
+        ],
         "sources": [
           {
             "label": "공식 IR 자료실",
@@ -10128,9 +10292,25 @@
           {
             "label": "분기 공시 인덱스 (미러)",
             "url": "https://financialfilings.com/companies/nitto-boseki-coltd/"
+          },
+          {
+            "label": "2025년 6월 실적",
+            "url": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20250801/20250729522307.pdf"
+          },
+          {
+            "label": "2025년 9월 반기 실적",
+            "url": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20251106/20251105587707.pdf"
+          },
+          {
+            "label": "2026년 6월 실적",
+            "url": "https://financialfilings.com/filings/nitto-boseki-coltd/interim-quarterly-report/2026/49955792/"
+          },
+          {
+            "label": "2026년 9월 반기 실적",
+            "url": "https://tdnet-pdf.kabutan.jp/20261105/140120261104564773.pdf"
           }
         ],
-        "note": "공시 자료의 위치 확인 완료. 재고·매출·원가의 분기 수치 추출 및 검증 미완료. 공시가 없는 것이 아님.",
+        "note": "공식 연결 실적 공시 또는 공시 재게시 자료로 2025·2026년 6월과 9월의 4개 분기 보강. 9월 단일 분기 손익은 반기−6월 분기. 상품·제품+재공품+원재료·저장품 합계(백만 엔 단위 반올림). 과거 미확보 기간은 공란. 기존 EDINET 관측값은 우선 보존.",
         "researchUrl": "https://stockanalysis.com/quote/tyo/3110/financials/?p=quarterly"
       },
       {
@@ -10952,7 +11132,80 @@
         "group": "기판·소재·부품",
         "region": "JP",
         "currency": "JPY million",
-        "rows": [],
+        "rows": [
+          {
+            "date": "2025-06-30",
+            "fiscalYear": 2026,
+            "quarter": 1,
+            "inventory": 305329,
+            "revenue": 364008,
+            "cogs": 224999,
+            "days": 91,
+            "dio": 123.48916661851831,
+            "sourceType": "기업 연결 실적공시 원문 또는 공시 재게시 (IFRS)",
+            "sourceUrls": [
+              "https://www.marketscreener.com/news/ajinomoto-financial-statements-for-the-first-quarter-ended-june-30-2025-ce7c5edadb8af325",
+              "https://www.ajinomoto.co.jp/company/en/ir/library/result/main/013/teaserItems1/0/linkList/04/link/FY26Q1_Tanshin_E.pdf"
+            ],
+            "derivation": "reported single quarter",
+            "inventoryYoy": null,
+            "revenueYoy": null
+          },
+          {
+            "date": "2025-09-30",
+            "fiscalYear": 2026,
+            "quarter": 2,
+            "inventory": 325617,
+            "revenue": 374873,
+            "cogs": 234453,
+            "days": 92,
+            "dio": 127.7730035444204,
+            "sourceType": "기업 연결 실적공시 원문 또는 공시 재게시 (IFRS)",
+            "sourceUrls": [
+              "https://www.marketscreener.com/news/ajinomoto-financial-statements-for-the-interim-period-ended-september-30-2025-ce7d5cddde8ef323",
+              "https://www.marketscreener.com/news/ajinomoto-financial-statements-for-the-first-quarter-ended-june-30-2025-ce7c5edadb8af325",
+              "https://www.ajinomoto.com/cms_wp_ajnmt_global/wp-content/uploads/pdf/2026_11_09_02E.pdf"
+            ],
+            "derivation": "half-year less first quarter",
+            "inventoryYoy": null,
+            "revenueYoy": null
+          },
+          {
+            "date": "2026-06-30",
+            "fiscalYear": 2027,
+            "quarter": 1,
+            "inventory": 349747,
+            "revenue": 412105,
+            "cogs": 247475,
+            "days": 91,
+            "dio": 128.6068370542479,
+            "sourceType": "기업 연결 실적공시 원문 또는 공시 재게시 (IFRS)",
+            "sourceUrls": [
+              "https://www.ajinomoto.co.jp/company/en/ir/library/result/main/013/teaserItems1/0/linkList/04/link/FY26Q1_Tanshin_E.pdf"
+            ],
+            "derivation": "reported single quarter",
+            "inventoryYoy": 14.547586374042432,
+            "revenueYoy": 13.213171139095836
+          },
+          {
+            "date": "2026-09-30",
+            "fiscalYear": 2027,
+            "quarter": 2,
+            "inventory": 356393,
+            "revenue": 419057,
+            "cogs": 262228,
+            "days": 92,
+            "dio": 125.03682291746115,
+            "sourceType": "기업 연결 실적공시 원문 또는 공시 재게시 (IFRS)",
+            "sourceUrls": [
+              "https://www.ajinomoto.com/cms_wp_ajnmt_global/wp-content/uploads/pdf/2026_11_09_02E.pdf",
+              "https://www.ajinomoto.co.jp/company/en/ir/library/result/main/013/teaserItems1/0/linkList/04/link/FY26Q1_Tanshin_E.pdf"
+            ],
+            "derivation": "half-year less first quarter",
+            "inventoryYoy": 9.451594972006983,
+            "revenueYoy": 11.786391657974837
+          }
+        ],
         "sources": [
           {
             "label": "공식 재무제표 아카이브",
@@ -10961,9 +11214,25 @@
           {
             "label": "공식 실적 설명회 자료",
             "url": "https://www.ajinomoto.co.jp/company/en/ir/event/presentation.html"
+          },
+          {
+            "label": "2025년 6월 실적",
+            "url": "https://www.marketscreener.com/news/ajinomoto-financial-statements-for-the-first-quarter-ended-june-30-2025-ce7c5edadb8af325"
+          },
+          {
+            "label": "2025년 9월 반기 실적",
+            "url": "https://www.marketscreener.com/news/ajinomoto-financial-statements-for-the-interim-period-ended-september-30-2025-ce7d5cddde8ef323"
+          },
+          {
+            "label": "2026년 6월 실적",
+            "url": "https://www.ajinomoto.co.jp/company/en/ir/library/result/main/013/teaserItems1/0/linkList/04/link/FY26Q1_Tanshin_E.pdf"
+          },
+          {
+            "label": "2026년 9월 반기 실적",
+            "url": "https://www.ajinomoto.com/cms_wp_ajnmt_global/wp-content/uploads/pdf/2026_11_09_02E.pdf"
           }
         ],
-        "note": "공시 자료의 위치 확인 완료. 재고·매출·원가의 분기 수치 추출 및 검증 미완료. 공시가 없는 것이 아님.",
+        "note": "공식 연결 실적 공시 또는 공시 재게시 자료로 2025·2026년 6월과 9월의 4개 분기 보강. 9월 단일 분기 손익은 반기−6월 분기. 재고자산 총액 사용. 과거 미확보 기간은 공란. 기존 EDINET 관측값은 우선 보존.",
         "researchUrl": "https://stockanalysis.com/quote/tyo/2802/financials/?p=quarterly"
       },
       {
@@ -11217,14 +11486,101 @@
         "group": "장비·테스트",
         "region": "JP",
         "currency": "JPY million",
-        "rows": [],
+        "rows": [
+          {
+            "date": "2025-06-30",
+            "fiscalYear": 2026,
+            "quarter": 1,
+            "inventory": 757104,
+            "revenue": 549586,
+            "cogs": 295616,
+            "days": 91,
+            "dio": 233.06067330591037,
+            "sourceType": "기업 연결 실적공시 원문 또는 공시 재게시 (Japan GAAP)",
+            "sourceUrls": [
+              "https://www.tel.com/ir/library/report/cpkomu00000000kv-att/fy26q1tanshin-e.pdf"
+            ],
+            "derivation": "reported single quarter",
+            "inventoryYoy": null,
+            "revenueYoy": null
+          },
+          {
+            "date": "2025-09-30",
+            "fiscalYear": 2026,
+            "quarter": 2,
+            "inventory": 720447,
+            "revenue": 630082,
+            "cogs": 345191,
+            "days": 92,
+            "dio": 192.01289720763288,
+            "sourceType": "기업 연결 실적공시 원문 또는 공시 재게시 (Japan GAAP)",
+            "sourceUrls": [
+              "https://www.tel.com/ir/library/report/n0n82r00000000hl-att/fy26q2tanshin-e.pdf",
+              "https://www.tel.com/ir/library/report/cpkomu00000000kv-att/fy26q1tanshin-e.pdf"
+            ],
+            "derivation": "half-year less first quarter",
+            "inventoryYoy": null,
+            "revenueYoy": null
+          },
+          {
+            "date": "2026-06-30",
+            "fiscalYear": 2027,
+            "quarter": 1,
+            "inventory": 751551,
+            "revenue": 732388,
+            "cogs": 389676,
+            "days": 91,
+            "dio": 175.50770640224187,
+            "sourceType": "기업 연결 실적공시 원문 또는 공시 재게시 (Japan GAAP)",
+            "sourceUrls": [
+              "https://www.tel.com/ir/library/report/i242su0000000goz-att/fy27q1tanshin-e.pdf"
+            ],
+            "derivation": "reported single quarter",
+            "inventoryYoy": -0.7334527356875675,
+            "revenueYoy": 33.26176430986234
+          },
+          {
+            "date": "2026-09-30",
+            "fiscalYear": 2027,
+            "quarter": 2,
+            "inventory": 747491,
+            "revenue": 935067,
+            "cogs": 487676,
+            "days": 92,
+            "dio": 141.01405851425946,
+            "sourceType": "기업 연결 실적공시 원문 또는 공시 재게시 (Japan GAAP)",
+            "sourceUrls": [
+              "https://www.tel.com/ir/library/report/i61j9u00000000gf-att/fy27q2tanshin-e.pdf",
+              "https://www.tel.com/ir/library/report/i242su0000000goz-att/fy27q1tanshin-e.pdf"
+            ],
+            "derivation": "half-year less first quarter",
+            "inventoryYoy": 3.75378063896441,
+            "revenueYoy": 48.40401725489698
+          }
+        ],
         "sources": [
           {
             "label": "공식 연결 분기 결산 자료 (2020년 포함)",
             "url": "https://www.tel.com/ir/library/report/"
+          },
+          {
+            "label": "2025년 6월 실적",
+            "url": "https://www.tel.com/ir/library/report/cpkomu00000000kv-att/fy26q1tanshin-e.pdf"
+          },
+          {
+            "label": "2025년 9월 반기 실적",
+            "url": "https://www.tel.com/ir/library/report/n0n82r00000000hl-att/fy26q2tanshin-e.pdf"
+          },
+          {
+            "label": "2026년 6월 실적",
+            "url": "https://www.tel.com/ir/library/report/i242su0000000goz-att/fy27q1tanshin-e.pdf"
+          },
+          {
+            "label": "2026년 9월 반기 실적",
+            "url": "https://www.tel.com/ir/library/report/i61j9u00000000gf-att/fy27q2tanshin-e.pdf"
           }
         ],
-        "note": "공시 자료의 위치 확인 완료. 재고·매출·원가의 분기 수치 추출 및 검증 미완료. 공시가 없는 것이 아님.",
+        "note": "공식 연결 실적 공시 또는 공시 재게시 자료로 2025·2026년 6월과 9월의 4개 분기 보강. 9월 단일 분기 손익은 반기−6월 분기. 상품·제품+재공품+원재료·저장품 합계(백만 엔 단위 반올림). 과거 미확보 기간은 공란. 기존 EDINET 관측값은 우선 보존.",
         "researchUrl": "https://stockanalysis.com/quote/tyo/8035/financials/?p=quarterly"
       },
       {
@@ -16027,6 +16383,28 @@
           "fetched": 31,
           "revised": [],
           "issues": []
+        }
+      ]
+    },
+    "japanAlternativeSources": {
+      "as_of": "2026-11-26",
+      "method": "공식 IR 및 Yahoo Japan/TDnet·MarketScreener·FinancialFilings 공시 재게시 원문으로 보강; 시계열 서비스 추정값 미사용.",
+      "companies": [
+        {
+          "id": "tel",
+          "quartersAdded": 4
+        },
+        {
+          "id": "ibiden",
+          "quartersAdded": 4
+        },
+        {
+          "id": "ajinomoto",
+          "quartersAdded": 4
+        },
+        {
+          "id": "nittobo",
+          "quartersAdded": 4
         }
       ]
     }
