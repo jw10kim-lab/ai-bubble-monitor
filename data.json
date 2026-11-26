@@ -1268,9 +1268,9 @@
     }
   ],
   "release": {
-    "version": "BETA 1.5.3",
+    "version": "BETA 1.5.4",
     "date": "2026-11-26",
-    "note": "일본 미확보 4개사 최신·전년 4분기씩 공시 원문 보강. EDINET 및 기존 데이터 보존."
+    "note": "Dell 및 HPE 10월 결산 공식 실적 공시 추가. HPE 비교 분기 수치 정정. 기존 데이터 유지."
   },
   "creditComparison": {
     "as_of": "2026-11-23",
@@ -4277,9 +4277,30 @@
             "inventoryYoy": 195.24337817223687,
             "revenueYoy": 57.747850617947336,
             "dio": 52.16310815540777
+          },
+          {
+            "date": "2026-10-30",
+            "fiscalYear": 2027,
+            "quarter": 3,
+            "inventory": 29444,
+            "revenue": 54937,
+            "cogs": 43378,
+            "days": 91,
+            "dio": 61.76873069297801,
+            "sourceType": "기업 공식 IR / SEC 8-K 실적 공시 (연결 US GAAP, 잠정)",
+            "sourceUrls": [
+              "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm"
+            ],
+            "derivation": "reported single quarter",
+            "inventoryYoy": 323.71564253849476,
+            "revenueYoy": 103.43269764858358
           }
         ],
         "sources": [
+          {
+            "label": "2026년 11월 공식 실적발표 (8-K)",
+            "url": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm"
+          },
           {
             "label": "SEC Company Facts JSON",
             "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001571996.json"
@@ -4622,34 +4643,56 @@
             "fiscalYear": 2025,
             "quarter": 3,
             "inventory": 7163,
-            "revenue": 9011,
-            "cogs": 6289,
+            "revenue": 9136,
+            "cogs": 6464,
             "days": 92,
             "inventoryYoy": -6.719624951165515,
-            "revenueYoy": 18.80026367831247,
-            "dio": 104.78549848942598,
-            "sourceType": "공시 기반 2차 집계",
+            "revenueYoy": 20.44825313117995,
+            "dio": 101.94863861386139,
+            "sourceType": "기업 공식 IR / SEC 8-K 실적 공시 (연결 US GAAP, 잠정)",
             "sourceUrls": [
-              "https://stockanalysis.com/stocks/hpe/financials/balance-sheet/?p=quarterly",
-              "https://stockanalysis.com/stocks/hpe/financials/income-statement/?p=quarterly"
-            ]
+              "https://investors.hpe.com/?releaseid=909541",
+              "https://investors.hpe.com/news-and-events/investor-news-library/2024"
+            ],
+            "derivation": "reported single quarter",
+            "previousValues": {
+              "inventory": 7163,
+              "revenue": 9011,
+              "cogs": 6289,
+              "sourceType": "공시 기반 2차 집계",
+              "sourceUrls": [
+                "https://stockanalysis.com/stocks/hpe/financials/balance-sheet/?p=quarterly",
+                "https://stockanalysis.com/stocks/hpe/financials/income-statement/?p=quarterly"
+              ]
+            }
           },
           {
             "date": "2025-10-31",
             "fiscalYear": 2025,
             "quarter": 4,
             "inventory": 6352,
-            "revenue": 9556,
-            "cogs": 6425,
+            "revenue": 9679,
+            "cogs": 6438,
             "days": 92,
             "inventoryYoy": -18.668373879641486,
-            "revenueYoy": 14.717887154861952,
-            "dio": 90.95470817120622,
-            "sourceType": "공시 기반 2차 집계",
+            "revenueYoy": 16.194477791116448,
+            "dio": 90.77104690897794,
+            "sourceType": "기업 공식 IR / SEC 8-K 실적 공시 (연결 US GAAP, 잠정)",
             "sourceUrls": [
-              "https://stockanalysis.com/stocks/hpe/financials/balance-sheet/?p=quarterly",
-              "https://stockanalysis.com/stocks/hpe/financials/income-statement/?p=quarterly"
-            ]
+              "https://investors.hpe.com/?ReleaseID=421961",
+              "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000097/ex-991x11232026x8k.htm"
+            ],
+            "derivation": "reported single quarter",
+            "previousValues": {
+              "inventory": 6352,
+              "revenue": 9556,
+              "cogs": 6425,
+              "sourceType": "공시 기반 2차 집계",
+              "sourceUrls": [
+                "https://stockanalysis.com/stocks/hpe/financials/balance-sheet/?p=quarterly",
+                "https://stockanalysis.com/stocks/hpe/financials/income-statement/?p=quarterly"
+              ]
+            }
           },
           {
             "date": "2026-01-31",
@@ -4690,20 +4733,53 @@
             "fiscalYear": 2026,
             "quarter": 3,
             "inventory": 11823,
-            "revenue": 12097,
-            "cogs": 7187,
+            "revenue": 12213,
+            "cogs": 7314,
             "days": 92,
             "inventoryYoy": 65.05654055563312,
-            "revenueYoy": 34.24703140605927,
-            "dio": 151.34492834284123,
-            "sourceType": "공시 기반 2차 집계",
+            "revenueYoy": 33.679947460595436,
+            "dio": 148.7169811320755,
+            "sourceType": "기업 공식 IR / SEC 8-K 실적 공시 (연결 US GAAP, 잠정)",
             "sourceUrls": [
-              "https://stockanalysis.com/stocks/hpe/financials/balance-sheet/?p=quarterly",
-              "https://stockanalysis.com/stocks/hpe/financials/income-statement/?p=quarterly"
-            ]
+              "https://investors.hpe.com/?ReleaseID=421961",
+              "https://investors.hpe.com/?releaseid=909541"
+            ],
+            "derivation": "reported single quarter",
+            "previousValues": {
+              "inventory": 11823,
+              "revenue": 12097,
+              "cogs": 7187,
+              "sourceType": "공시 기반 2차 집계",
+              "sourceUrls": [
+                "https://stockanalysis.com/stocks/hpe/financials/balance-sheet/?p=quarterly",
+                "https://stockanalysis.com/stocks/hpe/financials/income-statement/?p=quarterly"
+              ]
+            }
+          },
+          {
+            "date": "2026-10-31",
+            "fiscalYear": 2026,
+            "quarter": 4,
+            "inventory": 14094,
+            "revenue": 14547,
+            "cogs": 9020,
+            "days": 92,
+            "dio": 143.75254988913525,
+            "sourceType": "기업 공식 IR / SEC 8-K 실적 공시 (연결 US GAAP, 잠정)",
+            "sourceUrls": [
+              "https://investors.hpe.com/?ReleaseID=421961",
+              "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000097/ex-991x11232026x8k.htm"
+            ],
+            "derivation": "reported single quarter",
+            "inventoryYoy": 121.88287153652394,
+            "revenueYoy": 50.29445190618866
           }
         ],
         "sources": [
+          {
+            "label": "2026년 11월 공식 실적발표 (8-K)",
+            "url": "https://investors.hpe.com/?ReleaseID=421961"
+          },
           {
             "label": "SEC Company Facts JSON",
             "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001645590.json"
@@ -16405,6 +16481,26 @@
         {
           "id": "nittobo",
           "quartersAdded": 4
+        }
+      ]
+    },
+    "usIrSupplement": {
+      "as_of": "2026-11-26",
+      "method": "Official IR and 8-K earnings releases, unaudited GAAP; replace with verified 10-Q/10-K when available",
+      "companies": [
+        {
+          "id": "dell",
+          "date": "2026-10-30",
+          "revised": []
+        },
+        {
+          "id": "hpe",
+          "date": "2026-10-31",
+          "revised": [
+            "2025-10-31",
+            "2026-07-31",
+            "2025-07-31"
+          ]
         }
       ]
     }
