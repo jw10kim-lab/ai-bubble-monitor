@@ -1,6 +1,11 @@
 name: Japan quarterly financials
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/update_japan_financials.py'
+      - '.github/workflows/japan-financials.yml'
   schedule:
     - cron: '0 23 * * 3'
 permissions:
