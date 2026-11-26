@@ -1268,9 +1268,9 @@
     }
   ],
   "release": {
-    "version": "BETA 1.5.1",
+    "version": "BETA 1.5",
     "date": "2026-11-26",
-    "note": "EDINET 수집 실행 트리거 등록, 무라타 공식 공시 4분기 추가. 기존 자료 유지."
+    "note": "OpenDART quarterly API update; see coverage report."
   },
   "creditComparison": {
     "as_of": "2026-11-23",
@@ -2472,199 +2472,828 @@
         "currency": "KRW million",
         "rows": [
           {
+            "date": "2019-03-31",
+            "fiscalYear": 2019,
+            "quarter": 1,
+            "inventory": 5117491.0,
+            "revenue": 6772655.0,
+            "cogs": 4092455.0,
+            "days": 90,
+            "dio": 112.5422735253045,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20190515002604"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 5117491.0,
+              "quarterRevenue": 6772655.0,
+              "quarterCogs": 4092455.0,
+              "ytdRevenue": 6772655.0,
+              "ytdCogs": 4092455.0,
+              "receipt": "20190515002604"
+            },
+            "inventoryYoy": null,
+            "revenueYoy": null
+          },
+          {
+            "date": "2019-06-30",
+            "fiscalYear": 2019,
+            "quarter": 2,
+            "inventory": 5588705.0,
+            "revenue": 6452201.0,
+            "cogs": 4435389.0,
+            "days": 91,
+            "dio": 114.66235655993195,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20190814002432"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 5588705.0,
+              "quarterRevenue": 6452201.0,
+              "quarterCogs": 4435389.0,
+              "ytdRevenue": 13224856.0,
+              "ytdCogs": 8527844.0,
+              "receipt": "20190814002432"
+            },
+            "inventoryYoy": null,
+            "revenueYoy": null
+          },
+          {
+            "date": "2019-09-30",
+            "fiscalYear": 2019,
+            "quarter": 3,
+            "inventory": 5473612.0,
+            "revenue": 6838766.0,
+            "cogs": 5023127.0,
+            "days": 92,
+            "dio": 100.25076093039256,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20191114002661"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 5473612.0,
+              "quarterRevenue": 6838766.0,
+              "quarterCogs": 5023127.0,
+              "ytdRevenue": 20063622.0,
+              "ytdCogs": 13550971.0,
+              "receipt": "20191114002661"
+            },
+            "inventoryYoy": null,
+            "revenueYoy": null
+          },
+          {
+            "date": "2019-12-31",
+            "fiscalYear": 2019,
+            "quarter": 4,
+            "inventory": 5295835.0,
+            "revenue": 6927111.0,
+            "cogs": 5274304.0,
+            "days": 92,
+            "dio": 92.37556652024608,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20200330004441",
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20191114002661"
+            ],
+            "derivation": "YTD subtraction",
+            "dartRaw": {
+              "inventory": 5295835.0,
+              "quarterRevenue": null,
+              "quarterCogs": null,
+              "ytdRevenue": 26990733.0,
+              "ytdCogs": 18825275.0,
+              "receipt": "20200330004441"
+            },
+            "inventoryYoy": null,
+            "revenueYoy": null
+          },
+          {
+            "date": "2020-03-31",
+            "fiscalYear": 2020,
+            "quarter": 1,
+            "inventory": 5425680.0,
+            "revenue": 7198892.0,
+            "cogs": 5006819.0,
+            "days": 91,
+            "dio": 98.61288774369515,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20200515002346"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 5425680.0,
+              "quarterRevenue": 7198892.0,
+              "quarterCogs": 5006819.0,
+              "ytdRevenue": 7198892.0,
+              "ytdCogs": 5006819.0,
+              "receipt": "20200515002346"
+            },
+            "inventoryYoy": 6.022267552595606,
+            "revenueYoy": 6.293499373583922
+          },
+          {
+            "date": "2020-06-30",
+            "fiscalYear": 2020,
+            "quarter": 2,
+            "inventory": 5814139.0,
+            "revenue": 8606534.0,
+            "cogs": 5262329.0,
+            "days": 91,
+            "dio": 100.54229771646736,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20200814002431"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 5814139.0,
+              "quarterRevenue": 8606534.0,
+              "quarterCogs": 5262329.0,
+              "ytdRevenue": 15805426.0,
+              "ytdCogs": 10269148.0,
+              "receipt": "20200814002431"
+            },
+            "inventoryYoy": 4.0337430585439815,
+            "revenueYoy": 33.389117914956465
+          },
+          {
+            "date": "2020-09-30",
+            "fiscalYear": 2020,
+            "quarter": 3,
+            "inventory": 6150544.0,
+            "revenue": 8128767.0,
+            "cogs": 5285510.0,
+            "days": 92,
+            "dio": 107.05684938634114,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20201116001609"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 6150544.0,
+              "quarterRevenue": 8128767.0,
+              "quarterCogs": 5285510.0,
+              "ytdRevenue": 23934193.0,
+              "ytdCogs": 15554658.0,
+              "receipt": "20201116001609"
+            },
+            "inventoryYoy": 12.367190074853674,
+            "revenueYoy": 18.863066816440277
+          },
+          {
+            "date": "2020-12-31",
+            "fiscalYear": 2020,
+            "quarter": 4,
+            "inventory": 6136318.0,
+            "revenue": 7966225.0,
+            "cogs": 5535131.0,
+            "days": 92,
+            "dio": 101.99239295330138,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20210330000776",
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20201116001609"
+            ],
+            "derivation": "YTD subtraction",
+            "dartRaw": {
+              "inventory": 6136318.0,
+              "quarterRevenue": null,
+              "quarterCogs": null,
+              "ytdRevenue": 31900418.0,
+              "ytdCogs": 21089789.0,
+              "receipt": "20210330000776"
+            },
+            "inventoryYoy": 15.870641740159952,
+            "revenueYoy": 15.000683546142103
+          },
+          {
+            "date": "2021-03-31",
+            "fiscalYear": 2021,
+            "quarter": 1,
+            "inventory": 6182597.0,
+            "revenue": 8494188.0,
+            "cogs": 5765640.0,
+            "days": 90,
+            "dio": 96.5085801402793,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20210517000667"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 6182597.0,
+              "quarterRevenue": 8494188.0,
+              "quarterCogs": 5765640.0,
+              "ytdRevenue": 8494188.0,
+              "ytdCogs": 5765640.0,
+              "receipt": "20210517000667"
+            },
+            "inventoryYoy": 13.950638445319296,
+            "revenueYoy": 17.992991143637106
+          },
+          {
+            "date": "2021-06-30",
+            "fiscalYear": 2021,
+            "quarter": 2,
+            "inventory": 6226651.0,
+            "revenue": 10321671.0,
+            "cogs": 5982227.0,
+            "days": 91,
+            "dio": 94.71811099779396,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20210817001301"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 6226651.0,
+              "quarterRevenue": 10321671.0,
+              "quarterCogs": 5982227.0,
+              "ytdRevenue": 18815859.0,
+              "ytdCogs": 11747867.0,
+              "receipt": "20210817001301"
+            },
+            "inventoryYoy": 7.0949800133777385,
+            "revenueYoy": 19.92831260528338
+          },
+          {
+            "date": "2021-09-30",
+            "fiscalYear": 2021,
+            "quarter": 3,
+            "inventory": 6600336.0,
+            "revenue": 11805324.0,
+            "cogs": 5974270.0,
+            "days": 92,
+            "dio": 101.64102258518615,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20211115001474"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 6600336.0,
+              "quarterRevenue": 11805324.0,
+              "quarterCogs": 5974270.0,
+              "ytdRevenue": 30621183.0,
+              "ytdCogs": 17722137.0,
+              "receipt": "20211115001474"
+            },
+            "inventoryYoy": 7.313044179506734,
+            "revenueYoy": 45.22896276889226
+          },
+          {
+            "date": "2021-12-31",
+            "fiscalYear": 2021,
+            "quarter": 4,
+            "inventory": 8916605.0,
+            "revenue": 12376609.0,
+            "cogs": 6323463.0,
+            "days": 92,
+            "dio": 129.72759704611224,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20220322000590",
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20211115001474"
+            ],
+            "derivation": "YTD subtraction",
+            "dartRaw": {
+              "inventory": 8916605.0,
+              "quarterRevenue": null,
+              "quarterCogs": null,
+              "ytdRevenue": 42997792.0,
+              "ytdCogs": 24045600.0,
+              "receipt": "20220322000590"
+            },
+            "inventoryYoy": 45.30871770335241,
+            "revenueYoy": 55.363537936726615
+          },
+          {
+            "date": "2022-03-31",
+            "fiscalYear": 2022,
+            "quarter": 1,
+            "inventory": 10392670.0,
+            "revenue": 12155653.0,
+            "cogs": 6747914.0,
+            "days": 90,
+            "dio": 138.61176950387926,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20220516001502"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 10392670.0,
+              "quarterRevenue": 12155653.0,
+              "quarterCogs": 6747914.0,
+              "ytdRevenue": 12155653.0,
+              "ytdCogs": 6747914.0,
+              "receipt": "20220516001502"
+            },
+            "inventoryYoy": 68.09554302180783,
+            "revenueYoy": 43.10553286553112
+          },
+          {
+            "date": "2022-06-30",
+            "fiscalYear": 2022,
+            "quarter": 2,
+            "inventory": 11878738.0,
+            "revenue": 13811001.0,
+            "cogs": 7466622.0,
+            "days": 91,
+            "dio": 144.77298542768068,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20220816001536"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 11878738.0,
+              "quarterRevenue": 13811001.0,
+              "quarterCogs": 7466622.0,
+              "ytdRevenue": 25966654.0,
+              "ytdCogs": 14214536.0,
+              "receipt": "20220816001536"
+            },
+            "inventoryYoy": 90.77250354966095,
+            "revenueYoy": 33.80586341106977
+          },
+          {
+            "date": "2022-09-30",
+            "fiscalYear": 2022,
+            "quarter": 3,
+            "inventory": 14664974.0,
+            "revenue": 10982883.0,
+            "cogs": 7110221.0,
+            "days": 92,
+            "dio": 189.7518527201897,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20221114001566"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 14664974.0,
+              "quarterRevenue": 10982883.0,
+              "quarterCogs": 7110221.0,
+              "ytdRevenue": 36949537.0,
+              "ytdCogs": 21324758.0,
+              "receipt": "20221114001566"
+            },
+            "inventoryYoy": 122.18526450774627,
+            "revenueYoy": -6.966695704412684
+          },
+          {
             "date": "2022-12-31",
             "fiscalYear": 2022,
             "quarter": 4,
-            "inventory": 15664707,
-            "revenue": 7672031,
-            "cogs": 7648613,
+            "inventory": 15664707.0,
+            "revenue": 7672031.0,
+            "cogs": 7668955.0,
             "days": 92,
-            "inventoryYoy": null,
-            "revenueYoy": null,
-            "dio": 188.42018075695555
+            "dio": 187.9203938476624,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230321001209",
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20221114001566"
+            ],
+            "derivation": "YTD subtraction",
+            "dartRaw": {
+              "inventory": 15664707.0,
+              "quarterRevenue": null,
+              "quarterCogs": null,
+              "ytdRevenue": 44621568.0,
+              "ytdCogs": 28993713.0,
+              "receipt": "20230321001209"
+            },
+            "previousValues": {
+              "inventory": 15664707,
+              "revenue": 7672031,
+              "cogs": 7648613,
+              "sourceType": null,
+              "sourceUrls": null
+            },
+            "inventoryYoy": 75.68017199371286,
+            "revenueYoy": -38.01184961082635
           },
           {
             "date": "2023-03-31",
             "fiscalYear": 2023,
             "quarter": 1,
-            "inventory": 17182269,
-            "revenue": 5088111,
-            "cogs": 6733410,
+            "inventory": 17182269.0,
+            "revenue": 5088111.0,
+            "cogs": 6733410.0,
             "days": 90,
-            "inventoryYoy": null,
-            "revenueYoy": null,
-            "dio": 229.66137662788987
+            "dio": 229.66137662788987,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230515001677"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 17182269.0,
+              "quarterRevenue": 5088111.0,
+              "quarterCogs": 6733410.0,
+              "ytdRevenue": 5088111.0,
+              "ytdCogs": 6733410.0,
+              "receipt": "20230515001677"
+            },
+            "inventoryYoy": 65.33065131482093,
+            "revenueYoy": -58.14201836791491
           },
           {
             "date": "2023-06-30",
             "fiscalYear": 2023,
             "quarter": 2,
-            "inventory": 16420200,
-            "revenue": 7305932,
-            "cogs": 8483760,
+            "inventory": 16420200.0,
+            "revenue": 7305933.0,
+            "cogs": 8483761.0,
             "days": 91,
-            "inventoryYoy": null,
-            "revenueYoy": null,
-            "dio": 176.12923986534273
+            "dio": 176.1292191045929,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230814002376"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 16420200.0,
+              "quarterRevenue": 7305933.0,
+              "quarterCogs": 8483761.0,
+              "ytdRevenue": 12394044.0,
+              "ytdCogs": 15217171.0,
+              "receipt": "20230814002376"
+            },
+            "previousValues": {
+              "inventory": 16420200,
+              "revenue": 7305932,
+              "cogs": 8483760,
+              "sourceType": null,
+              "sourceUrls": null
+            },
+            "inventoryYoy": 38.23185594294613,
+            "revenueYoy": -47.1006265222919
           },
           {
             "date": "2023-09-30",
             "fiscalYear": 2023,
             "quarter": 3,
-            "inventory": 14947895,
-            "revenue": 9066171,
-            "cogs": 9002045,
+            "inventory": 14947895.0,
+            "revenue": 9066171.0,
+            "cogs": 9002045.0,
             "days": 92,
-            "inventoryYoy": null,
-            "revenueYoy": null,
-            "dio": 152.76599261612225
+            "dio": 152.76599261612225,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231114002574"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 14947895.0,
+              "quarterRevenue": 9066171.0,
+              "quarterCogs": 9002045.0,
+              "ytdRevenue": 21460214.0,
+              "ytdCogs": 24219215.0,
+              "receipt": "20231114002574"
+            },
+            "inventoryYoy": 1.9292294688009637,
+            "revenueYoy": -17.451811150132436
           },
           {
             "date": "2023-12-31",
             "fiscalYear": 2023,
             "quarter": 4,
-            "inventory": 13480659,
-            "revenue": 11305505,
-            "cogs": 9079952,
+            "inventory": 13480659.0,
+            "revenue": 11305505.0,
+            "cogs": 9079952.0,
             "days": 92,
+            "dio": 136.58889694571073,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240319000684",
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231114002574"
+            ],
+            "derivation": "YTD subtraction",
+            "dartRaw": {
+              "inventory": 13480659.0,
+              "quarterRevenue": null,
+              "quarterCogs": null,
+              "ytdRevenue": 32765719.0,
+              "ytdCogs": 33299167.0,
+              "receipt": "20240319000684"
+            },
             "inventoryYoy": -13.942475910976182,
-            "revenueYoy": 47.360001543268005,
-            "dio": 136.58889694571073
+            "revenueYoy": 47.360001543268005
           },
           {
             "date": "2024-03-31",
             "fiscalYear": 2024,
             "quarter": 1,
-            "inventory": 13844639,
-            "revenue": 12429598,
-            "cogs": 7634953,
+            "inventory": 13844639.0,
+            "revenue": 12429598.0,
+            "cogs": 7634953.0,
             "days": 91,
+            "dio": 165.01243020094557,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240516001638"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 13844639.0,
+              "quarterRevenue": 12429598.0,
+              "quarterCogs": 7634953.0,
+              "ytdRevenue": 12429598.0,
+              "ytdCogs": 7634953.0,
+              "receipt": "20240516001638"
+            },
             "inventoryYoy": -19.424850117292426,
-            "revenueYoy": 144.28708414576644,
-            "dio": 165.01243020094557
+            "revenueYoy": 144.28708414576644
           },
           {
             "date": "2024-06-30",
             "fiscalYear": 2024,
             "quarter": 2,
-            "inventory": 13354938,
-            "revenue": 16423258,
-            "cogs": 8926794,
+            "inventory": 13354938.0,
+            "revenue": 16423258.0,
+            "cogs": 8926794.0,
             "days": 91,
+            "dio": 136.14062988347217,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240814001887"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 13354938.0,
+              "quarterRevenue": 16423258.0,
+              "quarterCogs": 8926794.0,
+              "ytdRevenue": 28852856.0,
+              "ytdCogs": 16561747.0,
+              "receipt": "20240814001887"
+            },
             "inventoryYoy": -18.66762889611576,
-            "revenueYoy": 124.79346919735907,
-            "dio": 136.14062988347217
+            "revenueYoy": 124.79343842874005
           },
           {
             "date": "2024-09-30",
             "fiscalYear": 2024,
             "quarter": 3,
-            "inventory": 13353865,
-            "revenue": 17573069,
-            "cogs": 8401685,
+            "inventory": 13353865.0,
+            "revenue": 17573069.0,
+            "cogs": 8401685.0,
             "days": 92,
+            "dio": 146.2272841697826,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241114001712"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 13353865.0,
+              "quarterRevenue": 17573069.0,
+              "quarterCogs": 8401685.0,
+              "ytdRevenue": 46425925.0,
+              "ytdCogs": 24963432.0,
+              "receipt": "20241114001712"
+            },
             "inventoryYoy": -10.663909533750404,
-            "revenueYoy": 93.83121055184156,
-            "dio": 146.2272841697826
+            "revenueYoy": 93.83121055184156
           },
           {
             "date": "2024-12-31",
             "fiscalYear": 2024,
             "quarter": 4,
-            "inventory": 13313937,
-            "revenue": 19767035,
-            "cogs": 9401382,
+            "inventory": 13313937.0,
+            "revenue": 19767035.0,
+            "cogs": 9401382.0,
             "days": 92,
+            "dio": 130.28746241775943,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250319000665",
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241114001712"
+            ],
+            "derivation": "YTD subtraction",
+            "dartRaw": {
+              "inventory": 13313937.0,
+              "quarterRevenue": null,
+              "quarterCogs": null,
+              "ytdRevenue": 66192960.0,
+              "ytdCogs": 34364814.0,
+              "receipt": "20250319000665"
+            },
             "inventoryYoy": -1.23674962774446,
-            "revenueYoy": 74.84433468473988,
-            "dio": 130.28746241775943
+            "revenueYoy": 74.84433468473988
           },
           {
             "date": "2025-03-31",
             "fiscalYear": 2025,
             "quarter": 1,
-            "inventory": 14551350,
-            "revenue": 17639141,
-            "cogs": 7537150,
+            "inventory": 14551350.0,
+            "revenue": 17639141.0,
+            "cogs": 7537150.0,
             "days": 90,
+            "dio": 173.75553093675992,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250515002103"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 14551350.0,
+              "quarterRevenue": 17639141.0,
+              "quarterCogs": 7537150.0,
+              "ytdRevenue": 17639141.0,
+              "ytdCogs": 7537150.0,
+              "receipt": "20250515002103"
+            },
             "inventoryYoy": 5.104582358557708,
-            "revenueYoy": 41.91240135038961,
-            "dio": 173.75553093675992
+            "revenueYoy": 41.91240135038961
           },
           {
             "date": "2025-06-30",
             "fiscalYear": 2025,
             "quarter": 2,
-            "inventory": 13408333,
-            "revenue": 22231952,
-            "cogs": 10248628,
+            "inventory": 13408333.0,
+            "revenue": 22231952.0,
+            "cogs": 10248628.0,
             "days": 91,
+            "dio": 119.05577048947431,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250814003049"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 13408333.0,
+              "quarterRevenue": 22231952.0,
+              "quarterCogs": 10248628.0,
+              "ytdRevenue": 39871093.0,
+              "ytdCogs": 17785778.0,
+              "receipt": "20250814003049"
+            },
             "inventoryYoy": 0.39981466031515644,
-            "revenueYoy": 35.36870698858898,
-            "dio": 119.05577048947431
+            "revenueYoy": 35.36870698858898
           },
           {
             "date": "2025-09-30",
             "fiscalYear": 2025,
             "quarter": 3,
-            "inventory": 13156000,
-            "revenue": 24448929,
-            "cogs": 10419829,
+            "inventory": 13156389.0,
+            "revenue": 24448929.0,
+            "cogs": 10419829.0,
             "days": 92,
-            "inventoryYoy": -1.4817058581916176,
-            "revenueYoy": 39.12725773739352,
-            "dio": 116.15852812939636
+            "dio": 116.16196273470514,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251114001805"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 13156389.0,
+              "quarterRevenue": 24448929.0,
+              "quarterCogs": 10419829.0,
+              "ytdRevenue": 64320022.0,
+              "ytdCogs": 28205607.0,
+              "receipt": "20251114001805"
+            },
+            "previousValues": {
+              "inventory": 13156000,
+              "revenue": 24448929,
+              "cogs": 10419829,
+              "sourceType": null,
+              "sourceUrls": null
+            },
+            "inventoryYoy": -1.4787928438695475,
+            "revenueYoy": 39.12725773739352
           },
           {
             "date": "2025-12-31",
             "fiscalYear": 2025,
             "quarter": 4,
-            "inventory": 14289390,
-            "revenue": 32826653,
-            "cogs": 10250278,
+            "inventory": 14289390.0,
+            "revenue": 32826653.0,
+            "cogs": 10250278.0,
             "days": 92,
+            "dio": 128.25250983436743,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000635",
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251114001805"
+            ],
+            "derivation": "YTD subtraction",
+            "dartRaw": {
+              "inventory": 14289390.0,
+              "quarterRevenue": null,
+              "quarterCogs": null,
+              "ytdRevenue": 97146675.0,
+              "ytdCogs": 38455885.0,
+              "receipt": "20260317000635"
+            },
             "inventoryYoy": 7.326555623629583,
-            "revenueYoy": 66.06766265148009,
-            "dio": 128.25250983436743
+            "revenueYoy": 66.06766265148009
           },
           {
             "date": "2026-03-31",
             "fiscalYear": 2026,
             "quarter": 1,
-            "inventory": 15974133,
-            "revenue": 52576287,
-            "cogs": 10896873,
+            "inventory": 15974133.0,
+            "revenue": 52576287.0,
+            "cogs": 10896873.0,
             "days": 90,
+            "dio": 131.93436043532856,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515002287"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 15974133.0,
+              "quarterRevenue": 52576287.0,
+              "quarterCogs": 10896873.0,
+              "ytdRevenue": 52576287.0,
+              "ytdCogs": 10896873.0,
+              "receipt": "20260515002287"
+            },
             "inventoryYoy": 9.777670113082282,
-            "revenueYoy": 198.06602827201166,
-            "dio": 131.93436043532856
+            "revenueYoy": 198.06602827201166
           },
           {
             "date": "2026-06-30",
             "fiscalYear": 2026,
             "quarter": 2,
-            "inventory": 17985706,
-            "revenue": 79319000,
-            "cogs": 13327000,
+            "inventory": 17985706.0,
+            "revenue": 79318746.0,
+            "cogs": 13327390.0,
             "days": 91,
+            "dio": 122.80718475260346,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003509"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 17985706.0,
+              "quarterRevenue": 79318746.0,
+              "quarterCogs": 13327390.0,
+              "ytdRevenue": 131895033.0,
+              "ytdCogs": 24224263.0,
+              "receipt": "20260814003509"
+            },
+            "previousValues": {
+              "inventory": 17985706,
+              "revenue": 79319000,
+              "cogs": 13327000,
+              "sourceType": null,
+              "sourceUrls": null
+            },
             "inventoryYoy": 34.13827058143619,
-            "revenueYoy": 256.77928775664867,
-            "dio": 122.81077856982066
+            "revenueYoy": 256.77814525688075
           },
           {
             "date": "2026-09-30",
             "fiscalYear": 2026,
             "quarter": 3,
-            "inventory": 19355772,
-            "revenue": 104615500,
-            "cogs": 14962547,
+            "inventory": 19355772.0,
+            "revenue": 104615483.0,
+            "cogs": 14962547.0,
             "days": 92,
-            "inventoryYoy": 47.12505320766189,
-            "revenueYoy": 327.89399895594613,
-            "dio": 119.01256009421391
+            "dio": 119.01256009421391,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116001715"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 19355772.0,
+              "quarterRevenue": 104615483.0,
+              "quarterCogs": 14962547.0,
+              "ytdRevenue": 236510516.0,
+              "ytdCogs": 39186810.0,
+              "receipt": "20261116001715"
+            },
+            "previousValues": {
+              "inventory": 19355772,
+              "revenue": 104615500,
+              "cogs": 14962547,
+              "sourceType": null,
+              "sourceUrls": null
+            },
+            "inventoryYoy": 47.12070310478049,
+            "revenueYoy": 327.893929423248
           }
         ],
         "sources": [
+          {
+            "label": "OpenDART 단일회사 전체 재무제표",
+            "url": "https://opendart.fss.or.kr/guide/detail.do?apiGrpCd=DS003&apiId=2019020"
+          },
           {
             "label": "SK하이닉스 3Q26 공식 실적",
             "url": "https://news.skhynix.com/en/q3-2026-business-results/"
@@ -2682,7 +3311,7 @@
             "url": "https://stockanalysis.com/quote/krx/000660/financials/?p=quarterly"
           }
         ],
-        "note": "최신 공시와 일부 IR 수치 대조; 과거 분기 집계의 매출−매출총이익으로 원가 산출. 일부 수치는 반올림된 공시 집계 기준. 기존 등록 데이터. 2020~2022 추가 수집 및 원문 전수 검증 필요.",
+        "note": "OpenDART 연결 재무제표 JSON 원문. 4분기 연간−9개월 누적. 단위 백만 원. 미확보 값은 기존 자료 유지 또는 공란.",
         "group": "메모리",
         "region": "KR"
       },
@@ -8572,8 +9201,795 @@
         "group": "기판·소재·부품",
         "region": "KR",
         "currency": "KRW million",
-        "rows": [],
+        "rows": [
+          {
+            "date": "2019-03-31",
+            "fiscalYear": 2019,
+            "quarter": 1,
+            "inventory": 1124157.909626,
+            "revenue": 2130551.64583,
+            "cogs": 1596885.967567,
+            "days": 90,
+            "dio": 63.357192636922,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20190515001493"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 1124157.909626,
+              "quarterRevenue": 2130551.64583,
+              "quarterCogs": 1596885.967567,
+              "ytdRevenue": 2130551.64583,
+              "ytdCogs": 1596885.967567,
+              "receipt": "20190515001493"
+            },
+            "inventoryYoy": null,
+            "revenueYoy": null
+          },
+          {
+            "date": "2019-06-30",
+            "fiscalYear": 2019,
+            "quarter": 2,
+            "inventory": 1227443.788917,
+            "revenue": 1957747.694174,
+            "cogs": 1465610.142631,
+            "days": 91,
+            "dio": 76.21220783238623,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20190814001492"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 1227443.788917,
+              "quarterRevenue": 1957747.694174,
+              "quarterCogs": 1465610.142631,
+              "ytdRevenue": 4082032.049162,
+              "ytdCogs": 3015612.576884,
+              "receipt": "20190814001492"
+            },
+            "inventoryYoy": null,
+            "revenueYoy": null
+          },
+          {
+            "date": "2019-09-30",
+            "fiscalYear": 2019,
+            "quarter": 3,
+            "inventory": 1186872.535399,
+            "revenue": 2272111.153576,
+            "cogs": 1738040.617635,
+            "days": 92,
+            "dio": 62.82492603958182,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20191114001298"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 1186872.535399,
+              "quarterRevenue": 2272111.153576,
+              "quarterCogs": 1738040.617635,
+              "ytdRevenue": 6354143.202738,
+              "ytdCogs": 4753653.194519,
+              "receipt": "20191114001298"
+            },
+            "inventoryYoy": null,
+            "revenueYoy": null
+          },
+          {
+            "date": "2019-12-31",
+            "fiscalYear": 2019,
+            "quarter": 4,
+            "inventory": 1271273.631462,
+            "revenue": 1686674.4430489996,
+            "cogs": 1236341.4144519996,
+            "days": 92,
+            "dio": 94.59941463365485,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20200330003915",
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20191114001298"
+            ],
+            "derivation": "YTD subtraction",
+            "dartRaw": {
+              "inventory": 1271273.631462,
+              "quarterRevenue": null,
+              "quarterCogs": null,
+              "ytdRevenue": 8040817.645787,
+              "ytdCogs": 5989994.608971,
+              "receipt": "20200330003915"
+            },
+            "inventoryYoy": null,
+            "revenueYoy": null
+          },
+          {
+            "date": "2020-03-31",
+            "fiscalYear": 2020,
+            "quarter": 1,
+            "inventory": 1341694.601234,
+            "revenue": 2224466.256261,
+            "cogs": 1730320.76713,
+            "days": 91,
+            "dio": 70.56160397057812,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20200515001595"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 1341694.601234,
+              "quarterRevenue": 2224466.256261,
+              "quarterCogs": 1730320.76713,
+              "ytdRevenue": 2224466.256261,
+              "ytdCogs": 1730320.76713,
+              "receipt": "20200515001595"
+            },
+            "inventoryYoy": 19.351079572119257,
+            "revenueYoy": 4.407995019262434
+          },
+          {
+            "date": "2020-06-30",
+            "fiscalYear": 2020,
+            "quarter": 2,
+            "inventory": 1173081.189272,
+            "revenue": 1812210.478049,
+            "cogs": 1449324.031186,
+            "days": 91,
+            "dio": 73.65529441776856,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20200814001812"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 1173081.189272,
+              "quarterRevenue": 1812210.478049,
+              "quarterCogs": 1449324.031186,
+              "ytdRevenue": 4036676.73431,
+              "ytdCogs": 3179644.798316,
+              "receipt": "20200814001812"
+            },
+            "inventoryYoy": -4.428927836521557,
+            "revenueYoy": -7.433910741312566
+          },
+          {
+            "date": "2020-09-30",
+            "fiscalYear": 2020,
+            "quarter": 3,
+            "inventory": 1169711.93149,
+            "revenue": 2287896.946737,
+            "cogs": 1697535.852104,
+            "days": 92,
+            "dio": 63.393946916466675,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20201116001336"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 1169711.93149,
+              "quarterRevenue": 2287896.946737,
+              "quarterCogs": 1697535.852104,
+              "ytdRevenue": 6324573.681047,
+              "ytdCogs": 4877180.65042,
+              "receipt": "20201116001336"
+            },
+            "inventoryYoy": -1.4458674707836905,
+            "revenueYoy": 0.6947632441377305
+          },
+          {
+            "date": "2020-12-31",
+            "fiscalYear": 2020,
+            "quarter": 4,
+            "inventory": 1337915.721356,
+            "revenue": 1884164.626964,
+            "cogs": 1391817.5500699999,
+            "days": 92,
+            "dio": 88.43705581853126,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20210309000338",
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20201116001336"
+            ],
+            "derivation": "YTD subtraction",
+            "dartRaw": {
+              "inventory": 1337915.721356,
+              "quarterRevenue": null,
+              "quarterCogs": null,
+              "ytdRevenue": 8208738.308011,
+              "ytdCogs": 6268998.20049,
+              "receipt": "20210309000338"
+            },
+            "inventoryYoy": 5.242151512051718,
+            "revenueYoy": 11.70885020099064
+          },
+          {
+            "date": "2021-03-31",
+            "fiscalYear": 2021,
+            "quarter": 1,
+            "inventory": 1391238.178735,
+            "revenue": 2371948.705221,
+            "cogs": 1813444.884921,
+            "days": 90,
+            "dio": 69.04617676958219,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20210517001511"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 1391238.178735,
+              "quarterRevenue": 2371948.705221,
+              "quarterCogs": 1813444.884921,
+              "ytdRevenue": 2371948.705221,
+              "ytdCogs": 1813444.884921,
+              "receipt": "20210517001511"
+            },
+            "inventoryYoy": 3.692612123163741,
+            "revenueYoy": 6.630015112384591
+          },
+          {
+            "date": "2021-06-30",
+            "fiscalYear": 2021,
+            "quarter": 2,
+            "inventory": 1384122.032078,
+            "revenue": 2475505.307922,
+            "cogs": 1856689.183611,
+            "days": 91,
+            "dio": 67.83855156312862,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20210817001967"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 1384122.032078,
+              "quarterRevenue": 2475505.307922,
+              "quarterCogs": 1856689.183611,
+              "ytdRevenue": 4847454.013143,
+              "ytdCogs": 3670134.068532,
+              "receipt": "20210817001967"
+            },
+            "inventoryYoy": 17.990301501379413,
+            "revenueYoy": 36.601423394654134
+          },
+          {
+            "date": "2021-09-30",
+            "fiscalYear": 2021,
+            "quarter": 3,
+            "inventory": 1506142.63344,
+            "revenue": 2688699.092652,
+            "cogs": 1948972.891799,
+            "days": 92,
+            "dio": 71.09648515869168,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20211115002153"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 1506142.63344,
+              "quarterRevenue": 2688699.092652,
+              "quarterCogs": 1948972.891799,
+              "ytdRevenue": 7536153.105795,
+              "ytdCogs": 5619106.960331,
+              "receipt": "20211115002153"
+            },
+            "inventoryYoy": 28.761842372715506,
+            "revenueYoy": 17.518365347994557
+          },
+          {
+            "date": "2021-12-31",
+            "fiscalYear": 2021,
+            "quarter": 4,
+            "inventory": 1818409.548484,
+            "revenue": 2138883.021931,
+            "cogs": 1507991.0486509996,
+            "days": 92,
+            "dio": 110.93811107843348,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20220308000667",
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20211115002153"
+            ],
+            "derivation": "YTD subtraction",
+            "dartRaw": {
+              "inventory": 1818409.548484,
+              "quarterRevenue": null,
+              "quarterCogs": null,
+              "ytdRevenue": 9675036.127726,
+              "ytdCogs": 7127098.008982,
+              "receipt": "20220308000667"
+            },
+            "inventoryYoy": 35.913609464205365,
+            "revenueYoy": 13.518903354927847
+          },
+          {
+            "date": "2022-03-31",
+            "fiscalYear": 2022,
+            "quarter": 1,
+            "inventory": 1766336.435215,
+            "revenue": 2616765.576038,
+            "cogs": 1937976.532384,
+            "days": 90,
+            "dio": 82.02900113232685,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20220516002214"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 1766336.435215,
+              "quarterRevenue": 2616765.576038,
+              "quarterCogs": 1937976.532384,
+              "ytdRevenue": 2616765.576038,
+              "ytdCogs": 1937976.532384,
+              "receipt": "20220516002214"
+            },
+            "inventoryYoy": 26.961469445947973,
+            "revenueYoy": 10.321339170536149
+          },
+          {
+            "date": "2022-06-30",
+            "fiscalYear": 2022,
+            "quarter": 2,
+            "inventory": 1973508.520884,
+            "revenue": 2455606.770661,
+            "cogs": 1819569.828597,
+            "days": 91,
+            "dio": 98.69875427584901,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20220816002000"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 1973508.520884,
+              "quarterRevenue": 2455606.770661,
+              "quarterCogs": 1819569.828597,
+              "ytdRevenue": 5072372.346699,
+              "ytdCogs": 3757546.360981,
+              "receipt": "20220816002000"
+            },
+            "inventoryYoy": 42.58197435967019,
+            "revenueYoy": -0.8038171922848059
+          },
+          {
+            "date": "2022-09-30",
+            "fiscalYear": 2022,
+            "quarter": 3,
+            "inventory": 1931890.580975,
+            "revenue": 2383749.91989,
+            "cogs": 1807041.842771,
+            "days": 92,
+            "dio": 98.35629106249954,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20221114001898"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 1931890.580975,
+              "quarterRevenue": 2383749.91989,
+              "quarterCogs": 1807041.842771,
+              "ytdRevenue": 7456122.266589,
+              "ytdCogs": 5564588.203752,
+              "receipt": "20221114001898"
+            },
+            "inventoryYoy": 28.267438825670865,
+            "revenueYoy": -11.3418855086983
+          },
+          {
+            "date": "2022-12-31",
+            "fiscalYear": 2022,
+            "quarter": 4,
+            "inventory": 1901579.577671,
+            "revenue": 1968429.6014379999,
+            "cogs": 1596817.5800050003,
+            "days": 92,
+            "dio": 109.5587394179266,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230307000653",
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20221114001898"
+            ],
+            "derivation": "YTD subtraction",
+            "dartRaw": {
+              "inventory": 1901579.577671,
+              "quarterRevenue": null,
+              "quarterCogs": null,
+              "ytdRevenue": 9424551.868027,
+              "ytdCogs": 7161405.783757,
+              "receipt": "20230307000653"
+            },
+            "inventoryYoy": 4.573778731878009,
+            "revenueYoy": -7.969272687905738
+          },
+          {
+            "date": "2023-03-31",
+            "fiscalYear": 2023,
+            "quarter": 1,
+            "inventory": 1902178.545372,
+            "revenue": 2021762.829146,
+            "cogs": 1634140.874678,
+            "days": 90,
+            "dio": 104.76212408383297,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230515001743"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 1902178.545372,
+              "quarterRevenue": 2021762.829146,
+              "quarterCogs": 1634140.874678,
+              "ytdRevenue": 2021762.829146,
+              "ytdCogs": 1634140.874678,
+              "receipt": "20230515001743"
+            },
+            "inventoryYoy": 7.6906136027514505,
+            "revenueYoy": -22.738098985270337
+          },
+          {
+            "date": "2023-06-30",
+            "fiscalYear": 2023,
+            "quarter": 2,
+            "inventory": 1957464.082258,
+            "revenue": 2220522.77947,
+            "cogs": 1738782.7141,
+            "days": 91,
+            "dio": 102.44479085339788,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230814002550"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 1957464.082258,
+              "quarterRevenue": 2220522.77947,
+              "quarterCogs": 1738782.7141,
+              "ytdRevenue": 4242285.608616,
+              "ytdCogs": 3372923.588778,
+              "receipt": "20230814002550"
+            },
+            "inventoryYoy": -0.8129905929574188,
+            "revenueYoy": -9.573356532476096
+          },
+          {
+            "date": "2023-09-30",
+            "fiscalYear": 2023,
+            "quarter": 3,
+            "inventory": 1936606.854288,
+            "revenue": 2360940.580778,
+            "cogs": 1896815.339218,
+            "days": 92,
+            "dio": 93.9299819601571,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231114002199"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 1936606.854288,
+              "quarterRevenue": 2360940.580778,
+              "quarterCogs": 1896815.339218,
+              "ytdRevenue": 6603226.189394,
+              "ytdCogs": 5269738.927996,
+              "receipt": "20231114002199"
+            },
+            "inventoryYoy": 0.24412735169605515,
+            "revenueYoy": -0.9568679550517878
+          },
+          {
+            "date": "2023-12-31",
+            "fiscalYear": 2023,
+            "quarter": 4,
+            "inventory": 2119538.128949,
+            "revenue": 2306222.2945209993,
+            "cogs": 1918835.227,
+            "days": 92,
+            "dio": 101.62285177981465,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240329002895",
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231114002199"
+            ],
+            "derivation": "YTD subtraction",
+            "dartRaw": {
+              "inventory": 2119538.128949,
+              "quarterRevenue": null,
+              "quarterCogs": null,
+              "ytdRevenue": 8909448.483915,
+              "ytdCogs": 7188574.154996,
+              "receipt": "20240329002895"
+            },
+            "inventoryYoy": 11.461973710558526,
+            "revenueYoy": 17.160516832109774
+          },
+          {
+            "date": "2024-03-31",
+            "fiscalYear": 2024,
+            "quarter": 1,
+            "inventory": 2145831.399607,
+            "revenue": 2624288.611066,
+            "cogs": 2149475.140436,
+            "days": 91,
+            "dio": 90.84573889262485,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240516002024"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 2145831.399607,
+              "quarterRevenue": 2624288.611066,
+              "quarterCogs": 2149475.140436,
+              "ytdRevenue": 2624288.611066,
+              "ytdCogs": 2149475.140436,
+              "receipt": "20240516002024"
+            },
+            "inventoryYoy": 12.809147428763046,
+            "revenueYoy": 29.802001166205482
+          },
+          {
+            "date": "2024-06-30",
+            "fiscalYear": 2024,
+            "quarter": 2,
+            "inventory": 2114636.450852,
+            "revenue": 2580132.472693,
+            "cogs": 2060326.939125,
+            "days": 91,
+            "dio": 93.3987288004184,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240814004285"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 2114636.450852,
+              "quarterRevenue": 2580132.472693,
+              "quarterCogs": 2060326.939125,
+              "ytdRevenue": 5204421.083759,
+              "ytdCogs": 4209802.079561,
+              "receipt": "20240814004285"
+            },
+            "inventoryYoy": 8.029387104395624,
+            "revenueYoy": 16.194821172194086
+          },
+          {
+            "date": "2024-09-30",
+            "fiscalYear": 2024,
+            "quarter": 3,
+            "inventory": 2046564.339877,
+            "revenue": 2615317.199767,
+            "cogs": 2087712.982082,
+            "days": 92,
+            "dio": 90.1866879617309,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241114002537"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 2046564.339877,
+              "quarterRevenue": 2615317.199767,
+              "quarterCogs": 2087712.982082,
+              "ytdRevenue": 7801821.960838,
+              "ytdCogs": 6281817.1504,
+              "receipt": "20241114002537"
+            },
+            "inventoryYoy": 5.677842425556556,
+            "revenueYoy": 10.774376155844445
+          },
+          {
+            "date": "2024-12-31",
+            "fiscalYear": 2024,
+            "quarter": 4,
+            "inventory": 2250799.628678,
+            "revenue": 2492281.015597,
+            "cogs": 2053063.0250210008,
+            "days": 92,
+            "dio": 100.86079351424578,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250311001190",
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241114002537"
+            ],
+            "derivation": "YTD subtraction",
+            "dartRaw": {
+              "inventory": 2250799.628678,
+              "quarterRevenue": null,
+              "quarterCogs": null,
+              "ytdRevenue": 10294102.976435,
+              "ytdCogs": 8334880.175421,
+              "receipt": "20250311001190"
+            },
+            "inventoryYoy": 6.192929390427504,
+            "revenueYoy": 8.067683740549603
+          },
+          {
+            "date": "2025-03-31",
+            "fiscalYear": 2025,
+            "quarter": 1,
+            "inventory": 2134707.882603,
+            "revenue": 2738649.099826,
+            "cogs": 2229802.910635,
+            "days": 90,
+            "dio": 86.1617448420844,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250515002323"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 2134707.882603,
+              "quarterRevenue": 2738649.099826,
+              "quarterCogs": 2229802.910635,
+              "ytdRevenue": 2738649.099826,
+              "ytdCogs": 2229802.910635,
+              "receipt": "20250515002323"
+            },
+            "inventoryYoy": -0.5183779585869241,
+            "revenueYoy": 4.357771027080215
+          },
+          {
+            "date": "2025-06-30",
+            "fiscalYear": 2025,
+            "quarter": 2,
+            "inventory": 2072350.915491,
+            "revenue": 2784629.132129,
+            "cogs": 2219230.69232,
+            "days": 91,
+            "dio": 84.97716526826419,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250814004371"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 2072350.915491,
+              "quarterRevenue": 2784629.132129,
+              "quarterCogs": 2219230.69232,
+              "ytdRevenue": 5523278.231955,
+              "ytdCogs": 4449033.602955,
+              "receipt": "20250814004371"
+            },
+            "inventoryYoy": -1.999659815944388,
+            "revenueYoy": 7.925820150721097
+          },
+          {
+            "date": "2025-09-30",
+            "fiscalYear": 2025,
+            "quarter": 3,
+            "inventory": 2165089.566109,
+            "revenue": 2889035.756675,
+            "cogs": 2288512.018866,
+            "days": 92,
+            "dio": 87.03831941452046,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251114002848"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 2165089.566109,
+              "quarterRevenue": 2889035.756675,
+              "quarterCogs": 2288512.018866,
+              "ytdRevenue": 8412313.98863,
+              "ytdCogs": 6737545.621821,
+              "receipt": "20251114002848"
+            },
+            "inventoryYoy": 5.791424384885113,
+            "revenueYoy": 10.465979305775441
+          },
+          {
+            "date": "2025-12-31",
+            "fiscalYear": 2025,
+            "quarter": 4,
+            "inventory": 2412996.843057,
+            "revenue": 2902145.249469999,
+            "cogs": 2299545.322056,
+            "days": 92,
+            "dio": 96.53895812880081,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310003071",
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251114002848"
+            ],
+            "derivation": "YTD subtraction",
+            "dartRaw": {
+              "inventory": 2412996.843057,
+              "quarterRevenue": null,
+              "quarterCogs": null,
+              "ytdRevenue": 11314459.2381,
+              "ytdCogs": 9037090.943877,
+              "receipt": "20260310003071"
+            },
+            "inventoryYoy": 7.206204066874933,
+            "revenueYoy": 16.44534590232878
+          },
+          {
+            "date": "2026-03-31",
+            "fiscalYear": 2026,
+            "quarter": 1,
+            "inventory": 2548589.190991,
+            "revenue": 3209113.412582,
+            "cogs": 2548825.502913,
+            "days": 90,
+            "dio": 89.9916557359632,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515002842"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 2548589.190991,
+              "quarterRevenue": 3209113.412582,
+              "quarterCogs": 2548825.502913,
+              "ytdRevenue": 3209113.412582,
+              "ytdCogs": 2548825.502913,
+              "receipt": "20260515002842"
+            },
+            "inventoryYoy": 19.38819413002426,
+            "revenueYoy": 17.17869999431072
+          },
+          {
+            "date": "2026-06-30",
+            "fiscalYear": 2026,
+            "quarter": 2,
+            "inventory": 2617712.102793,
+            "revenue": 3457204.820043,
+            "cogs": 2612703.047299,
+            "days": 91,
+            "dio": 91.17446454560736,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003805"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 2617712.102793,
+              "quarterRevenue": 3457204.820043,
+              "quarterCogs": 2612703.047299,
+              "ytdRevenue": 6666318.232625,
+              "ytdCogs": 5161528.550212,
+              "receipt": "20260814003805"
+            },
+            "inventoryYoy": 26.316063714179805,
+            "revenueYoy": 24.153151317489076
+          },
+          {
+            "date": "2026-09-30",
+            "fiscalYear": 2026,
+            "quarter": 3,
+            "inventory": 2411205.535235,
+            "revenue": 3763277.979377,
+            "cogs": 2695361.535696,
+            "days": 92,
+            "dio": 82.30098497133095,
+            "sourceType": "OpenDART consolidated JSON (official)",
+            "sourceUrls": [
+              "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116001915"
+            ],
+            "derivation": "reported single quarter",
+            "dartRaw": {
+              "inventory": 2411205.535235,
+              "quarterRevenue": 3763277.979377,
+              "quarterCogs": 2695361.535696,
+              "ytdRevenue": 10429596.212002,
+              "ytdCogs": 7856890.085908,
+              "receipt": "20261116001915"
+            },
+            "inventoryYoy": 11.367472874034878,
+            "revenueYoy": 30.26069236706743
+          }
+        ],
         "sources": [
+          {
+            "label": "OpenDART 단일회사 전체 재무제표",
+            "url": "https://opendart.fss.or.kr/guide/detail.do?apiGrpCd=DS003&apiId=2019020"
+          },
           {
             "label": "공식 실적발표",
             "url": "https://www.sem.samsung.co.kr/kr/about-us/investor-relations/earnings-release.do"
@@ -8583,7 +9999,7 @@
             "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116001915"
           }
         ],
-        "note": "공시 자료의 위치 확인 완료. 재고·매출·원가의 분기 수치 추출 및 검증 미완료. 공시가 없는 것이 아님.",
+        "note": "OpenDART 연결 재무제표 JSON 원문. 4분기 연간−9개월 누적. 단위 백만 원. 미확보 값은 기존 자료 유지 또는 공란.",
         "researchUrl": "https://stockanalysis.com/quote/krx/009150/financials/?p=quarterly"
       },
       {
@@ -14570,15 +15986,9 @@
       "note": "TWSE latest snapshot is diagnostic only; quarterly numbers originate in MOPS tagged facts. No credentials."
     },
     "koreaApiCollection": {
-      "status": "registered_pending_credentials",
-      "source": "https://opendart.fss.or.kr/",
-      "script": "scripts/update_korea_financials.py",
-      "workflow": ".github/workflows/korea-financials.yml",
-      "targets": [
-        "000660",
-        "009150"
-      ],
-      "note": "DART_API_KEY GitHub secret required. 최초 실행 및 실제 데이터 수집 미확인."
+      "status": "success",
+      "lastRunDate": "2026-11-26",
+      "source": "OpenDART consolidated JSON"
     },
     "japanApiCollection": {
       "status": "workflow_push_trigger_registered_pending_result",
@@ -14594,6 +16004,31 @@
         "6857"
       ],
       "note": "EDINET secret 등록 화면 사용자 확인. 2026-11-26 workflow push trigger 등록; 실제 API 결과 미확인. 무라타 공식 분기 공시 4개 별도 반영."
+    },
+    "koreaApiReport": {
+      "as_of": "2026-11-26",
+      "companies": [
+        {
+          "id": "sk",
+          "completeDartQuarters": 31,
+          "fetched": 31,
+          "revised": [
+            "2022-12-31",
+            "2023-06-30",
+            "2025-09-30",
+            "2026-06-30",
+            "2026-09-30"
+          ],
+          "issues": []
+        },
+        {
+          "id": "semco",
+          "completeDartQuarters": 31,
+          "fetched": 31,
+          "revised": [],
+          "issues": []
+        }
+      ]
     }
   }
 }
