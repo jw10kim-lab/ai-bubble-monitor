@@ -1,6 +1,11 @@
 name: Korea quarterly financials
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/update_korea_financials.py'
+      - '.github/workflows/korea-financials.yml'
   schedule:
     - cron: '0 23 * * 2'
 permissions:
