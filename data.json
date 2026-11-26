@@ -1268,9 +1268,9 @@
     }
   ],
   "release": {
-    "version": "BETA 1.5.5",
+    "version": "BETA 1.5.6",
     "date": "2026-11-26",
-    "note": "ASML 공식 SEC 6-K 과거 분기 데이터 보강. 기존 정책·시장·공급망 데이터 보존."
+    "note": "ASML 2019년 이후 분기 자료, Ibiden·Murata·TEL 2024년 이후 공식 연결 분기 자료 보강. 과거 미확인 기간은 공란 유지."
   },
   "creditComparison": {
     "as_of": "2026-11-23",
@@ -9258,6 +9258,69 @@
         "currency": "JPY million",
         "rows": [
           {
+            "date": "2024-06-30",
+            "fiscalYear": 2025,
+            "quarter": 1,
+            "inventory": 68054,
+            "revenue": 88220,
+            "cogs": 62606,
+            "days": 91,
+            "dio": 98.91885761748075,
+            "sourceType": "기업 공식 연결 분기 실적공시 (Japan GAAP)",
+            "sourceUrls": [
+              "https://www.ibiden.com/ir/items/ConsolidatedFinancialResultsFortheFirstQuarterEndedJune30%2C2024.pdf"
+            ],
+            "derivation": "reported first quarter"
+          },
+          {
+            "date": "2024-09-30",
+            "fiscalYear": 2025,
+            "quarter": 2,
+            "inventory": 69201,
+            "revenue": 93365,
+            "cogs": 60610,
+            "days": 92,
+            "dio": 105.04029038112523,
+            "sourceType": "기업 공식 연결 분기 실적공시 (Japan GAAP)",
+            "sourceUrls": [
+              "https://www.ibiden.com/ir/items/tannshinn2024Q2.pdf",
+              "https://www.ibiden.com/ir/items/ConsolidatedFinancialResultsFortheFirstQuarterEndedJune30%2C2024.pdf"
+            ],
+            "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end"
+          },
+          {
+            "date": "2024-12-31",
+            "fiscalYear": 2025,
+            "quarter": 3,
+            "inventory": 73136,
+            "revenue": 88752,
+            "cogs": 65150,
+            "days": 92,
+            "dio": 103.27723714504988,
+            "sourceType": "기업 공식 연결 분기 실적공시 (Japan GAAP)",
+            "sourceUrls": [
+              "https://www.ibiden.com/ir/items/tanshin2024Q3.pdf",
+              "https://www.ibiden.com/ir/items/tannshinn2024Q2.pdf"
+            ],
+            "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end"
+          },
+          {
+            "date": "2025-03-31",
+            "fiscalYear": 2025,
+            "quarter": 4,
+            "inventory": 67175,
+            "revenue": 99099,
+            "cogs": 67742,
+            "days": 90,
+            "dio": 89.24670071742788,
+            "sourceType": "기업 공식 연결 분기 실적공시 (Japan GAAP)",
+            "sourceUrls": [
+              "https://www.ibiden.com/ir/items/ConsolidatedFinancialResultsFY2025.pdf",
+              "https://www.ibiden.com/ir/items/tanshin2024Q3.pdf"
+            ],
+            "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end"
+          },
+          {
             "date": "2025-06-30",
             "fiscalYear": 2026,
             "quarter": 1,
@@ -9271,8 +9334,8 @@
               "https://www.ibiden.com/ir/items/ConsolidatedFinancialResultsForthe1QEndedJnue302025.pdf"
             ],
             "derivation": "reported single quarter",
-            "inventoryYoy": null,
-            "revenueYoy": null
+            "inventoryYoy": -0.7376495136215411,
+            "revenueYoy": 10.47834958059397
           },
           {
             "date": "2025-09-30",
@@ -9289,8 +9352,43 @@
               "https://www.ibiden.com/ir/items/ConsolidatedFinancialResultsForthe1QEndedJnue302025.pdf"
             ],
             "derivation": "half-year less first quarter",
-            "inventoryYoy": null,
-            "revenueYoy": null
+            "inventoryYoy": -1.0910246961749137,
+            "revenueYoy": 4.986879451614623
+          },
+          {
+            "date": "2025-12-31",
+            "fiscalYear": 2026,
+            "quarter": 3,
+            "inventory": 73426,
+            "revenue": 103136,
+            "cogs": 75066,
+            "days": 92,
+            "dio": 89.99003543548345,
+            "sourceType": "기업 공식 연결 분기 실적공시 (Japan GAAP)",
+            "sourceUrls": [
+              "https://www.ibiden.com/ir/library/statement/items/tannshinn2025Q3.pdf"
+            ],
+            "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end",
+            "inventoryYoy": 0.3965215488952012,
+            "revenueYoy": 16.20695871642328
+          },
+          {
+            "date": "2026-03-31",
+            "fiscalYear": 2026,
+            "quarter": 4,
+            "inventory": 70962,
+            "revenue": 117580,
+            "cogs": 81894,
+            "days": 90,
+            "dio": 77.9859330353872,
+            "sourceType": "기업 공식 연결 분기 실적공시 (Japan GAAP)",
+            "sourceUrls": [
+              "https://www.ibiden.com/ir/items/ConsolidatedFinancialResultsFY2025.pdf",
+              "https://www.ibiden.com/ir/library/statement/items/tannshinn2025Q3.pdf"
+            ],
+            "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end",
+            "inventoryYoy": 5.63751395608485,
+            "revenueYoy": 18.64902773993684
           },
           {
             "date": "2026-06-30",
@@ -10179,6 +10277,69 @@
         "currency": "JPY million",
         "rows": [
           {
+            "date": "2024-06-30",
+            "fiscalYear": 2025,
+            "quarter": 1,
+            "inventory": 514434,
+            "revenue": 421707,
+            "cogs": 252260,
+            "days": 91,
+            "dio": 185.57636565448348,
+            "sourceType": "기업 공식 연결 분기 실적공시 (IFRS)",
+            "sourceUrls": [
+              "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2024/0730/24q1-e-fls.ashx?cvid=20240730013047000000&la=en-us"
+            ],
+            "derivation": "reported first quarter"
+          },
+          {
+            "date": "2024-09-30",
+            "fiscalYear": 2025,
+            "quarter": 2,
+            "inventory": 485065,
+            "revenue": 461774,
+            "cogs": 262761,
+            "days": 92,
+            "dio": 169.8348689493494,
+            "sourceType": "기업 공식 연결 분기 실적공시 (IFRS)",
+            "sourceUrls": [
+              "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2024/1101/24q2-e-fls.ashx?cvid=20241101011335000000&la=en-us",
+              "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2024/0730/24q1-e-fls.ashx?cvid=20240730013047000000&la=en-us"
+            ],
+            "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end"
+          },
+          {
+            "date": "2024-12-31",
+            "fiscalYear": 2025,
+            "quarter": 3,
+            "inventory": 489762,
+            "revenue": 448008,
+            "cogs": 267341,
+            "days": 92,
+            "dio": 168.54169020090447,
+            "sourceType": "기업 공식 연결 분기 실적공시 (IFRS)",
+            "sourceUrls": [
+              "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2025/0203/24q3-e-fls.ashx?cvid=20250203020218000000&la=en-us",
+              "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2024/1101/24q2-e-fls.ashx?cvid=20241101011335000000&la=en-us"
+            ],
+            "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end"
+          },
+          {
+            "date": "2025-03-31",
+            "fiscalYear": 2025,
+            "quarter": 4,
+            "inventory": 482833,
+            "revenue": 411863,
+            "cogs": 243288,
+            "days": 90,
+            "dio": 178.61534477656113,
+            "sourceType": "기업 공식 연결 분기 실적공시 (IFRS)",
+            "sourceUrls": [
+              "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/0430/25q4-e-fls.ashx?cvid=20260430013812000000&la=en",
+              "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2025/0203/24q3-e-fls.ashx?cvid=20250203020218000000&la=en-us"
+            ],
+            "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end"
+          },
+          {
             "date": "2025-06-30",
             "fiscalYear": 2026,
             "quarter": 1,
@@ -10193,8 +10354,8 @@
               "https://www.marketscreener.com/news/murata-manufacturing-first-quarter-of-fy2026-ce7f50dbda8af127"
             ],
             "derivation": "reported quarter",
-            "inventoryYoy": null,
-            "revenueYoy": null
+            "inventoryYoy": -4.904808002581474,
+            "revenueYoy": -1.3167910421216678
           },
           {
             "date": "2025-09-30",
@@ -10212,8 +10373,43 @@
               "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/1030/26q2-e-fls.ashx"
             ],
             "derivation": "half-year minus Q1",
-            "inventoryYoy": null,
-            "revenueYoy": null
+            "inventoryYoy": 0.7304175729025975,
+            "revenueYoy": 5.381420348482169
+          },
+          {
+            "date": "2025-12-31",
+            "fiscalYear": 2026,
+            "quarter": 3,
+            "inventory": 501149,
+            "revenue": 467454,
+            "cogs": 272587,
+            "days": 92,
+            "dio": 169.1412576535198,
+            "sourceType": "기업 공식 연결 분기 실적공시 (IFRS)",
+            "sourceUrls": [
+              "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/0202/25q3-e-fls.ashx?cvid=20260202015121000000&la=en-us"
+            ],
+            "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end",
+            "inventoryYoy": 2.325006840057009,
+            "revenueYoy": 4.34054749022339
+          },
+          {
+            "date": "2026-03-31",
+            "fiscalYear": 2026,
+            "quarter": 4,
+            "inventory": 520472,
+            "revenue": 460624,
+            "cogs": 261517,
+            "days": 90,
+            "dio": 179.11829823682592,
+            "sourceType": "기업 공식 연결 분기 실적공시 (IFRS)",
+            "sourceUrls": [
+              "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/0430/25q4-e-fls.ashx?cvid=20260430013812000000&la=en",
+              "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/0202/25q3-e-fls.ashx?cvid=20260202015121000000&la=en-us"
+            ],
+            "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end",
+            "inventoryYoy": 7.795448944044825,
+            "revenueYoy": 11.839130973163403
           },
           {
             "date": "2026-06-30",
@@ -11972,6 +12168,87 @@
         "currency": "JPY million",
         "rows": [
           {
+            "date": "2024-03-31",
+            "fiscalYear": 2024,
+            "quarter": 4,
+            "inventory": 762956,
+            "revenue": 547293,
+            "cogs": 291177,
+            "days": 91,
+            "dio": 238.4425830336874,
+            "sourceType": "기업 공식 연결 분기 실적공시 (Japan GAAP)",
+            "sourceUrls": [
+              "https://www.tel.com/ir/library/report/l8gqgo00000000gl-att/fy25q4tanshin-e.pdf",
+              "https://www.tel.com/ir/library/report/c2l1qi00000000sj-att/fy25q3tanshin-e.pdf"
+            ],
+            "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end"
+          },
+          {
+            "date": "2024-06-30",
+            "fiscalYear": 2025,
+            "quarter": 1,
+            "inventory": 764856,
+            "revenue": 555071,
+            "cogs": 291049,
+            "days": 91,
+            "dio": 239.14150538225522,
+            "sourceType": "기업 공식 연결 분기 실적공시 (Japan GAAP)",
+            "sourceUrls": [
+              "https://www.tel.com/ir/library/report/tpc8u500000000s3-att/fy25q1tanshin-e.pdf"
+            ],
+            "derivation": "reported first quarter"
+          },
+          {
+            "date": "2024-09-30",
+            "fiscalYear": 2025,
+            "quarter": 2,
+            "inventory": 742273,
+            "revenue": 566555,
+            "cogs": 306615,
+            "days": 92,
+            "dio": 222.71942338111313,
+            "sourceType": "기업 공식 연결 분기 실적공시 (Japan GAAP)",
+            "sourceUrls": [
+              "https://www.tel.com/ir/library/report/o6kifa00000000nf-att/fy25q2tanshin-e.pdf",
+              "https://www.tel.com/ir/library/report/tpc8u500000000s3-att/fy25q1tanshin-e.pdf"
+            ],
+            "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end"
+          },
+          {
+            "date": "2024-12-31",
+            "fiscalYear": 2025,
+            "quarter": 3,
+            "inventory": 765026,
+            "revenue": 654540,
+            "cogs": 342792,
+            "days": 92,
+            "dio": 205.320987654321,
+            "sourceType": "기업 공식 연결 분기 실적공시 (Japan GAAP)",
+            "sourceUrls": [
+              "https://www.tel.com/ir/library/report/c2l1qi00000000sj-att/fy25q3tanshin-e.pdf",
+              "https://www.tel.com/ir/library/report/o6kifa00000000nf-att/fy25q2tanshin-e.pdf"
+            ],
+            "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end"
+          },
+          {
+            "date": "2025-03-31",
+            "fiscalYear": 2025,
+            "quarter": 4,
+            "inventory": 749124,
+            "revenue": 655402,
+            "cogs": 344824,
+            "days": 90,
+            "dio": 195.5233974433334,
+            "sourceType": "기업 공식 연결 분기 실적공시 (Japan GAAP)",
+            "sourceUrls": [
+              "https://www.tel.com/ir/library/report/l8gqgo00000000gl-att/fy25q4tanshin-e.pdf",
+              "https://www.tel.com/ir/library/report/c2l1qi00000000sj-att/fy25q3tanshin-e.pdf"
+            ],
+            "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end",
+            "inventoryYoy": -1.8129485841909654,
+            "revenueYoy": 19.75340448352163
+          },
+          {
             "date": "2025-06-30",
             "fiscalYear": 2026,
             "quarter": 1,
@@ -11985,8 +12262,8 @@
               "https://www.tel.com/ir/library/report/cpkomu00000000kv-att/fy26q1tanshin-e.pdf"
             ],
             "derivation": "reported single quarter",
-            "inventoryYoy": null,
-            "revenueYoy": null
+            "inventoryYoy": -1.0135241143430895,
+            "revenueYoy": -0.9881618747871856
           },
           {
             "date": "2025-09-30",
@@ -12003,8 +12280,43 @@
               "https://www.tel.com/ir/library/report/cpkomu00000000kv-att/fy26q1tanshin-e.pdf"
             ],
             "derivation": "half-year less first quarter",
-            "inventoryYoy": null,
-            "revenueYoy": null
+            "inventoryYoy": -2.940427578532423,
+            "revenueYoy": 11.212856651163605
+          },
+          {
+            "date": "2025-12-31",
+            "fiscalYear": 2026,
+            "quarter": 3,
+            "inventory": 725369,
+            "revenue": 552047,
+            "cogs": 316216,
+            "days": 92,
+            "dio": 211.0391251549574,
+            "sourceType": "기업 공식 연결 분기 실적공시 (Japan GAAP)",
+            "sourceUrls": [
+              "https://www.tel.com/ir/library/report/qemr4i00000000dj-att/fy26q3tanshin-e.pdf"
+            ],
+            "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end",
+            "inventoryYoy": -5.183745389045602,
+            "revenueYoy": -15.658783267638343
+          },
+          {
+            "date": "2026-03-31",
+            "fiscalYear": 2026,
+            "quarter": 4,
+            "inventory": 713116,
+            "revenue": 711818,
+            "cogs": 378629,
+            "days": 90,
+            "dio": 169.50745980894226,
+            "sourceType": "기업 공식 연결 분기 실적공시 (Japan GAAP)",
+            "sourceUrls": [
+              "https://www.tel.com/ir/library/report/pjuomj00000000tf-att/fy26q4tanshin-e.pdf",
+              "https://www.tel.com/ir/library/report/qemr4i00000000dj-att/fy26q3tanshin-e.pdf"
+            ],
+            "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end",
+            "inventoryYoy": -4.806680869922742,
+            "revenueYoy": 8.607846787162687
           },
           {
             "date": "2026-06-30",
