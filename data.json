@@ -1268,9 +1268,9 @@
     }
   ],
   "release": {
-    "version": "BETA 1.5",
+    "version": "BETA 1.5.1",
     "date": "2026-11-26",
-    "note": "한국 OpenDART 및 일본 EDINET 수집 코드·워크플로 등록, 인증키 및 최초 실행 필요. 기존 재무 데이터 유지."
+    "note": "EDINET 수집 실행 트리거 등록, 무라타 공식 공시 4분기 추가. 기존 자료 유지."
   },
   "creditComparison": {
     "as_of": "2026-11-23",
@@ -8593,7 +8593,80 @@
         "group": "기판·소재·부품",
         "region": "JP",
         "currency": "JPY million",
-        "rows": [],
+        "rows": [
+          {
+            "date": "2025-06-30",
+            "fiscalYear": 2026,
+            "quarter": 1,
+            "inventory": 489202,
+            "revenue": 416154,
+            "cogs": 243494,
+            "days": 91,
+            "dio": 182.82742901262452,
+            "sourceType": "Murata 연결 IFRS 실적공시 (공식 원문 및 공시 재게시)",
+            "sourceUrls": [
+              "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2025/0730/25q1-e-fls.ashx?cvid=20250730023650000000&la=ko-kr",
+              "https://www.marketscreener.com/news/murata-manufacturing-first-quarter-of-fy2026-ce7f50dbda8af127"
+            ],
+            "derivation": "reported quarter",
+            "inventoryYoy": null,
+            "revenueYoy": null
+          },
+          {
+            "date": "2025-09-30",
+            "fiscalYear": 2026,
+            "quarter": 2,
+            "inventory": 488608,
+            "revenue": 486624,
+            "cogs": 278432,
+            "days": 92,
+            "dio": 161.44673026088955,
+            "sourceType": "Murata 연결 IFRS 실적공시 (공식 원문 및 공시 재게시)",
+            "sourceUrls": [
+              "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2025/1031/25q2-e-fls.ashx?cvid=20251031003510000000&la=en-us",
+              "https://www.marketscreener.com/news/murata-manufacturing-first-quarter-of-fy2026-ce7f50dbda8af127",
+              "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/1030/26q2-e-fls.ashx"
+            ],
+            "derivation": "half-year minus Q1",
+            "inventoryYoy": null,
+            "revenueYoy": null
+          },
+          {
+            "date": "2026-06-30",
+            "fiscalYear": 2027,
+            "quarter": 1,
+            "inventory": 539035,
+            "revenue": 502264,
+            "cogs": 272315,
+            "days": 91,
+            "dio": 180.13030864990913,
+            "sourceType": "Murata 연결 IFRS 실적공시 (공식 원문 및 공시 재게시)",
+            "sourceUrls": [
+              "https://www.marketscreener.com/news/murata-manufacturing-first-quarter-of-fy2026-ce7f50dbda8af127"
+            ],
+            "derivation": "reported quarter",
+            "inventoryYoy": 10.186589588758842,
+            "revenueYoy": 20.69185926363799
+          },
+          {
+            "date": "2026-09-30",
+            "fiscalYear": 2027,
+            "quarter": 2,
+            "inventory": 534185,
+            "revenue": 588500,
+            "cogs": 319679,
+            "days": 92,
+            "dio": 153.73240031406505,
+            "sourceType": "Murata 연결 IFRS 실적공시 (공식 원문 및 공시 재게시)",
+            "sourceUrls": [
+              "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/1030/26q2-e-fls.ashx",
+              "https://www.marketscreener.com/news/murata-manufacturing-first-quarter-of-fy2026-ce7f50dbda8af127"
+            ],
+            "derivation": "half-year minus Q1",
+            "inventoryYoy": 9.327927500163735,
+            "revenueYoy": 20.935260077595853
+          }
+        ],
         "sources": [
           {
             "label": "공식 분기 실적",
@@ -8602,9 +8675,25 @@
           {
             "label": "과거 실적 자료",
             "url": "https://corporate.murata.com/en-global/ir/library/results/archives"
+          },
+          {
+            "label": "FY2025 Q1 공식 공시",
+            "url": "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2025/0730/25q1-e-fls.ashx?cvid=20250730023650000000&la=ko-kr"
+          },
+          {
+            "label": "FY2025 Q2 공식 공시",
+            "url": "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2025/1031/25q2-e-fls.ashx?cvid=20251031003510000000&la=en-us"
+          },
+          {
+            "label": "FY2026 Q1 공시 재게시",
+            "url": "https://www.marketscreener.com/news/murata-manufacturing-first-quarter-of-fy2026-ce7f50dbda8af127"
+          },
+          {
+            "label": "FY2026 Q2 공식 공시",
+            "url": "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/1030/26q2-e-fls.ashx"
           }
         ],
-        "note": "공시 자료의 위치 확인 완료. 재고·매출·원가의 분기 수치 추출 및 검증 미완료. 공시가 없는 것이 아님.",
+        "note": "공식 연결 IFRS 분기 공시의 2025·2026년 6월 및 9월 4개 분기 반영. 9월 단일분기 매출·원가는 반기−6월 분기. 회계연도 종료연도로 표기. 다른 분기 미확보, EDINET 및 TDnet 보강 필요.",
         "researchUrl": "https://stockanalysis.com/quote/tyo/6981/financials/?p=quarterly"
       },
       {
@@ -14492,7 +14581,7 @@
       "note": "DART_API_KEY GitHub secret required. 최초 실행 및 실제 데이터 수집 미확인."
     },
     "japanApiCollection": {
-      "status": "registered_pending_credentials",
+      "status": "workflow_push_trigger_registered_pending_result",
       "source": "https://disclosure2.edinet-fsa.go.jp/",
       "script": "scripts/update_japan_financials.py",
       "workflow": ".github/workflows/japan-financials.yml",
@@ -14504,7 +14593,7 @@
         "8035",
         "6857"
       ],
-      "note": "EDINET_API_KEY GitHub secret required. EDINET 목록을 최근 14일 및 과거 최대 200 영업일 단위로 순차 조회. 2024년 이후 Q1/Q3 TDnet/IR 별도 보강 미구현. 실제 수집 미확인."
+      "note": "EDINET secret 등록 화면 사용자 확인. 2026-11-26 workflow push trigger 등록; 실제 API 결과 미확인. 무라타 공식 분기 공시 4개 별도 반영."
     }
   }
 }
