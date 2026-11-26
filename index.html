@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI Bubble Monitor</title><style>
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI Bubble Monitor</title><meta name="theme-color" content="#ffffff"><link rel="stylesheet" crossorigin="anonymous" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style>
 :root{color-scheme:light;--bg:#fff;--panel:#fff;--surface:#f3f6f9;--border:#d9e1e8;--text:#10293a;--muted:#536575;--navy:#051c2c;--cyan:#1554b8;--orange:#9a591a;--heading:Georgia,"Noto Serif KR","Batang",serif;--body:system-ui,-apple-system,"Malgun Gothic","Apple SD Gothic Neo",sans-serif}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);font:15px/1.65 var(--body);color:var(--text)}a{color:var(--cyan);text-decoration:none}a:hover{text-decoration:underline}a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline:3px solid #2251ff;outline-offset:3px}button,select{font:inherit;color:var(--navy);background:#fff;border:1px solid #c4d0dc;border-radius:0;padding:8px 13px;cursor:pointer}button:hover,select:hover{border-color:var(--cyan);color:var(--cyan)}button.active{background:var(--navy);border-color:var(--navy);color:#fff}button:disabled{opacity:.42;cursor:not-allowed}.skip{position:absolute;left:12px;top:-100px;background:#fff;color:var(--navy);padding:12px;z-index:20}.skip:focus{top:12px}
 header{position:sticky;top:0;z-index:3;background:var(--navy);color:#fff}.nav{max-width:1320px;margin:auto;padding:17px 40px;display:flex;align-items:center;gap:30px;justify-content:space-between}.brand{font:600 22px/1.1 var(--heading);letter-spacing:-.025em;color:white;white-space:nowrap}.brand small{display:block;font:500 9px/1.8 var(--body);letter-spacing:.14em;text-transform:uppercase;color:#c3d6e5;margin-top:5px}.navlinks{display:flex;align-items:center;gap:24px;min-width:0;font-size:13px;white-space:nowrap}.navlinks a{color:#d9e7f2;padding:9px 0;border-bottom:2px solid transparent}.navlinks a:hover,.navlinks a[aria-current="location"]{color:white;border-color:#77b7ff;text-decoration:none}
@@ -26,6 +26,92 @@ section{padding-top:25px;margin-top:25px;scroll-margin-top:80px}#metrics{padding
 @media(max-width:1050px){.nav{padding:11px 22px}.navlinks{font-size:13px;gap:13px}main{padding:0 23px 38px}.hero{gap:24px}}
 @media(max-width:800px){header .nav{padding:10px 18px 0}.navlinks{gap:18px;font-size:14px}.hero{padding:23px 0 18px;gap:17px}.overview .panel{padding:8px 13px}.overview .panel:nth-child(odd){padding-left:0}section{scroll-margin-top:115px}.policy-row{grid-template-columns:150px minmax(0,1fr);gap:12px}}
 @media(max-width:520px){main{padding:0 15px 28px}.hero h1{font-size:39px}.hero p{font-size:17px}.hero-aside a{font-size:19px}.overview .value{font-size:29px}.overview .meta:first-child{font-size:14px}.overview .meta:last-child{font-size:12px}.sectionhead h2{font-size:30px}.sectionhead p{font-size:15px}.panel,.metric{padding:13px}.filters button{font-size:14px;padding:6px 8px}.memory-kpis .panel{padding:6px}.memory-kpis .value{font-size:18px}.memory-kpis .meta{font-size:12px}.news h3{font-size:21px}.policy-row{grid-template-columns:1fr;gap:7px;padding:13px 0}.policy-person{display:flex;align-items:baseline;gap:5px 9px;flex-wrap:wrap}.policy-date{flex-basis:100%}.policy-name{font-size:18px}.policy-stance{margin-top:0}.policy-row h3{font-size:20px!important}.policy-update{padding:13px}.top-policy-update{padding:10px 12px;grid-template-columns:1fr}.top-policy-update h3{font-size:19px}.top-policy-update a{grid-column:1}.top-policy-update p{font-size:14px}}
+
+
+/* UI 3.0 — Essential / Innovative / Harmonious, independent research dashboard.
+   SamsungOne is local-only; Pretendard is an OFL webfont. No proprietary font assets. */
+:root{
+ --bg:#fff;--panel:#fff;--surface:#f5f6f8;--border:#e0e3e7;--text:#18191b;
+ --muted:#53585f;--navy:#17191d;--cyan:#174ea6;--orange:#9a591a;
+ --body:"SamsungOneKorean","SamsungOne","Samsung One","Pretendard",-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",sans-serif;
+ --heading:var(--body);--radius:20px;
+}
+body{font:16px/1.62 var(--body);-webkit-font-smoothing:antialiased;overflow-wrap:break-word}
+button,select,input{font-family:var(--body)}
+a{color:var(--cyan)}a:focus-visible,button:focus-visible,select:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline-color:#174ea6}
+header{background:rgba(255,255,255,.98);color:var(--text);border-bottom:1px solid var(--border)}
+.nav{max-width:1480px;padding:14px 36px;gap:26px}
+.brand{font:800 23px/1.15 var(--heading);color:var(--navy);letter-spacing:-.035em}
+.brand small{color:var(--muted);font:600 10px/1.45 var(--body);letter-spacing:.07em;margin-top:5px}
+.navlinks{gap:23px;font-size:14px;font-weight:650}
+.navlinks a{color:var(--text);padding:8px 0;border-bottom:2px solid transparent}
+.navlinks a:hover,.navlinks a[aria-current="location"]{color:var(--cyan);border-color:var(--cyan)}
+main{max-width:1480px;padding:0 36px 40px}
+.hero{background:#f4f5f7;border:0;border-radius:28px;margin:20px 0 12px;padding:28px 32px;gap:28px;align-items:center;grid-template-columns:minmax(0,1.7fr) minmax(230px,.7fr)}
+.eyebrow,.hero .eyebrow{color:var(--cyan);font-size:12px;letter-spacing:.085em;font-weight:700}
+h1,h2,h3{font-family:var(--heading);color:var(--navy);letter-spacing:-.035em}
+h1,.hero h1{font-weight:800;font-size:clamp(38px,4.4vw,62px);line-height:1.12;margin:10px 0 12px}
+h2,.sectionhead h2{font-weight:750;font-size:clamp(28px,2.75vw,40px);line-height:1.23;margin:5px 0}
+h3{font-weight:700}
+.hero p{font-size:18px;line-height:1.55;max-width:760px}
+.hero-aside{background:#fff;border:1px solid #e6e8eb;border-radius:20px;padding:20px}
+.hero-aside .eyebrow{font-size:11px}
+.hero-aside a{display:inline-block;color:#fff;background:#1a1b1e;border-radius:999px;font-size:14px;font-weight:700;padding:10px 16px;margin:9px 0 13px;line-height:1.35}
+.hero-aside a:hover{background:var(--cyan);text-decoration:none}
+.stamp{font-size:12px;line-height:1.65}.stamp b{font-size:17px}
+.top-policy-update{background:#edf4ff;border:1px solid #d9e7fa;border-radius:20px;padding:16px 20px;margin:12px 0 14px;gap:6px 18px}
+.top-policy-update h3{font-size:21px}.top-policy-update p{font-size:15px;color:#414a57}
+.overview{gap:12px;padding:0;border:0;margin:0 0 8px}
+.overview .panel,.overview .panel:first-child{background:var(--surface);border:1px solid #e7e9ed;border-radius:18px;padding:17px 18px}
+.overview .meta:first-child{font-size:14px;font-weight:650}.overview .meta:last-child{font-size:13px;line-height:1.5}
+.overview .value{font-size:clamp(30px,3vw,42px);font-weight:750;line-height:1.16;margin:8px 0}
+section{scroll-margin-top:90px;padding-top:25px;margin-top:26px;border-top:1px solid var(--border)}
+#metrics{padding-top:23px}
+.sectionhead{margin:0 0 16px;align-items:flex-end}.sectionhead p{font-size:15px;line-height:1.55}
+.sectionhead .eyebrow{color:var(--cyan)}.sectionhead .section-tag{font-size:11px;font-weight:650;color:var(--muted)}
+.filters{gap:7px;margin:10px 0 14px}
+button,select{border:1px solid #d4d8dd;border-radius:999px;background:#fff;color:#202124;padding:8px 14px;font-weight:600}
+.filters button{font-size:14px;padding:7px 14px}
+button:hover,select:hover{background:#f4f6f9;border-color:#a9b9ce;color:#174ea6}
+button.active{background:#202124;border-color:#202124;color:#fff}
+button.active:hover{background:#323438;color:#fff}
+.panel,.metric{border:1px solid var(--border);border-radius:var(--radius);padding:20px;background:#fff;min-width:0}
+.panel .panel{border-radius:14px;background:var(--surface)}
+.metrics{gap:12px;grid-template-columns:repeat(3,minmax(0,1fr))}
+.metric{border-top:1px solid var(--border);gap:6px}
+.metric h3{font-size:19px;font-weight:700}
+.metric-top,.status,.coverage-note{font-size:12px}
+.value{font-weight:750;font-size:34px;letter-spacing:-.035em;font-variant-numeric:tabular-nums}
+.unit,.meta,.change,.source{font-size:13px}.meta{line-height:1.6}
+.chart,.memory-chart{background:#f7f8fa;border-radius:12px}
+.chart-labels{font-size:12px}
+#memorycycle>.panel:first-of-type{border-top:1px solid var(--border)}
+#memorycycle .map-host{max-width:1100px}
+.memory-grid{gap:14px}.memory-kpis{gap:10px}.memory-kpis .panel{padding:12px;border-radius:14px}
+.coverage-details{border-radius:16px;background:var(--surface);padding:0 18px}
+.coverage-details .panel{background:transparent}
+.newsgrid{gap:12px;grid-template-columns:repeat(3,minmax(0,1fr))}
+.news,.news:first-child{background:var(--surface);border:1px solid #e7e9ed;border-radius:20px;padding:20px;min-height:0}
+.news:first-child{grid-column:span 2;background:#edf3fb;border-color:#dce7f5}
+.news:first-child h3{font-weight:750;font-size:clamp(23px,2.4vw,30px)}
+.news h3{font-size:21px;line-height:1.35;margin:7px 0}
+.news p{font-size:15px}.newsnum{font-size:12px;font-weight:700;letter-spacing:.07em}
+.news .source{font-size:13px}
+#investorview{background:transparent;padding:0}
+.policy-update{border:1px solid #dae5f5;border-radius:20px;background:#edf3fb;padding:19px 22px}
+.policy-update h3{font-weight:750!important}
+.policy-stance{border-radius:999px;padding:3px 10px}
+.policy-list{border-top:0}
+.policy-row{border:1px solid var(--border);border-radius:18px;padding:17px 20px;margin:8px 0;gap:20px}
+.policy-row h3{font-size:20px!important}.policy-role{font-size:13px}
+.method{gap:14px}.method .panel{border:1px solid var(--border);border-radius:20px;background:var(--surface);padding:20px}
+.method p{font-size:15px}
+.footer{font-size:12px;padding:18px 0;margin-top:22px;line-height:1.65}
+svg text{font-family:var(--body);font-variant-numeric:tabular-nums}
+@media(min-width:1250px){.metrics{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:1050px){.nav{padding:13px 24px;gap:18px}.navlinks{gap:14px;font-size:13px}main{padding:0 24px 34px}.metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.hero{padding:25px 26px}}
+@media(max-width:800px){header .nav{padding:12px 20px 0}.navlinks{gap:20px;font-size:14px;padding:7px 0 0}.navlinks a{padding:8px 0 11px}main{padding:0 20px 30px}.hero{grid-template-columns:1fr;gap:16px;padding:24px;margin-top:12px;border-radius:24px}.hero-aside{padding:15px}.overview{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.overview .panel,.overview .panel:first-child,.overview .panel:nth-child(odd),.overview .panel:nth-child(n+3){border:1px solid #e7e9ed;padding:14px}.newsgrid{grid-template-columns:repeat(2,minmax(0,1fr))}.memory-grid{grid-template-columns:1fr}section{scroll-margin-top:126px}.policy-row{grid-template-columns:145px minmax(0,1fr);gap:14px}}
+@media(max-width:520px){main{padding:0 14px 25px}header .nav{padding:11px 14px 0}.brand{font-size:21px}.hero{padding:20px 17px;border-radius:20px}.hero h1{font-size:38px}.hero p{font-size:16px}.hero-aside a{font-size:14px}.overview .panel,.overview .panel:first-child,.overview .panel:nth-child(odd){padding:12px}.overview .value{font-size:29px}.overview .meta:first-child{font-size:13px}.overview .meta:last-child{font-size:12px}.sectionhead h2{font-size:27px}.sectionhead p{font-size:14px}.metrics,.method,.newsgrid{grid-template-columns:minmax(0,1fr)}.news:first-child{grid-column:auto}.panel,.metric,.news,.news:first-child,.method .panel{padding:16px;border-radius:16px}.filters button{font-size:13px;padding:7px 11px}.memory-kpis .panel{padding:7px}.memory-kpis .value{font-size:18px}.memory-kpis .meta{font-size:11px}.policy-row{grid-template-columns:1fr;padding:14px;gap:8px}.policy-update{padding:15px}.top-policy-update{padding:13px;grid-template-columns:1fr}.top-policy-update h3{font-size:18px}.top-policy-update p{font-size:14px}}
 
 </style></head><body><a class="skip" href="#main">본문 바로가기</a><header><div class="nav"><a class="brand" href="#main">AI Bubble Monitor<small>Independent research dashboard</small></a><nav class="navlinks" aria-label="주요 섹션"><a href="#metrics">시장 지표</a><a href="#supply">공급망 재고</a><a href="#news">주간 브리핑</a><a href="#investor">월가/연준 발언</a><a href="#method">데이터 가이드</a></nav></div></header><main id="main">
 <div class="hero"><div><div class="eyebrow">Independent market research / AI infrastructure</div><h1>AI 투자 사이클,<br>어디에 와 있는가</h1><p class="muted">AI 인프라의 실수요와 자금조달, 공급망 재고 흐름을 통해 투자 사이클의 변화와 위험을 추적합니다.</p></div><aside class="hero-aside"><div class="eyebrow">Latest research / 주간 인사이트</div><a id="hero-insight" href="#investor">이번 주 투자 환경 살펴보기 →</a><div class="stamp"><span>시장 데이터 편집 기준일</span><b id="asof">—</b><span id="supply-asof">공급망 데이터 기준일 —</span><span id="loadstate" role="status">데이터 불러오는 중</span></div></aside></div>
@@ -162,5 +248,5 @@ function renderPolicy(){
  const past=updates.filter(x=>x.date!==u?.date);if(past.length){const details=add(root,'details','policy-history');add(details,'summary','','이전 주간 업데이트 '+past.length+'건');for(const v of past){const a=add(details,'article','');add(a,'div','meta',v.date);add(a,'h3','',v.title);add(a,'p','',v.summary);if(v.url)link(a,v.source||'원문',v.url)}}
  add(root,'p','policy-method',cfg.method||'실제 공개 발언 및 기관 전망 요약. 인물의 고정 성향이 아닌 발언별 분류. 투자 권고가 아닙니다.');
 }
-document.getElementById('weekselect').onchange=e=>{selectedWeek=e.target.value;renderWeek()};fetch('./data.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('fetch');return r.json()}).then(x=>{if(!Array.isArray(x.metrics)||!x.as_of)throw Error('schema');data=x;document.getElementById('loadstate').textContent='UI 2.1 · '+(data.release?.version||'저장소 데이터 스냅샷')+' · 실제 관측일 별도 표시';render()}).catch(e=>{console.error('Dashboard initialization failed',e);document.getElementById('loadstate').textContent='데이터 파일을 불러오지 못했습니다. 새로고침해 주세요.'});
+document.getElementById('weekselect').onchange=e=>{selectedWeek=e.target.value;renderWeek()};fetch('./data.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('fetch');return r.json()}).then(x=>{if(!Array.isArray(x.metrics)||!x.as_of)throw Error('schema');data=x;document.getElementById('loadstate').textContent='UI 3.0 · '+(data.release?.version||'저장소 데이터 스냅샷')+' · 실제 관측일 별도 표시';render()}).catch(e=>{console.error('Dashboard initialization failed',e);document.getElementById('loadstate').textContent='데이터 파일을 불러오지 못했습니다. 새로고침해 주세요.'});
 </script></body></html>
