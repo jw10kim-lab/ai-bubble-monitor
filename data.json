@@ -1268,9 +1268,9 @@
     }
   ],
   "release": {
-    "version": "BETA 1.5.4",
+    "version": "BETA 1.5.5",
     "date": "2026-11-26",
-    "note": "Dell 및 HPE 10월 결산 공식 실적 공시 추가. HPE 비교 분기 수치 정정. 기존 데이터 유지."
+    "note": "ASML 공식 SEC 6-K 과거 분기 데이터 보강. 기존 정책·시장·공급망 데이터 보존."
   },
   "creditComparison": {
     "as_of": "2026-11-23",
@@ -11320,26 +11320,410 @@
         "currency": "EUR million",
         "rows": [
           {
+            "date": "2019-03-31",
+            "fiscalYear": 2019,
+            "quarter": 1,
+            "inventory": 3764.8,
+            "revenue": 2229.1,
+            "cogs": 1301.1,
+            "days": 90,
+            "dio": 260.4196449158405,
+            "sourceType": "ASML 공식 SEC 6-K 분기 US GAAP 연결 재무제표",
+            "sourceUrls": [
+              "https://www.sec.gov/Archives/edgar/data/937966/000093796619000016/financialstatementsusgaapq.htm"
+            ],
+            "derivation": "reported quarter",
+            "inventoryYoy": null,
+            "revenueYoy": null
+          },
+          {
+            "date": "2019-06-30",
+            "fiscalYear": 2019,
+            "quarter": 2,
+            "inventory": 3914.1,
+            "revenue": 2567.9,
+            "cogs": 1462.7,
+            "days": 91,
+            "dio": 243.51069939153618,
+            "sourceType": "ASML 공식 SEC 6-K 분기 US GAAP 연결 재무제표",
+            "sourceUrls": [
+              "https://www.sec.gov/Archives/edgar/data/937966/000093796619000016/financialstatementsusgaapq.htm"
+            ],
+            "derivation": "reported quarter",
+            "inventoryYoy": null,
+            "revenueYoy": null
+          },
+          {
+            "date": "2019-09-29",
+            "fiscalYear": 2019,
+            "quarter": 3,
+            "inventory": 3895,
+            "revenue": 2986.5,
+            "cogs": 1680.1,
+            "days": 91,
+            "dio": 210.96660913040893,
+            "sourceType": "ASML 공식 SEC 6-K 분기 US GAAP 연결 재무제표",
+            "sourceUrls": [
+              "https://www.sec.gov/Archives/edgar/data/937966/000093796620000020/financialstatementsusg.htm"
+            ],
+            "derivation": "reported quarter",
+            "inventoryYoy": null,
+            "revenueYoy": null
+          },
+          {
+            "date": "2019-12-31",
+            "fiscalYear": 2019,
+            "quarter": 4,
+            "inventory": 3809.2,
+            "revenue": 4036.4,
+            "cogs": 2096.3,
+            "days": 93,
+            "dio": 168.99088870867718,
+            "sourceType": "ASML 공식 SEC 6-K 분기 US GAAP 연결 재무제표",
+            "sourceUrls": [
+              "https://www.sec.gov/Archives/edgar/data/937966/000093796620000020/financialstatementsusg.htm"
+            ],
+            "derivation": "reported quarter",
+            "inventoryYoy": null,
+            "revenueYoy": null
+          },
+          {
+            "date": "2020-03-29",
+            "fiscalYear": 2020,
+            "quarter": 1,
+            "inventory": 4345.3,
+            "revenue": 2440.6,
+            "cogs": 1339.2,
+            "days": 89,
+            "dio": 288.778151135006,
+            "sourceType": "ASML 공식 SEC 6-K 분기 US GAAP 연결 재무제표",
+            "sourceUrls": [
+              "https://www.sec.gov/Archives/edgar/data/937966/000093796620000020/financialstatementsusg.htm"
+            ],
+            "derivation": "reported quarter",
+            "inventoryYoy": 15.419145771355725,
+            "revenueYoy": 9.488134224574951
+          },
+          {
+            "date": "2020-06-28",
+            "fiscalYear": 2020,
+            "quarter": 2,
+            "inventory": 4685.6,
+            "revenue": 3325.7,
+            "cogs": 1722.5,
+            "days": 91,
+            "dio": 247.54113207547172,
+            "sourceType": "ASML 공식 SEC 6-K 분기 US GAAP 연결 재무제표",
+            "sourceUrls": [
+              "https://www.sec.gov/Archives/edgar/data/937966/000093796620000020/financialstatementsusg.htm"
+            ],
+            "derivation": "reported quarter",
+            "inventoryYoy": 19.710789198027644,
+            "revenueYoy": 29.510494956968714
+          },
+          {
+            "date": "2020-09-27",
+            "fiscalYear": 2020,
+            "quarter": 3,
+            "inventory": 4613.7,
+            "revenue": 3958,
+            "cogs": 2076.6,
+            "days": 91,
+            "dio": 202.1798613117596,
+            "sourceType": "ASML 공식 SEC 6-K 분기 US GAAP 연결 재무제표",
+            "sourceUrls": [
+              "https://www.sec.gov/Archives/edgar/data/937966/000093796620000020/financialstatementsusg.htm"
+            ],
+            "derivation": "reported quarter",
+            "inventoryYoy": 18.45186136071886,
+            "revenueYoy": 32.52971706010379
+          },
+          {
+            "date": "2020-12-31",
+            "fiscalYear": 2020,
+            "quarter": 4,
+            "inventory": 4569.4,
+            "revenue": 4254.1,
+            "cogs": 2043,
+            "days": 95,
+            "dio": 212.47821830641212,
+            "sourceType": "ASML 공식 SEC 6-K 분기 US GAAP 연결 재무제표",
+            "sourceUrls": [
+              "https://www.sec.gov/Archives/edgar/data/937966/000093796622000004/financialstatementsusgaapq.htm"
+            ],
+            "derivation": "reported quarter",
+            "inventoryYoy": 19.95694634043894,
+            "revenueYoy": 5.393419879100203
+          },
+          {
+            "date": "2021-04-04",
+            "fiscalYear": 2021,
+            "quarter": 2,
+            "inventory": 4748.1,
+            "revenue": 4363.9,
+            "cogs": 2011.5,
+            "days": 94,
+            "dio": 221.8848620432513,
+            "sourceType": "ASML 공식 SEC 6-K 분기 US GAAP 연결 재무제표",
+            "sourceUrls": [
+              "https://www.sec.gov/Archives/edgar/data/937966/000093796622000004/financialstatementsusgaapq.htm"
+            ],
+            "derivation": "reported quarter",
+            "inventoryYoy": 1.3338739969267488,
+            "revenueYoy": 31.21748804762907
+          },
+          {
+            "date": "2021-07-04",
+            "fiscalYear": 2021,
+            "quarter": 3,
+            "inventory": 5086.3,
+            "revenue": 4020.2,
+            "cogs": 1975.6,
+            "days": 91,
+            "dio": 234.2849260984005,
+            "sourceType": "ASML 공식 SEC 6-K 분기 US GAAP 연결 재무제표",
+            "sourceUrls": [
+              "https://www.sec.gov/Archives/edgar/data/937966/000093796622000004/financialstatementsusgaapq.htm"
+            ],
+            "derivation": "reported quarter",
+            "inventoryYoy": 10.243405509677705,
+            "revenueYoy": 1.571500757958555
+          },
+          {
+            "date": "2021-10-03",
+            "fiscalYear": 2021,
+            "quarter": 4,
+            "inventory": 4944.2,
+            "revenue": 5241.3,
+            "cogs": 2529.9,
+            "days": 91,
+            "dio": 177.84189098383334,
+            "sourceType": "ASML 공식 SEC 6-K 분기 US GAAP 연결 재무제표",
+            "sourceUrls": [
+              "https://www.sec.gov/Archives/edgar/data/937966/000093796622000004/financialstatementsusgaapq.htm"
+            ],
+            "derivation": "reported quarter",
+            "inventoryYoy": 8.202389810478405,
+            "revenueYoy": 23.20584847558824
+          },
+          {
+            "date": "2021-12-31",
+            "fiscalYear": 2021,
+            "quarter": 4,
+            "inventory": 5179.2,
+            "revenue": 4985.6,
+            "cogs": 2285,
+            "days": 89,
+            "dio": 201.7281400437637,
+            "sourceType": "ASML 공식 SEC 6-K 분기 US GAAP 연결 재무제표",
+            "sourceUrls": [
+              "https://www.sec.gov/Archives/edgar/data/937966/000093796622000004/financialstatementsusgaapq.htm"
+            ],
+            "derivation": "reported quarter",
+            "inventoryYoy": 13.345296975532905,
+            "revenueYoy": 17.19517641804378
+          },
+          {
+            "date": "2022-04-03",
+            "fiscalYear": 2022,
+            "quarter": 2,
+            "inventory": 6073.5,
+            "revenue": 3534.4,
+            "cogs": 1803.4,
+            "days": 93,
+            "dio": 313.20588887656646,
+            "sourceType": "ASML 공식 SEC 6-K 분기 US GAAP 연결 재무제표",
+            "sourceUrls": [
+              "https://www.sec.gov/Archives/edgar/data/937966/000093796623000003/financialstatementsusgaapq.htm"
+            ],
+            "derivation": "reported quarter",
+            "inventoryYoy": 27.91432362418651,
+            "revenueYoy": -19.008226586310407
+          },
+          {
+            "date": "2022-07-03",
+            "fiscalYear": 2022,
+            "quarter": 3,
+            "inventory": 6367.1,
+            "revenue": 5430.5,
+            "cogs": 2766,
+            "days": 91,
+            "dio": 209.4743673174259,
+            "sourceType": "ASML 공식 SEC 6-K 분기 US GAAP 연결 재무제표",
+            "sourceUrls": [
+              "https://www.sec.gov/Archives/edgar/data/937966/000093796623000003/financialstatementsusgaapq.htm"
+            ],
+            "derivation": "reported quarter",
+            "inventoryYoy": 25.181369561370737,
+            "revenueYoy": 35.080344261479524
+          },
+          {
+            "date": "2022-10-02",
+            "fiscalYear": 2022,
+            "quarter": 4,
+            "inventory": 6884,
+            "revenue": 5778.3,
+            "cogs": 2784.6,
+            "days": 91,
+            "dio": 224.96732026143792,
+            "sourceType": "ASML 공식 SEC 6-K 분기 US GAAP 연결 재무제표",
+            "sourceUrls": [
+              "https://www.sec.gov/Archives/edgar/data/937966/000093796623000003/financialstatementsusgaapq.htm"
+            ],
+            "derivation": "reported quarter",
+            "inventoryYoy": 39.23384976335909,
+            "revenueYoy": 10.245549768187278
+          },
+          {
+            "date": "2022-12-31",
+            "fiscalYear": 2022,
+            "quarter": 4,
+            "inventory": 7199.7,
+            "revenue": 6430.2,
+            "cogs": 3119.3,
+            "days": 90,
+            "dio": 207.73025999422947,
+            "sourceType": "ASML 공식 SEC 6-K 분기 US GAAP 연결 재무제표",
+            "sourceUrls": [
+              "https://www.sec.gov/Archives/edgar/data/937966/000093796623000003/financialstatementsusgaapq.htm"
+            ],
+            "derivation": "reported quarter",
+            "inventoryYoy": 45.61910925933417,
+            "revenueYoy": 22.683303760517415
+          },
+          {
+            "date": "2023-04-02",
+            "fiscalYear": 2023,
+            "quarter": 2,
+            "inventory": 7392,
+            "revenue": 6746.2,
+            "cogs": 3333,
+            "days": 92,
+            "dio": 204.03960396039605,
+            "sourceType": "ASML 공식 SEC 6-K 분기 US GAAP 연결 재무제표",
+            "sourceUrls": [
+              "https://www.sec.gov/Archives/edgar/data/937966/000093796624000003/financialstatementsusgaapq.htm"
+            ],
+            "derivation": "reported quarter",
+            "inventoryYoy": 21.709063966411456,
+            "revenueYoy": 90.87256677229514
+          },
+          {
+            "date": "2023-07-02",
+            "fiscalYear": 2023,
+            "quarter": 3,
+            "inventory": 7734.4,
+            "revenue": 6902.3,
+            "cogs": 3358.3,
+            "days": 91,
+            "dio": 209.5793705148438,
+            "sourceType": "ASML 공식 SEC 6-K 분기 US GAAP 연결 재무제표",
+            "sourceUrls": [
+              "https://www.sec.gov/Archives/edgar/data/937966/000093796624000003/financialstatementsusgaapq.htm"
+            ],
+            "derivation": "reported quarter",
+            "inventoryYoy": 21.47445461827204,
+            "revenueYoy": 27.10247675168034
+          },
+          {
+            "date": "2023-10-01",
+            "fiscalYear": 2023,
+            "quarter": 4,
+            "inventory": 8378.5,
+            "revenue": 6673,
+            "cogs": 3211.4,
+            "days": 91,
+            "dio": 237.41779286292584,
+            "sourceType": "ASML 공식 SEC 6-K 분기 US GAAP 연결 재무제표",
+            "sourceUrls": [
+              "https://www.sec.gov/Archives/edgar/data/937966/000093796624000003/financialstatementsusgaapq.htm"
+            ],
+            "derivation": "reported quarter",
+            "inventoryYoy": 21.709761766414882,
+            "revenueYoy": 15.48379281103438
+          },
+          {
+            "date": "2023-12-31",
+            "fiscalYear": 2023,
+            "quarter": 4,
+            "inventory": 8850.7,
+            "revenue": 7237,
+            "cogs": 3519.7,
+            "days": 91,
+            "dio": 228.83021280222746,
+            "sourceType": "ASML 공식 SEC 6-K 분기 US GAAP 연결 재무제표",
+            "sourceUrls": [
+              "https://www.sec.gov/Archives/edgar/data/937966/000093796624000003/financialstatementsusgaapq.htm"
+            ],
+            "derivation": "reported quarter",
+            "inventoryYoy": 28.569145845438705,
+            "revenueYoy": 25.244449059411945
+          },
+          {
+            "date": "2024-03-31",
+            "fiscalYear": 2024,
+            "quarter": 1,
+            "inventory": 9864.5,
+            "revenue": 5290,
+            "cogs": 2593.4,
+            "days": 91,
+            "dio": 346.1361533122542,
+            "sourceType": "ASML 공식 SEC 6-K 분기 US GAAP 연결 재무제표",
+            "sourceUrls": [
+              "https://www.sec.gov/Archives/edgar/data/937966/000093796624000022/financialstatementsusgaapq.htm"
+            ],
+            "derivation": "reported quarter",
+            "inventoryYoy": null,
+            "revenueYoy": null
+          },
+          {
+            "date": "2024-06-30",
+            "fiscalYear": 2024,
+            "quarter": 2,
+            "inventory": 10972.3,
+            "revenue": 6242.8,
+            "cogs": 3030.6,
+            "days": 91,
+            "dio": 329.4658813436283,
+            "sourceType": "ASML 공식 SEC 6-K 분기 US GAAP 연결 재무제표",
+            "sourceUrls": [
+              "https://www.sec.gov/Archives/edgar/data/937966/000093796624000022/financialstatementsusgaapq.htm"
+            ],
+            "derivation": "reported quarter",
+            "inventoryYoy": 48.43479437229436,
+            "revenueYoy": -7.461978595357377
+          },
+          {
             "date": "2024-09-29",
             "fiscalYear": 2024,
             "quarter": 3,
-            "inventory": 11415,
+            "inventory": 11414.5,
             "revenue": 7467.3,
             "cogs": 3673.9,
-            "sourceType": "SEC US GAAP 및 일부 반올림 집계",
+            "sourceType": "ASML 공식 SEC 6-K 분기 US GAAP 연결 재무제표",
             "sourceUrls": [
-              "https://www.sec.gov/Archives/edgar/data/937966/000162828026065813/financial_statementsxusx.htm",
-              "https://www.sec.gov/Archives/edgar/data/937966/000162828026048235/financialstatementsusgaa.htm",
-              "https://www.sec.gov/Archives/edgar/data/937966/000162828026025147/financialstatementsusgaa.htm",
-              "https://www.sec.gov/Archives/edgar/data/937966/000162828025045043/financialstatementsusgaa.htm",
-              "https://www.sec.gov/Archives/edgar/data/937966/000162828025034992/financialstatementsusgaa.htm",
-              "https://stockanalysis.com/stocks/asml/financials/balance-sheet/?p=quarterly",
-              "https://stockanalysis.com/stocks/asml/financials/income-statement/?p=quarterly"
+              "https://www.sec.gov/Archives/edgar/data/937966/000093796624000022/financialstatementsusgaapq.htm"
             ],
-            "days": null,
-            "inventoryYoy": null,
-            "revenueYoy": null,
-            "dio": null
+            "days": 91,
+            "inventoryYoy": 47.58093711212248,
+            "revenueYoy": 8.185677238022105,
+            "dio": 282.72938838836114,
+            "derivation": "reported quarter",
+            "previousValues": {
+              "inventory": 11415,
+              "revenue": 7467.3,
+              "cogs": 3673.9,
+              "sourceType": "SEC US GAAP 및 일부 반올림 집계",
+              "sourceUrls": [
+                "https://www.sec.gov/Archives/edgar/data/937966/000162828026065813/financial_statementsxusx.htm",
+                "https://www.sec.gov/Archives/edgar/data/937966/000162828026048235/financialstatementsusgaa.htm",
+                "https://www.sec.gov/Archives/edgar/data/937966/000162828026025147/financialstatementsusgaa.htm",
+                "https://www.sec.gov/Archives/edgar/data/937966/000162828025045043/financialstatementsusgaa.htm",
+                "https://www.sec.gov/Archives/edgar/data/937966/000162828025034992/financialstatementsusgaa.htm",
+                "https://stockanalysis.com/stocks/asml/financials/balance-sheet/?p=quarterly",
+                "https://stockanalysis.com/stocks/asml/financials/income-statement/?p=quarterly"
+              ]
+            }
           },
           {
             "date": "2024-12-31",
@@ -11359,8 +11743,8 @@
               "https://stockanalysis.com/stocks/asml/financials/income-statement/?p=quarterly"
             ],
             "days": 93,
-            "inventoryYoy": null,
-            "revenueYoy": null,
+            "inventoryYoy": 29.993435579160945,
+            "revenueYoy": 38.81013037614265,
             "dio": 226.4496981891348
           },
           {
@@ -11381,8 +11765,8 @@
               "https://stockanalysis.com/stocks/asml/financials/income-statement/?p=quarterly"
             ],
             "days": 89,
-            "inventoryYoy": null,
-            "revenueYoy": null,
+            "inventoryYoy": 11.761366516295823,
+            "revenueYoy": 46.3421550094518,
             "dio": 275.47821326295696
           },
           {
@@ -11403,8 +11787,8 @@
               "https://stockanalysis.com/stocks/asml/financials/income-statement/?p=quarterly"
             ],
             "days": 91,
-            "inventoryYoy": null,
-            "revenueYoy": null,
+            "inventoryYoy": 5.500214175696994,
+            "revenueYoy": 23.20913692573845,
             "dio": 295.7155128852956
           },
           {
@@ -11425,7 +11809,7 @@
               "https://stockanalysis.com/stocks/asml/financials/income-statement/?p=quarterly"
             ],
             "days": 91,
-            "inventoryYoy": 3.0468681559351563,
+            "inventoryYoy": 3.051382014104864,
             "revenueYoy": 0.6521768242872206,
             "dio": 294.4178012487279
           },
@@ -11550,9 +11934,33 @@
           {
             "label": "분기 손익 집계",
             "url": "https://stockanalysis.com/stocks/asml/financials/income-statement/?p=quarterly"
+          },
+          {
+            "label": "SEC 공식 과거 분기 재무제표 2019 Q2",
+            "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796619000016/financialstatementsusgaapq.htm"
+          },
+          {
+            "label": "SEC 공식 과거 분기 재무제표 2020 Q3",
+            "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796620000020/financialstatementsusg.htm"
+          },
+          {
+            "label": "SEC 공식 과거 분기 재무제표 2021 Q4",
+            "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796622000004/financialstatementsusgaapq.htm"
+          },
+          {
+            "label": "SEC 공식 과거 분기 재무제표 2022 Q4",
+            "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796623000003/financialstatementsusgaapq.htm"
+          },
+          {
+            "label": "SEC 공식 과거 분기 재무제표 2023 Q4",
+            "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796624000003/financialstatementsusgaapq.htm"
+          },
+          {
+            "label": "SEC 공식 과거 분기 재무제표 2024 Q3",
+            "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796624000022/financialstatementsusgaapq.htm"
           }
         ],
-        "note": "2024년 9월~2026년 9월 9개 분기. SEC US GAAP 원문 실제 분기말 적용. 최신 재고 및 일부 손익은 SEC 원문, 일부 손익 및 2024년 9월 재고는 반올림 집계. 이전 분기 날짜와 자료 확인 후 추가 필요.",
+        "note": "2019 Q1~2024 Q3 공식 SEC 6-K US GAAP 연결 재무제표의 5분기 비교표 보강. 이후 기존 자료 보존. 실제 결산일 및 전년 동기 회계분기 기준 계산.",
         "researchUrl": "https://stockanalysis.com/stocks/asml/financials/?p=quarterly"
       },
       {
@@ -16503,6 +16911,11 @@
           ]
         }
       ]
+    },
+    "asmlHistoricalSupplement": {
+      "as_of": "2026-11-26",
+      "added": 22,
+      "verifiedSourceRows": 23
     }
   },
   "policyWatch": {
