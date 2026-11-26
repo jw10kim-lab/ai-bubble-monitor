@@ -1269,7 +1269,7 @@
   ],
   "release": {
     "version": "BETA 1.4",
-    "date": "2026-11-25",
+    "date": "2026-11-26",
     "note": "Taiwan MOPS quarterly collection: 5 issuers with successful fetch; inspect coverage."
   },
   "creditComparison": {
@@ -1583,7 +1583,7 @@
     }
   },
   "memoryCycle": {
-    "as_of": "2026-11-25",
+    "as_of": "2026-11-26",
     "windowQuarters": 28,
     "method": "연결 재무제표. 재고·매출 증가율은 전년 동일 회계분기 대비, DIO=분기말 재고÷단일 분기 매출원가×실제 분기 일수. 분기 일수는 이전 종료일과 차이로 계산(기존 Micron·SK 자료는 원래 값 유지). 지도는 각 회계분기 종료일을 가장 가까운 달력 분기 말일에 대응시키며 발표일 기준 백테스트가 아님. 재고 갭=재고 YoY−매출 YoY, 갭 변화=이번 갭−직전 분기 갭(%p). 미확보 관측은 표시하지 않고 이전 값 이월 금지. 기업 전체 재고/매출이며 AI 전용 물량 지표가 아님.",
     "companies": [
@@ -4251,6 +4251,57 @@
             "revenueYoy": 9.94609761888019
           },
           {
+            "date": "2020-09-30",
+            "fiscalYear": 2020,
+            "quarter": 3,
+            "inventory": 160590.459,
+            "revenue": 327348.154,
+            "cogs": 308165.979,
+            "days": 92,
+            "dio": 47.942742660765944,
+            "sourceType": "MOPS consolidated iXBRL (official)",
+            "sourceUrls": [
+              "https://mopsov.twse.com.tw/server-java/FileDownLoad?functionName=t164sb01&step=9&co_id=2382&year=2020&season=3&report_id=C"
+            ],
+            "derivation": "reported single quarter",
+            "mopsRaw": {
+              "inventory": 160590.459,
+              "quarterRevenue": 327348.154,
+              "quarterCogs": 308165.979,
+              "ytdRevenue": 787828.383,
+              "ytdCogs": 742628.282,
+              "sourceUrl": "https://mopsov.twse.com.tw/server-java/FileDownLoad?functionName=t164sb01&step=9&co_id=2382&year=2020&season=3&report_id=C"
+            },
+            "inventoryYoy": -5.3893743987324605,
+            "revenueYoy": 23.461488627558147
+          },
+          {
+            "date": "2020-12-31",
+            "fiscalYear": 2020,
+            "quarter": 4,
+            "inventory": 149213.853,
+            "revenue": 303030.468,
+            "cogs": 284259.49199999997,
+            "days": 92,
+            "dio": 48.29275666193058,
+            "sourceType": "MOPS consolidated iXBRL (official)",
+            "sourceUrls": [
+              "https://mopsov.twse.com.tw/server-java/FileDownLoad?functionName=t164sb01&step=9&co_id=2382&year=2020&season=4&report_id=C",
+              "https://mopsov.twse.com.tw/server-java/FileDownLoad?functionName=t164sb01&step=9&co_id=2382&year=2020&season=3&report_id=C"
+            ],
+            "derivation": "current YTD minus previous quarter YTD",
+            "mopsRaw": {
+              "inventory": 149213.853,
+              "quarterRevenue": null,
+              "quarterCogs": null,
+              "ytdRevenue": 1090858.851,
+              "ytdCogs": 1026887.774,
+              "sourceUrl": "https://mopsov.twse.com.tw/server-java/FileDownLoad?functionName=t164sb01&step=9&co_id=2382&year=2020&season=4&report_id=C"
+            },
+            "inventoryYoy": 21.738908057360717,
+            "revenueYoy": 1.8937500703601673
+          },
+          {
             "date": "2021-06-30",
             "fiscalYear": 2021,
             "quarter": 2,
@@ -4297,8 +4348,8 @@
               "ytdCogs": 738979.742,
               "sourceUrl": "https://mopsov.twse.com.tw/server-java/FileDownLoad?functionName=t164sb01&step=9&co_id=2382&year=2021&season=3&report_id=C"
             },
-            "inventoryYoy": null,
-            "revenueYoy": null
+            "inventoryYoy": 19.294810658707927,
+            "revenueYoy": -20.088584033988464
           },
           {
             "date": "2021-12-31",
@@ -4333,8 +4384,8 @@
                 "https://stockanalysis.com/quote/tpe/2382/financials/income-statement/?p=quarterly"
               ]
             },
-            "inventoryYoy": null,
-            "revenueYoy": null
+            "inventoryYoy": 31.75480965564237,
+            "revenueYoy": 11.74903541382517
           },
           {
             "date": "2022-03-31",
@@ -5894,6 +5945,31 @@
             "revenueYoy": null
           },
           {
+            "date": "2020-03-31",
+            "fiscalYear": 2020,
+            "quarter": 1,
+            "inventory": 54815.47,
+            "revenue": 88679.11,
+            "cogs": 84483.36,
+            "days": 91,
+            "dio": 59.04367167688407,
+            "sourceType": "MOPS consolidated iXBRL (official)",
+            "sourceUrls": [
+              "https://mopsov.twse.com.tw/server-java/FileDownLoad?functionName=t164sb01&step=9&co_id=2356&year=2020&season=1&report_id=C"
+            ],
+            "derivation": "reported single quarter",
+            "mopsRaw": {
+              "inventory": 54815.47,
+              "quarterRevenue": 88679.11,
+              "quarterCogs": 84483.36,
+              "ytdRevenue": 88679.11,
+              "ytdCogs": 84483.36,
+              "sourceUrl": "https://mopsov.twse.com.tw/server-java/FileDownLoad?functionName=t164sb01&step=9&co_id=2356&year=2020&season=1&report_id=C"
+            },
+            "inventoryYoy": 21.670020637446875,
+            "revenueYoy": -22.79702096239493
+          },
+          {
             "date": "2020-06-30",
             "fiscalYear": 2020,
             "quarter": 2,
@@ -5991,8 +6067,8 @@
               "ytdCogs": 106728.005,
               "sourceUrl": "https://mopsov.twse.com.tw/server-java/FileDownLoad?functionName=t164sb01&step=9&co_id=2356&year=2021&season=1&report_id=C"
             },
-            "inventoryYoy": null,
-            "revenueYoy": null
+            "inventoryYoy": -17.15760714995238,
+            "revenueYoy": 26.126873623336987
           },
           {
             "date": "2021-06-30",
@@ -9015,6 +9091,57 @@
             "revenueYoy": -29.185027366923766
           },
           {
+            "date": "2023-09-30",
+            "fiscalYear": 2023,
+            "quarter": 3,
+            "inventory": 10314.447,
+            "revenue": 26545.656,
+            "cogs": 21315.715,
+            "days": 92,
+            "dio": 44.51781814496957,
+            "sourceType": "MOPS consolidated iXBRL (official)",
+            "sourceUrls": [
+              "https://mopsov.twse.com.tw/server-java/FileDownLoad?functionName=t164sb01&step=9&co_id=3037&year=2023&season=3&report_id=C"
+            ],
+            "derivation": "reported single quarter",
+            "mopsRaw": {
+              "inventory": 10314.447,
+              "quarterRevenue": 26545.656,
+              "quarterCogs": 21315.715,
+              "ytdRevenue": 78346.769,
+              "ytdCogs": 62553.4,
+              "sourceUrl": "https://mopsov.twse.com.tw/server-java/FileDownLoad?functionName=t164sb01&step=9&co_id=3037&year=2023&season=3&report_id=C"
+            },
+            "inventoryYoy": -27.589912140758432,
+            "revenueYoy": -29.12370684666228
+          },
+          {
+            "date": "2023-12-31",
+            "fiscalYear": 2023,
+            "quarter": 4,
+            "inventory": 10927.213,
+            "revenue": 25689.381999999998,
+            "cogs": 21181.147999999994,
+            "days": 92,
+            "dio": 47.46218646883541,
+            "sourceType": "MOPS consolidated iXBRL (official)",
+            "sourceUrls": [
+              "https://mopsov.twse.com.tw/server-java/FileDownLoad?functionName=t164sb01&step=9&co_id=3037&year=2023&season=4&report_id=C",
+              "https://mopsov.twse.com.tw/server-java/FileDownLoad?functionName=t164sb01&step=9&co_id=3037&year=2023&season=3&report_id=C"
+            ],
+            "derivation": "current YTD minus previous quarter YTD",
+            "mopsRaw": {
+              "inventory": 10927.213,
+              "quarterRevenue": null,
+              "quarterCogs": null,
+              "ytdRevenue": 104036.151,
+              "ytdCogs": 83734.548,
+              "sourceUrl": "https://mopsov.twse.com.tw/server-java/FileDownLoad?functionName=t164sb01&step=9&co_id=3037&year=2023&season=4&report_id=C"
+            },
+            "inventoryYoy": -14.861415052523185,
+            "revenueYoy": -29.98200638729912
+          },
+          {
             "date": "2024-03-31",
             "fiscalYear": 2024,
             "quarter": 1,
@@ -9086,8 +9213,8 @@
               "ytdCogs": 73075.334,
               "sourceUrl": "https://mopsov.twse.com.tw/server-java/FileDownLoad?functionName=t164sb01&step=9&co_id=3037&year=2024&season=3&report_id=C"
             },
-            "inventoryYoy": null,
-            "revenueYoy": null
+            "inventoryYoy": 35.74440781944006,
+            "revenueYoy": 19.462687228373632
           },
           {
             "date": "2024-12-31",
@@ -9112,8 +9239,8 @@
               "ytdCogs": 99058.121,
               "sourceUrl": "https://mopsov.twse.com.tw/server-java/FileDownLoad?functionName=t164sb01&step=9&co_id=3037&year=2024&season=4&report_id=C"
             },
-            "inventoryYoy": null,
-            "revenueYoy": null
+            "inventoryYoy": 36.015880719081814,
+            "revenueYoy": 14.369866896759188
           },
           {
             "date": "2025-03-31",
@@ -14209,41 +14336,22 @@
       ],
       "historyStart": "2019-01-01",
       "note": "TWSE 최신 JSON은 참고용이며 역사 재고는 MOPS 공식 연결 iXBRL 다운로드로 수집. 인증키 없음. 직접 실행환경에서 MOPS 원본 다운로드 미확인. 첫 Actions 실행 후 결과 확인 필요.",
-      "lastRunDate": "2026-11-25"
+      "lastRunDate": "2026-11-26"
     },
     "taiwanApiReport": {
-      "as_of": "2026-11-25",
+      "as_of": "2026-11-26",
       "companies": [
         {
           "id": "quanta",
           "ticker": "2382",
-          "completeMopsQuarters": 25,
-          "newOrRevised": 25,
-          "revisedDates": [
-            "2021-12-31",
-            "2022-03-31",
-            "2022-06-30",
-            "2023-06-30",
-            "2023-09-30",
-            "2023-12-31",
-            "2024-03-31",
-            "2024-06-30",
-            "2024-09-30",
-            "2024-12-31",
-            "2025-03-31",
-            "2025-06-30",
-            "2025-09-30",
-            "2025-12-31",
-            "2026-03-31",
-            "2026-06-30",
-            "2026-09-30"
-          ],
-          "fetchedReports": 27,
+          "completeMopsQuarters": 27,
+          "newOrRevised": 27,
+          "revisedDates": [],
+          "fetchedReports": 5,
           "issues": [
             "2023Q1: inventory or duration facts unavailable/conflicting",
             "2022Q3: inventory or duration facts unavailable/conflicting",
-            "2021Q1: inventory or duration facts unavailable/conflicting",
-            "2020Q3: network/HTTP error 502 Server Error: Bad Gateway for url: https://mopsov.twse.com.tw/server-java/FileDownLoad?functionN"
+            "2021Q1: inventory or duration facts unavailable/conflicting"
           ]
         },
         {
@@ -14252,19 +14360,17 @@
           "completeMopsQuarters": 31,
           "newOrRevised": 31,
           "revisedDates": [],
-          "fetchedReports": 31,
+          "fetchedReports": 2,
           "issues": []
         },
         {
           "id": "inventec",
           "ticker": "2356",
-          "completeMopsQuarters": 30,
-          "newOrRevised": 30,
+          "completeMopsQuarters": 31,
+          "newOrRevised": 31,
           "revisedDates": [],
-          "fetchedReports": 30,
-          "issues": [
-            "2020Q1: network/HTTP error HTTPSConnectionPool(host='mopsov.twse.com.tw', port=443): Max retries exceeded with url: /server-jav"
-          ]
+          "fetchedReports": 3,
+          "issues": []
         },
         {
           "id": "foxconn",
@@ -14272,19 +14378,17 @@
           "completeMopsQuarters": 31,
           "newOrRevised": 31,
           "revisedDates": [],
-          "fetchedReports": 31,
+          "fetchedReports": 2,
           "issues": []
         },
         {
           "id": "unimicron",
           "ticker": "3037",
-          "completeMopsQuarters": 29,
-          "newOrRevised": 29,
+          "completeMopsQuarters": 31,
+          "newOrRevised": 31,
           "revisedDates": [],
-          "fetchedReports": 30,
-          "issues": [
-            "2023Q3: network/HTTP error HTTPSConnectionPool(host='mopsov.twse.com.tw', port=443): Max retries exceeded with url: /server-jav"
-          ]
+          "fetchedReports": 4,
+          "issues": []
         }
       ],
       "twseSnapshot": {
