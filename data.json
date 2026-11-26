@@ -1268,9 +1268,9 @@
     }
   ],
   "release": {
-    "version": "BETA 1.5.10",
+    "version": "BETA 1.5.11",
     "date": "2026-11-26",
-    "note": "ASML 31분기, 일본 6사 29개 과거 분기 추가. Advantest 일부 공시 발표자료 반올림 명시. 미확인 분기 공란 유지. EDINET Japan GAAP 재고 구성항목 파서 보강. Tokyo Electron 2023년 4개 달력분기 공식 IR 추가 및 전년비 재계산. TickerLandia 엔화 분기 재무제표로 Ibiden, Murata, Ajinomoto 누락 분기 9개 보완 (2차 집계, 원문 검증 대기)."
+    "note": "ASML 31분기, 일본 6사 29개 과거 분기 추가. Advantest 일부 공시 발표자료 반올림 명시. 미확인 분기 공란 유지. EDINET Japan GAAP 재고 구성항목 파서 보강. Tokyo Electron 2023년 4개 달력분기 공식 IR 추가 및 전년비 재계산. TickerLandia 엔화 분기 재무제표로 Ibiden, Murata, Ajinomoto 누락 분기 9개 보완 (2차 집계, 원문 검증 대기). Nittobo 4 missing quarters from issuer filings archived by IRBANK and JPX, no IRBANK API dataset redistribution."
   },
   "creditComparison": {
     "as_of": "2026-11-23",
@@ -10566,6 +10566,74 @@
         "currency": "JPY million",
         "rows": [
           {
+            "date": "2024-06-30",
+            "fiscalYear": 2025,
+            "quarter": 1,
+            "inventory": 49035,
+            "revenue": 26115,
+            "cogs": 16546,
+            "days": 91,
+            "dio": 269.6836093315605,
+            "sourceType": "Issuer consolidated earnings reports (Japan GAAP; IRBANK PDF archive / JPX TDnet / issuer disclosure mirror)",
+            "sourceUrls": [
+              "https://f.irbank.net/pdf/20240801/140120240731559515.pdf"
+            ],
+            "derivation": "reported quarter",
+            "inventoryComponents": {
+              "finishedGoods": 14289,
+              "workInProgress": 8191,
+              "rawMaterialsAndSupplies": 26555
+            },
+            "inventoryYoy": null,
+            "revenueYoy": null
+          },
+          {
+            "date": "2024-09-30",
+            "fiscalYear": 2025,
+            "quarter": 2,
+            "inventory": 50444,
+            "revenue": 26936,
+            "cogs": 17326,
+            "days": 92,
+            "dio": 267.85455384970567,
+            "sourceType": "Issuer consolidated earnings reports (Japan GAAP; IRBANK PDF archive / JPX TDnet / issuer disclosure mirror)",
+            "sourceUrls": [
+              "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20241101/20241022501040.pdf",
+              "https://f.irbank.net/pdf/20240801/140120240731559515.pdf"
+            ],
+            "derivation": "half year minus first quarter",
+            "inventoryComponents": {
+              "finishedGoods": 13868,
+              "workInProgress": 8491,
+              "rawMaterialsAndSupplies": 28085
+            },
+            "inventoryYoy": null,
+            "revenueYoy": null
+          },
+          {
+            "date": "2025-03-31",
+            "fiscalYear": 2025,
+            "quarter": 4,
+            "inventory": 51013,
+            "revenue": 27515,
+            "cogs": 16898,
+            "days": 90,
+            "dio": 271.69901763522313,
+            "sourceType": "Issuer consolidated earnings reports (Japan GAAP; IRBANK PDF archive / JPX TDnet / issuer disclosure mirror)",
+            "sourceUrls": [
+              "https://www2.jpx.co.jp/disc/31100/140120250509537444.pdf",
+              "https://www2.jpx.co.jp/disc/31100/140120260113532210.pdf"
+            ],
+            "derivation": "annual minus nine months (comparative)",
+            "inventoryComponents": {
+              "finishedGoods": 13212,
+              "workInProgress": 7751,
+              "rawMaterialsAndSupplies": 30050
+            },
+            "inventoryYoy": null,
+            "revenueYoy": null
+          },
+          {
             "date": "2025-06-30",
             "fiscalYear": 2026,
             "quarter": 1,
@@ -10579,8 +10647,8 @@
               "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20250801/20250729522307.pdf"
             ],
             "derivation": "reported single quarter",
-            "inventoryYoy": null,
-            "revenueYoy": null
+            "inventoryYoy": 6.917507902518616,
+            "revenueYoy": 8.102623013593725
           },
           {
             "date": "2025-09-30",
@@ -10597,8 +10665,8 @@
               "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20250801/20250729522307.pdf"
             ],
             "derivation": "half-year less first quarter",
-            "inventoryYoy": null,
-            "revenueYoy": null
+            "inventoryYoy": 7.033542145745786,
+            "revenueYoy": 8.334570834570831
           },
           {
             "date": "2025-12-31",
@@ -10616,6 +10684,29 @@
               "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20250801/20250729522307.pdf"
             ],
             "derivation": "cumulative period difference"
+          },
+          {
+            "date": "2026-03-31",
+            "fiscalYear": 2026,
+            "quarter": 4,
+            "inventory": 59076,
+            "revenue": 30635,
+            "cogs": 17754,
+            "days": 90,
+            "dio": 299.4727948631294,
+            "sourceType": "Issuer consolidated earnings reports (Japan GAAP; IRBANK PDF archive / JPX TDnet / issuer disclosure mirror)",
+            "sourceUrls": [
+              "https://www2.jpx.co.jp/disc/31100/140120260512525575.pdf",
+              "https://www2.jpx.co.jp/disc/31100/140120260113532210.pdf"
+            ],
+            "derivation": "annual minus nine months",
+            "inventoryComponents": {
+              "finishedGoods": 16011,
+              "workInProgress": 8671,
+              "rawMaterialsAndSupplies": 34394
+            },
+            "inventoryYoy": 15.805774998529776,
+            "revenueYoy": 11.33926948936943
           },
           {
             "date": "2026-06-30",
