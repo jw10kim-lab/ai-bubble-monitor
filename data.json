@@ -1268,9 +1268,9 @@
     }
   ],
   "release": {
-    "version": "BETA 1.4",
+    "version": "BETA 1.5",
     "date": "2026-11-26",
-    "note": "Taiwan MOPS quarterly collection: 5 issuers with successful fetch; inspect coverage."
+    "note": "한국 OpenDART 및 일본 EDINET 수집 코드·워크플로 등록, 인증키 및 최초 실행 필요. 기존 재무 데이터 유지."
   },
   "creditComparison": {
     "as_of": "2026-11-23",
@@ -14479,6 +14479,32 @@
       },
       "source": "MOPS consolidated iXBRL; TWSE JSON latest reference",
       "note": "TWSE latest snapshot is diagnostic only; quarterly numbers originate in MOPS tagged facts. No credentials."
+    },
+    "koreaApiCollection": {
+      "status": "registered_pending_credentials",
+      "source": "https://opendart.fss.or.kr/",
+      "script": "scripts/update_korea_financials.py",
+      "workflow": ".github/workflows/korea-financials.yml",
+      "targets": [
+        "000660",
+        "009150"
+      ],
+      "note": "DART_API_KEY GitHub secret required. 최초 실행 및 실제 데이터 수집 미확인."
+    },
+    "japanApiCollection": {
+      "status": "registered_pending_credentials",
+      "source": "https://disclosure2.edinet-fsa.go.jp/",
+      "script": "scripts/update_japan_financials.py",
+      "workflow": ".github/workflows/japan-financials.yml",
+      "targets": [
+        "4062",
+        "6981",
+        "3110",
+        "2802",
+        "8035",
+        "6857"
+      ],
+      "note": "EDINET_API_KEY GitHub secret required. EDINET 목록을 최근 14일 및 과거 최대 200 영업일 단위로 순차 조회. 2024년 이후 Q1/Q3 TDnet/IR 별도 보강 미구현. 실제 수집 미확인."
     }
   }
 }
