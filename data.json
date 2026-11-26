@@ -1268,9 +1268,9 @@
     }
   ],
   "release": {
-    "version": "BETA 1.5.9",
+    "version": "BETA 1.5.10",
     "date": "2026-11-26",
-    "note": "ASML 31분기, 일본 6사 29개 과거 분기 추가. Advantest 일부 공시 발표자료 반올림 명시. 미확인 분기 공란 유지. EDINET Japan GAAP 재고 구성항목 파서 보강. Tokyo Electron 2023년 4개 달력분기 공식 IR 추가 및 전년비 재계산."
+    "note": "ASML 31분기, 일본 6사 29개 과거 분기 추가. Advantest 일부 공시 발표자료 반올림 명시. 미확인 분기 공란 유지. EDINET Japan GAAP 재고 구성항목 파서 보강. Tokyo Electron 2023년 4개 달력분기 공식 IR 추가 및 전년비 재계산. TickerLandia 엔화 분기 재무제표로 Ibiden, Murata, Ajinomoto 누락 분기 9개 보완 (2차 집계, 원문 검증 대기)."
   },
   "creditComparison": {
     "as_of": "2026-11-23",
@@ -9258,6 +9258,40 @@
         "currency": "JPY million",
         "rows": [
           {
+            "date": "2023-12-31",
+            "fiscalYear": 2024,
+            "quarter": 3,
+            "inventory": 67308,
+            "revenue": 92527,
+            "cogs": 65883,
+            "days": 92,
+            "dio": 93.98989117071172,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "sourceType": "TickerLandia standardized quarterly financial statements (JPY million; secondary source, pending primary verification)",
+            "sourceUrls": [
+              "https://tickerlandia.com/en/stocks/ibiden-4062/financials"
+            ],
+            "derivation": "reported single quarter"
+          },
+          {
+            "date": "2024-03-31",
+            "fiscalYear": 2024,
+            "quarter": 4,
+            "inventory": 65318,
+            "revenue": 90344,
+            "cogs": 65722,
+            "days": 91,
+            "dio": 90.44061349319863,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "sourceType": "TickerLandia standardized quarterly financial statements (JPY million; secondary source, pending primary verification)",
+            "sourceUrls": [
+              "https://tickerlandia.com/en/stocks/ibiden-4062/financials"
+            ],
+            "derivation": "reported single quarter"
+          },
+          {
             "date": "2024-06-30",
             "fiscalYear": 2025,
             "quarter": 1,
@@ -9302,7 +9336,9 @@
               "https://www.ibiden.com/ir/items/tanshin2024Q3.pdf",
               "https://www.ibiden.com/ir/items/tannshinn2024Q2.pdf"
             ],
-            "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end"
+            "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end",
+            "inventoryYoy": 8.658703274499313,
+            "revenueYoy": -4.079890194213576
           },
           {
             "date": "2025-03-31",
@@ -9318,7 +9354,9 @@
               "https://www.ibiden.com/ir/items/ConsolidatedFinancialResultsFY2025.pdf",
               "https://www.ibiden.com/ir/items/tanshin2024Q3.pdf"
             ],
-            "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end"
+            "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end",
+            "inventoryYoy": 2.843014176796599,
+            "revenueYoy": 9.690737625077483
           },
           {
             "date": "2025-06-30",
@@ -10279,6 +10317,40 @@
         "currency": "JPY million",
         "rows": [
           {
+            "date": "2023-12-31",
+            "fiscalYear": 2024,
+            "quarter": 3,
+            "inventory": 514334,
+            "revenue": 439394,
+            "cogs": 270116,
+            "days": 92,
+            "dio": 175.1792859364125,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "sourceType": "TickerLandia standardized quarterly financial statements (JPY million; secondary source, pending primary verification)",
+            "sourceUrls": [
+              "https://tickerlandia.com/en/stocks/murata-manufacturing-6981/financials"
+            ],
+            "derivation": "reported single quarter"
+          },
+          {
+            "date": "2024-03-31",
+            "fiscalYear": 2024,
+            "quarter": 4,
+            "inventory": 513024,
+            "revenue": 390414,
+            "cogs": 246078,
+            "days": 91,
+            "dio": 189.71701655572625,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "sourceType": "TickerLandia standardized quarterly financial statements (JPY million; secondary source, pending primary verification)",
+            "sourceUrls": [
+              "https://tickerlandia.com/en/stocks/murata-manufacturing-6981/financials"
+            ],
+            "derivation": "reported single quarter"
+          },
+          {
             "date": "2024-06-30",
             "fiscalYear": 2025,
             "quarter": 1,
@@ -10323,7 +10395,9 @@
               "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2025/0203/24q3-e-fls.ashx?cvid=20250203020218000000&la=en-us",
               "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2024/1101/24q2-e-fls.ashx?cvid=20241101011335000000&la=en-us"
             ],
-            "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end"
+            "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end",
+            "inventoryYoy": -4.7774403403236025,
+            "revenueYoy": 1.960427315803126
           },
           {
             "date": "2025-03-31",
@@ -10339,7 +10413,9 @@
               "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/0430/25q4-e-fls.ashx?cvid=20260430013812000000&la=en",
               "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2025/0203/24q3-e-fls.ashx?cvid=20250203020218000000&la=en-us"
             ],
-            "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end"
+            "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end",
+            "inventoryYoy": -5.884909867764476,
+            "revenueYoy": 5.493911591285139
           },
           {
             "date": "2025-06-30",
@@ -11428,6 +11504,57 @@
         "currency": "JPY million",
         "rows": [
           {
+            "date": "2023-09-30",
+            "fiscalYear": 2024,
+            "quarter": 2,
+            "inventory": 311052,
+            "revenue": 348482,
+            "cogs": 227997,
+            "days": 92,
+            "dio": 125.51386202450031,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "sourceType": "TickerLandia standardized quarterly financial statements (JPY million; secondary source, pending primary verification)",
+            "sourceUrls": [
+              "https://tickerlandia.com/en/stocks/ajinomoto-2802/financials"
+            ],
+            "derivation": "reported single quarter"
+          },
+          {
+            "date": "2023-12-31",
+            "fiscalYear": 2024,
+            "quarter": 3,
+            "inventory": 300706,
+            "revenue": 379641,
+            "cogs": 239791,
+            "days": 92,
+            "dio": 115.37110233495001,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "sourceType": "TickerLandia standardized quarterly financial statements (JPY million; secondary source, pending primary verification)",
+            "sourceUrls": [
+              "https://tickerlandia.com/en/stocks/ajinomoto-2802/financials"
+            ],
+            "derivation": "reported single quarter"
+          },
+          {
+            "date": "2024-03-31",
+            "fiscalYear": 2024,
+            "quarter": 4,
+            "inventory": 287122,
+            "revenue": 371586,
+            "cogs": 244560,
+            "days": 91,
+            "dio": 106.83718514883873,
+            "inventoryYoy": null,
+            "revenueYoy": null,
+            "sourceType": "TickerLandia standardized quarterly financial statements (JPY million; secondary source, pending primary verification)",
+            "sourceUrls": [
+              "https://tickerlandia.com/en/stocks/ajinomoto-2802/financials"
+            ],
+            "derivation": "reported single quarter"
+          },
+          {
             "date": "2024-06-30",
             "fiscalYear": 2025,
             "quarter": 1,
@@ -11456,7 +11583,9 @@
               "https://www.ajinomoto.co.jp/company/en/ir/library/result/main/010/teaserItems1/0/linkList/05/link/FY24Q2_Tanshin_E.pdf",
               "https://www.ajinomoto.co.jp/company/en/ir/library/result/main/010/teaserItems1/0/linkList/04/link/FY24Q1_Tanshin_E.pdf"
             ],
-            "derivation": "cumulative period difference"
+            "derivation": "cumulative period difference",
+            "inventoryYoy": -2.306045291462522,
+            "revenueYoy": 8.683375324980913
           },
           {
             "date": "2024-12-31",
@@ -11472,7 +11601,9 @@
               "https://www.ajinomoto.co.jp/company/en/ir/library/result/main/010/teaserItems1/0/linkList/06/link/FY24Q3_Tanshin_E.pdf",
               "https://www.ajinomoto.co.jp/company/en/ir/library/result/main/010/teaserItems1/0/linkList/05/link/FY24Q2_Tanshin_E.pdf"
             ],
-            "derivation": "cumulative period difference"
+            "derivation": "cumulative period difference",
+            "inventoryYoy": 3.6068452242389526,
+            "revenueYoy": 7.1499126806640945
           },
           {
             "date": "2025-03-31",
@@ -11488,7 +11619,9 @@
               "https://ajinomoto-ir.swcms.net/company/en/ir/library/result/main/014/teaserItems1/0/linkList/06/link/FY25Q4_Tanshin_E.pdf",
               "https://www.ajinomoto.co.jp/company/en/ir/library/result/main/010/teaserItems1/0/linkList/06/link/FY24Q3_Tanshin_E.pdf"
             ],
-            "derivation": "cumulative period difference"
+            "derivation": "cumulative period difference",
+            "inventoryYoy": -0.05920828080049345,
+            "revenueYoy": 2.1354410553680703
           },
           {
             "date": "2025-06-30",
@@ -11526,6 +11659,40 @@
             "derivation": "half-year less first quarter",
             "inventoryYoy": 7.153505178047848,
             "revenueYoy": -1.0215397288919625
+          },
+          {
+            "date": "2025-12-31",
+            "fiscalYear": 2026,
+            "quarter": 3,
+            "inventory": 333470,
+            "revenue": 425287,
+            "cogs": 259358,
+            "days": 92,
+            "dio": 118.28916015700307,
+            "inventoryYoy": 7.035101684470013,
+            "revenueYoy": 4.548348636257482,
+            "sourceType": "TickerLandia standardized quarterly financial statements (JPY million; secondary source, pending primary verification)",
+            "sourceUrls": [
+              "https://tickerlandia.com/en/stocks/ajinomoto-2802/financials"
+            ],
+            "derivation": "reported single quarter"
+          },
+          {
+            "date": "2026-03-31",
+            "fiscalYear": 2026,
+            "quarter": 4,
+            "inventory": 318632,
+            "revenue": 419551,
+            "cogs": 267760,
+            "days": 90,
+            "dio": 107.0991933074395,
+            "inventoryYoy": 11.040173966377642,
+            "revenueYoy": 10.547505935112955,
+            "sourceType": "TickerLandia standardized quarterly financial statements (JPY million; secondary source, pending primary verification)",
+            "sourceUrls": [
+              "https://tickerlandia.com/en/stocks/ajinomoto-2802/financials"
+            ],
+            "derivation": "reported single quarter"
           },
           {
             "date": "2026-06-30",
