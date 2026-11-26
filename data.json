@@ -1268,9 +1268,9 @@
     }
   ],
   "release": {
-    "version": "BETA 1.5.6",
+    "version": "BETA 1.5.7",
     "date": "2026-11-26",
-    "note": "ASML 2019년 이후 분기 자료, Ibiden·Murata·TEL 2024년 이후 공식 연결 분기 자료 보강. 과거 미확인 기간은 공란 유지."
+    "note": "ASML 31개 분기, 일본 5사 과거 공식 연결 분기 24개 추가. 미확인 기간 공란 유지."
   },
   "creditComparison": {
     "as_of": "2026-11-23",
@@ -9366,7 +9366,9 @@
             "dio": 89.99003543548345,
             "sourceType": "기업 공식 연결 분기 실적공시 (Japan GAAP)",
             "sourceUrls": [
-              "https://www.ibiden.com/ir/library/statement/items/tannshinn2025Q3.pdf"
+              "https://www.ibiden.com/ir/library/statement/items/tannshinn2025Q3.pdf",
+              "https://www.ibiden.com/ir/library/statement/items/tannshinn2025Q2.pdf",
+              "https://www.ibiden.com/ir/items/ConsolidatedFinancialResultsForthe1QEndedJnue302025.pdf"
             ],
             "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end",
             "inventoryYoy": 0.3965215488952012,
@@ -10387,7 +10389,10 @@
             "dio": 169.1412576535198,
             "sourceType": "기업 공식 연결 분기 실적공시 (IFRS)",
             "sourceUrls": [
-              "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/0202/25q3-e-fls.ashx?cvid=20260202015121000000&la=en-us"
+              "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/0202/25q3-e-fls.ashx?cvid=20260202015121000000&la=en-us",
+              "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2025/1031/25q2-e-fls.ashx?cvid=20251031003510000000&la=en-us",
+              "https://www.marketscreener.com/news/murata-manufacturing-first-quarter-of-fy2026-ce7f50dbda8af127",
+              "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/1030/26q2-e-fls.ashx"
             ],
             "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end",
             "inventoryYoy": 2.325006840057009,
@@ -10518,6 +10523,23 @@
             "derivation": "half-year less first quarter",
             "inventoryYoy": null,
             "revenueYoy": null
+          },
+          {
+            "date": "2025-12-31",
+            "fiscalYear": 2026,
+            "quarter": 3,
+            "inventory": 57487,
+            "revenue": 30182,
+            "cogs": 17691,
+            "days": 92,
+            "dio": 298.9544966367079,
+            "sourceType": "기업 공식 연결 분기 실적공시 재게시 (Japan GAAP)",
+            "sourceUrls": [
+              "https://docs.publicnow.com/viewDoc?filename=47746%5CEXT%5C31E7FAE881BA12C3AB0E1A0518BCC0AF6E917D3B_582C0374CE06E4D0AA6881DA36ED803FD44B3DEF.PDF",
+              "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20251106/20251105587707.pdf",
+              "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20250801/20250729522307.pdf"
+            ],
+            "derivation": "cumulative period difference"
           },
           {
             "date": "2026-06-30",
@@ -11406,6 +11428,69 @@
         "currency": "JPY million",
         "rows": [
           {
+            "date": "2024-06-30",
+            "fiscalYear": 2025,
+            "quarter": 1,
+            "inventory": 311704,
+            "revenue": 365508,
+            "cogs": 232108,
+            "days": 91,
+            "dio": 122.20631774863426,
+            "sourceType": "기업 공식 연결 분기 실적공시 (IFRS)",
+            "sourceUrls": [
+              "https://www.ajinomoto.co.jp/company/en/ir/library/result/main/010/teaserItems1/0/linkList/04/link/FY24Q1_Tanshin_E.pdf"
+            ],
+            "derivation": "reported quarter"
+          },
+          {
+            "date": "2024-09-30",
+            "fiscalYear": 2025,
+            "quarter": 2,
+            "inventory": 303879,
+            "revenue": 378742,
+            "cogs": 240791,
+            "days": 92,
+            "dio": 116.10428961215328,
+            "sourceType": "기업 공식 연결 분기 실적공시 (IFRS)",
+            "sourceUrls": [
+              "https://www.ajinomoto.co.jp/company/en/ir/library/result/main/010/teaserItems1/0/linkList/05/link/FY24Q2_Tanshin_E.pdf",
+              "https://www.ajinomoto.co.jp/company/en/ir/library/result/main/010/teaserItems1/0/linkList/04/link/FY24Q1_Tanshin_E.pdf"
+            ],
+            "derivation": "cumulative period difference"
+          },
+          {
+            "date": "2024-12-31",
+            "fiscalYear": 2025,
+            "quarter": 3,
+            "inventory": 311552,
+            "revenue": 406785,
+            "cogs": 256148,
+            "days": 92,
+            "dio": 111.89930821243969,
+            "sourceType": "기업 공식 연결 분기 실적공시 (IFRS)",
+            "sourceUrls": [
+              "https://www.ajinomoto.co.jp/company/en/ir/library/result/main/010/teaserItems1/0/linkList/06/link/FY24Q3_Tanshin_E.pdf",
+              "https://www.ajinomoto.co.jp/company/en/ir/library/result/main/010/teaserItems1/0/linkList/05/link/FY24Q2_Tanshin_E.pdf"
+            ],
+            "derivation": "cumulative period difference"
+          },
+          {
+            "date": "2025-03-31",
+            "fiscalYear": 2025,
+            "quarter": 4,
+            "inventory": 286952,
+            "revenue": 379521,
+            "cogs": 250745,
+            "days": 90,
+            "dio": 102.99579253823606,
+            "sourceType": "기업 공식 연결 분기 실적공시 (IFRS)",
+            "sourceUrls": [
+              "https://ajinomoto-ir.swcms.net/company/en/ir/library/result/main/014/teaserItems1/0/linkList/06/link/FY25Q4_Tanshin_E.pdf",
+              "https://www.ajinomoto.co.jp/company/en/ir/library/result/main/010/teaserItems1/0/linkList/06/link/FY24Q3_Tanshin_E.pdf"
+            ],
+            "derivation": "cumulative period difference"
+          },
+          {
             "date": "2025-06-30",
             "fiscalYear": 2026,
             "quarter": 1,
@@ -11420,8 +11505,8 @@
               "https://www.ajinomoto.co.jp/company/en/ir/library/result/main/013/teaserItems1/0/linkList/04/link/FY26Q1_Tanshin_E.pdf"
             ],
             "derivation": "reported single quarter",
-            "inventoryYoy": null,
-            "revenueYoy": null
+            "inventoryYoy": -2.0452095577855878,
+            "revenueYoy": -0.41038773433139664
           },
           {
             "date": "2025-09-30",
@@ -11439,8 +11524,8 @@
               "https://www.ajinomoto.com/cms_wp_ajnmt_global/wp-content/uploads/pdf/2026_11_09_02E.pdf"
             ],
             "derivation": "half-year less first quarter",
-            "inventoryYoy": null,
-            "revenueYoy": null
+            "inventoryYoy": 7.153505178047848,
+            "revenueYoy": -1.0215397288919625
           },
           {
             "date": "2026-06-30",
@@ -12294,7 +12379,9 @@
             "dio": 211.0391251549574,
             "sourceType": "기업 공식 연결 분기 실적공시 (Japan GAAP)",
             "sourceUrls": [
-              "https://www.tel.com/ir/library/report/qemr4i00000000dj-att/fy26q3tanshin-e.pdf"
+              "https://www.tel.com/ir/library/report/qemr4i00000000dj-att/fy26q3tanshin-e.pdf",
+              "https://www.tel.com/ir/library/report/n0n82r00000000hl-att/fy26q2tanshin-e.pdf",
+              "https://www.tel.com/ir/library/report/cpkomu00000000kv-att/fy26q1tanshin-e.pdf"
             ],
             "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end",
             "inventoryYoy": -5.183745389045602,
