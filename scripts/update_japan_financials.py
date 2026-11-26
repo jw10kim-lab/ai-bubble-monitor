@@ -7,7 +7,7 @@ import requests
 D=decimal.Decimal
 API="https://api.edinet-fsa.go.jp/api/v2/"
 TARGETS={"4062":"ibiden","6981":"murata","3110":"nittobo","2802":"ajinomoto","8035":"tel","6857":"advantest"}
-TAGS={"inventory":{"Inventories","InventoriesIFRS"},"revenue":{"NetSales","Revenue","RevenueIFRS","OperatingRevenue","RevenueFromContractsWithCustomers"},"cogs":{"CostOfSales","CostOfSalesIFRS","CostOfRevenue","CostOfGoodsSold"},"gross":{"GrossProfit","GrossProfitIFRS","GrossProfitLoss"}}
+TAGS={"inventory":{"Inventories","InventoriesIFRS","InventoryNet"},"inventory_finished":{"MerchandiseAndFinishedGoods","FinishedGoods"},"inventory_wip":{"WorkInProcess","WorkInProgress"},"inventory_raw":{"RawMaterialsAndSupplies","RawMaterials"},"revenue":{"NetSales","Revenue","RevenueIFRS","OperatingRevenue","RevenueFromContractsWithCustomers"},"cogs":{"CostOfSales","CostOfSalesIFRS","CostOfRevenue","CostOfGoodsSold"},"gross":{"GrossProfit","GrossProfitIFRS","GrossProfitLoss"}}
 def local(t):return t.rsplit("}",1)[-1].split(":")[-1]
 def get1(n,tag):
     a=[x.text for x in n.iter() if local(x.tag)==tag]
@@ -37,7 +37,7 @@ def parse(body,end):
                 name=local(n.tag);key=next((k for k,v in TAGS.items() if name in v),None)
                 if not key or n.get("unitRef") not in units or n.get("contextRef") not in ctx:continue
                 instant,a,b=ctx[n.get("contextRef")]
-                if key=="inventory":
+                if key.startswith("inventory"):
                     if instant!=end:continue
                     mode="instant"
                 else:
@@ -57,7 +57,12 @@ def parse(body,end):
             if c is None:c=implied
             elif abs(c-implied)>max(D(1000),abs(r)*D(".000001")):return None,None
         return (r,c) if r is not None and c is not None and r>0 and c>0 else (None,None)
-    inv=pick("inventory","instant");r,c=flow("quarter");a,b=flow("ytd")
+    inv=pick("inventory","instant")
+    # Japanese GAAP often discloses inventories as three separate balance sheet lines.
+    # Do not add components to a reported total or infer missing components as zero.
+    components=[pick(k,"instant") for k in ("inventory_finished","inventory_wip","inventory_raw")]
+    if inv is None and all(v is not None and v>=0 for v in components):inv=sum(components)
+    r,c=flow("quarter");a,b=flow("ytd")
     if q==1:a,b=r,c
     if inv is None or inv<0 or (r is None and a is None):raise ValueError("missing/conflicting consolidated inventory or income facts")
     def m(x):return float(x/1_000_000) if x is not None else None
@@ -162,6 +167,6 @@ def main():
     if consecutive>=5 and not fetched and not any(r["completeEdinetQuarters"] for r in reports):raise RuntimeError("EDINET unavailable; old data retained")
     cycle["japanApiReport"]=report;cycle["japanApiCollection"]={"status":"partial" if any(r["completeEdinetQuarters"] for r in reports) else "index_only","lastRunDate":str(today),"source":"EDINET v2"}
     if fetched:cycle["as_of"]=str(today)
-    d["release"]={"version":"BETA 1.5","date":str(today),"note":"EDINET incremental collection; see actual coverage."}
+    # Keep the current dashboard release; report collection status separately in memoryCycle.
     temp=file.with_suffix(".tmp");temp.write_text(json.dumps(d,ensure_ascii=False,indent=2,allow_nan=False)+"\n",encoding="utf-8");temp.replace(file)
 if __name__=="__main__":main()
