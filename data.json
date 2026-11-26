@@ -11458,7 +11458,7 @@
           {
             "date": "2021-04-04",
             "fiscalYear": 2021,
-            "quarter": 2,
+            "quarter": 1,
             "inventory": 4748.1,
             "revenue": 4363.9,
             "cogs": 2011.5,
@@ -11469,13 +11469,13 @@
               "https://www.sec.gov/Archives/edgar/data/937966/000093796622000004/financialstatementsusgaapq.htm"
             ],
             "derivation": "reported quarter",
-            "inventoryYoy": 1.3338739969267488,
-            "revenueYoy": 31.21748804762907
+            "inventoryYoy": 9.269785745518156,
+            "revenueYoy": 78.8043923625338
           },
           {
             "date": "2021-07-04",
             "fiscalYear": 2021,
-            "quarter": 3,
+            "quarter": 2,
             "inventory": 5086.3,
             "revenue": 4020.2,
             "cogs": 1975.6,
@@ -11486,13 +11486,13 @@
               "https://www.sec.gov/Archives/edgar/data/937966/000093796622000004/financialstatementsusgaapq.htm"
             ],
             "derivation": "reported quarter",
-            "inventoryYoy": 10.243405509677705,
-            "revenueYoy": 1.571500757958555
+            "inventoryYoy": 8.551732969096793,
+            "revenueYoy": 20.882821661605067
           },
           {
             "date": "2021-10-03",
             "fiscalYear": 2021,
-            "quarter": 4,
+            "quarter": 3,
             "inventory": 4944.2,
             "revenue": 5241.3,
             "cogs": 2529.9,
@@ -11503,8 +11503,8 @@
               "https://www.sec.gov/Archives/edgar/data/937966/000093796622000004/financialstatementsusgaapq.htm"
             ],
             "derivation": "reported quarter",
-            "inventoryYoy": 8.202389810478405,
-            "revenueYoy": 23.20584847558824
+            "inventoryYoy": 7.163447991850358,
+            "revenueYoy": 32.422940879231945
           },
           {
             "date": "2021-12-31",
@@ -11526,7 +11526,7 @@
           {
             "date": "2022-04-03",
             "fiscalYear": 2022,
-            "quarter": 2,
+            "quarter": 1,
             "inventory": 6073.5,
             "revenue": 3534.4,
             "cogs": 1803.4,
@@ -11543,7 +11543,7 @@
           {
             "date": "2022-07-03",
             "fiscalYear": 2022,
-            "quarter": 3,
+            "quarter": 2,
             "inventory": 6367.1,
             "revenue": 5430.5,
             "cogs": 2766,
@@ -11560,7 +11560,7 @@
           {
             "date": "2022-10-02",
             "fiscalYear": 2022,
-            "quarter": 4,
+            "quarter": 3,
             "inventory": 6884,
             "revenue": 5778.3,
             "cogs": 2784.6,
@@ -11588,13 +11588,13 @@
               "https://www.sec.gov/Archives/edgar/data/937966/000093796623000003/financialstatementsusgaapq.htm"
             ],
             "derivation": "reported quarter",
-            "inventoryYoy": 45.61910925933417,
-            "revenueYoy": 22.683303760517415
+            "inventoryYoy": 39.011816496756246,
+            "revenueYoy": 28.975449293966605
           },
           {
             "date": "2023-04-02",
             "fiscalYear": 2023,
-            "quarter": 2,
+            "quarter": 1,
             "inventory": 7392,
             "revenue": 6746.2,
             "cogs": 3333,
@@ -11611,7 +11611,7 @@
           {
             "date": "2023-07-02",
             "fiscalYear": 2023,
-            "quarter": 3,
+            "quarter": 2,
             "inventory": 7734.4,
             "revenue": 6902.3,
             "cogs": 3358.3,
@@ -11628,7 +11628,7 @@
           {
             "date": "2023-10-01",
             "fiscalYear": 2023,
-            "quarter": 4,
+            "quarter": 3,
             "inventory": 8378.5,
             "revenue": 6673,
             "cogs": 3211.4,
@@ -11656,8 +11656,8 @@
               "https://www.sec.gov/Archives/edgar/data/937966/000093796624000003/financialstatementsusgaapq.htm"
             ],
             "derivation": "reported quarter",
-            "inventoryYoy": 28.569145845438705,
-            "revenueYoy": 25.244449059411945
+            "inventoryYoy": 22.931511035182027,
+            "revenueYoy": 12.547043637833966
           },
           {
             "date": "2024-03-31",
@@ -11673,8 +11673,8 @@
               "https://www.sec.gov/Archives/edgar/data/937966/000093796624000022/financialstatementsusgaapq.htm"
             ],
             "derivation": "reported quarter",
-            "inventoryYoy": null,
-            "revenueYoy": null
+            "inventoryYoy": 33.44832251082251,
+            "revenueYoy": -21.585485162017136
           },
           {
             "date": "2024-06-30",
@@ -11690,8 +11690,8 @@
               "https://www.sec.gov/Archives/edgar/data/937966/000093796624000022/financialstatementsusgaapq.htm"
             ],
             "derivation": "reported quarter",
-            "inventoryYoy": 48.43479437229436,
-            "revenueYoy": -7.461978595357377
+            "inventoryYoy": 41.86362225899876,
+            "revenueYoy": -9.554786085797485
           },
           {
             "date": "2024-09-29",
@@ -11705,8 +11705,8 @@
               "https://www.sec.gov/Archives/edgar/data/937966/000093796624000022/financialstatementsusgaapq.htm"
             ],
             "days": 91,
-            "inventoryYoy": 47.58093711212248,
-            "revenueYoy": 8.185677238022105,
+            "inventoryYoy": 36.2356030315689,
+            "revenueYoy": 11.903191967630743,
             "dio": 282.72938838836114,
             "derivation": "reported quarter",
             "previousValues": {
@@ -11743,8 +11743,8 @@
               "https://stockanalysis.com/stocks/asml/financials/income-statement/?p=quarterly"
             ],
             "days": 93,
-            "inventoryYoy": 29.993435579160945,
-            "revenueYoy": 38.81013037614265,
+            "inventoryYoy": 23.05806320404036,
+            "revenueYoy": 27.99226198701119,
             "dio": 226.4496981891348
           },
           {
