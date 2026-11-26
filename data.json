@@ -1268,9 +1268,9 @@
     }
   ],
   "release": {
-    "version": "BETA 1.5.8",
+    "version": "BETA 1.5.9",
     "date": "2026-11-26",
-    "note": "ASML 31분기, 일본 6사 29개 과거 분기 추가. Advantest 일부 공시 발표자료 반올림 명시. 미확인 분기 공란 유지. EDINET Japan GAAP 재고 구성항목 파서 보강."
+    "note": "ASML 31분기, 일본 6사 29개 과거 분기 추가. Advantest 일부 공시 발표자료 반올림 명시. 미확인 분기 공란 유지. EDINET Japan GAAP 재고 구성항목 파서 보강. Tokyo Electron 2023년 4개 달력분기 공식 IR 추가 및 전년비 재계산."
   },
   "creditComparison": {
     "as_of": "2026-11-23",
@@ -12253,6 +12253,77 @@
         "currency": "JPY million",
         "rows": [
           {
+            "date": "2023-03-31",
+            "fiscalYear": 2023,
+            "quarter": 4,
+            "inventory": 652207,
+            "revenue": 558296,
+            "cogs": 306607,
+            "days": 90,
+            "sourceUrls": [
+              "https://www.tel.com/ir/library/report/a4fd9v000000004h-att/fy23q4tanshin-e.pdf",
+              "https://www.tel.com/ir/library/report/a5hghd00000000bq-att/fy24q3tanshin-e.pdf"
+            ],
+            "derivation": "annual minus nine months",
+            "sourceType": "Tokyo Electron official consolidated Japan GAAP; inventory components summed (JPY million)",
+            "dio": 191.44582478547454,
+            "inventoryYoy": null,
+            "revenueYoy": null
+          },
+          {
+            "date": "2023-06-30",
+            "fiscalYear": 2024,
+            "quarter": 1,
+            "inventory": 716570,
+            "revenue": 391746,
+            "cogs": 229432,
+            "days": 91,
+            "sourceUrls": [
+              "https://www.tel.com/ir/library/report/ta7l33000000009p-att/fy24q1tanshin-e.pdf"
+            ],
+            "derivation": "reported quarter",
+            "sourceType": "Tokyo Electron official consolidated Japan GAAP; inventory components summed (JPY million)",
+            "dio": 284.21436416890407,
+            "inventoryYoy": null,
+            "revenueYoy": null
+          },
+          {
+            "date": "2023-09-30",
+            "fiscalYear": 2024,
+            "quarter": 2,
+            "inventory": 748540,
+            "revenue": 427826,
+            "cogs": 238099,
+            "days": 92,
+            "sourceUrls": [
+              "https://www.tel.com/ir/library/report/plgm7r000000003e-att/fy24q2tanshin-e.pdf",
+              "https://www.tel.com/ir/library/report/ta7l33000000009p-att/fy24q1tanshin-e.pdf"
+            ],
+            "derivation": "half year minus first quarter",
+            "sourceType": "Tokyo Electron official consolidated Japan GAAP; inventory components summed (JPY million)",
+            "dio": 289.2312861456789,
+            "inventoryYoy": null,
+            "revenueYoy": null
+          },
+          {
+            "date": "2023-12-31",
+            "fiscalYear": 2024,
+            "quarter": 3,
+            "inventory": 778039,
+            "revenue": 463662,
+            "cogs": 241549,
+            "days": 92,
+            "sourceUrls": [
+              "https://www.tel.com/ir/library/report/a5hghd00000000bq-att/fy24q3tanshin-e.pdf",
+              "https://www.tel.com/ir/library/report/plgm7r000000003e-att/fy24q2tanshin-e.pdf"
+            ],
+            "derivation": "nine months minus half year",
+            "sourceType": "Tokyo Electron official consolidated Japan GAAP; inventory components summed (JPY million)",
+            "dio": 296.33568344311095,
+            "inventoryYoy": null,
+            "revenueYoy": null
+          },
+          {
             "date": "2024-03-31",
             "fiscalYear": 2024,
             "quarter": 4,
@@ -12266,7 +12337,9 @@
               "https://www.tel.com/ir/library/report/l8gqgo00000000gl-att/fy25q4tanshin-e.pdf",
               "https://www.tel.com/ir/library/report/c2l1qi00000000sj-att/fy25q3tanshin-e.pdf"
             ],
-            "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end"
+            "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end",
+            "inventoryYoy": 16.980651848262895,
+            "revenueYoy": -1.9708183472566532
           },
           {
             "date": "2024-06-30",
@@ -12281,7 +12354,9 @@
             "sourceUrls": [
               "https://www.tel.com/ir/library/report/tpc8u500000000s3-att/fy25q1tanshin-e.pdf"
             ],
-            "derivation": "reported first quarter"
+            "derivation": "reported first quarter",
+            "inventoryYoy": 6.7384903079950265,
+            "revenueYoy": 41.69155524242749
           },
           {
             "date": "2024-09-30",
@@ -12297,7 +12372,9 @@
               "https://www.tel.com/ir/library/report/o6kifa00000000nf-att/fy25q2tanshin-e.pdf",
               "https://www.tel.com/ir/library/report/tpc8u500000000s3-att/fy25q1tanshin-e.pdf"
             ],
-            "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end"
+            "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end",
+            "inventoryYoy": -0.8372298073583195,
+            "revenueYoy": 32.426500493191156
           },
           {
             "date": "2024-12-31",
@@ -12313,7 +12390,9 @@
               "https://www.tel.com/ir/library/report/c2l1qi00000000sj-att/fy25q3tanshin-e.pdf",
               "https://www.tel.com/ir/library/report/o6kifa00000000nf-att/fy25q2tanshin-e.pdf"
             ],
-            "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end"
+            "derivation": "quarter = cumulative current period minus prior cumulative period; inventories as of quarter end",
+            "inventoryYoy": -1.6725382660766397,
+            "revenueYoy": 41.16748838593631
           },
           {
             "date": "2025-03-31",
