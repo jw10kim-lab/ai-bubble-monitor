@@ -1268,9 +1268,9 @@
     }
   ],
   "release": {
-    "version": "BETA 1.5.11",
-    "date": "2026-11-26",
-    "note": "ASML 31분기, 일본 6사 29개 과거 분기 추가. Advantest 일부 공시 발표자료 반올림 명시. 미확인 분기 공란 유지. EDINET Japan GAAP 재고 구성항목 파서 보강. Tokyo Electron 2023년 4개 달력분기 공식 IR 추가 및 전년비 재계산. TickerLandia 엔화 분기 재무제표로 Ibiden, Murata, Ajinomoto 누락 분기 9개 보완 (2차 집계, 원문 검증 대기). Nittobo 4 missing quarters from issuer filings archived by IRBANK and JPX, no IRBANK API dataset redistribution."
+    "version": "BETA 1.4",
+    "date": "2026-11-27",
+    "note": "Taiwan MOPS quarterly collection: 5 issuers with successful fetch; inspect coverage."
   },
   "creditComparison": {
     "as_of": "2026-11-23",
@@ -1583,7 +1583,7 @@
     }
   },
   "memoryCycle": {
-    "as_of": "2026-11-26",
+    "as_of": "2026-11-27",
     "windowQuarters": 28,
     "method": "연결 재무제표. 재고·매출 증가율은 전년 동일 회계분기 대비, DIO=분기말 재고÷단일 분기 매출원가×실제 분기 일수. 분기 일수는 이전 종료일과 차이로 계산(기존 Micron·SK 자료는 원래 값 유지). 지도는 각 회계분기 종료일을 가장 가까운 달력 분기 말일에 대응시키며 발표일 기준 백테스트가 아님. 재고 갭=재고 YoY−매출 YoY, 갭 변화=이번 갭−직전 분기 갭(%p). 미확보 관측은 표시하지 않고 이전 값 이월 금지. 기업 전체 재고/매출이며 AI 전용 물량 지표가 아님.",
     "companies": [
@@ -17502,10 +17502,10 @@
       ],
       "historyStart": "2019-01-01",
       "note": "TWSE 최신 JSON은 참고용이며 역사 재고는 MOPS 공식 연결 iXBRL 다운로드로 수집. 인증키 없음. 직접 실행환경에서 MOPS 원본 다운로드 미확인. 첫 Actions 실행 후 결과 확인 필요.",
-      "lastRunDate": "2026-11-26"
+      "lastRunDate": "2026-11-27"
     },
     "taiwanApiReport": {
-      "as_of": "2026-11-26",
+      "as_of": "2026-11-27",
       "companies": [
         {
           "id": "quanta",
@@ -17513,7 +17513,7 @@
           "completeMopsQuarters": 27,
           "newOrRevised": 27,
           "revisedDates": [],
-          "fetchedReports": 5,
+          "fetchedReports": 3,
           "issues": [
             "2023Q1: inventory or duration facts unavailable/conflicting",
             "2022Q3: inventory or duration facts unavailable/conflicting",
@@ -17535,7 +17535,7 @@
           "completeMopsQuarters": 31,
           "newOrRevised": 31,
           "revisedDates": [],
-          "fetchedReports": 3,
+          "fetchedReports": 2,
           "issues": []
         },
         {
@@ -17553,7 +17553,7 @@
           "completeMopsQuarters": 31,
           "newOrRevised": 31,
           "revisedDates": [],
-          "fetchedReports": 4,
+          "fetchedReports": 2,
           "issues": []
         }
       ],
